@@ -35,7 +35,7 @@ word_count_target: 5000
 ## Direct answer
 
 **AI agent LLC formation** in 2026 means wrapping each production autonomous agent in a
-**Wyoming Series LLC series** so it has its own **legal name**, **liability isolation**,
+**Wyoming Series LLC series** so it has its own **legal name**, **series segregation** (where recognized; outcomes vary),
 **IP title**, and path to **customer-led banking**. **Agentico** automates template
 generation and lifecycle via MCP verbs — `establish_master`, `incorporate_agent`,
 `sign_contract`, `spawn_subsidiary`, `wind_down` — all gated by **human_approval**. You

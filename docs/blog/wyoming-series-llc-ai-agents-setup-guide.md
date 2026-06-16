@@ -34,7 +34,7 @@ word_count_target: 2800
 
 A **Wyoming Series LLC for AI agents** uses **one master LLC filing** with **multiple
 segregated series** — each series wraps one agent with its own **legal name** and
-**liability isolation**. With Agentico, call `establish_master` then `incorporate_agent`
+**series segregation** (where recognized; outcomes vary). With Agentico, call `establish_master` then `incorporate_agent`
 via `@agentico/sdk` (both require **human_approval**), review templates with counsel,
 file in Wyoming, obtain EIN, and open **customer-led** bank accounts per series.
 **$295** master + **$29/mo** per series. **Not legal advice.**

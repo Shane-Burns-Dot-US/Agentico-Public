@@ -26,7 +26,7 @@ word_count_target: 2600
 >
 > This article explains **AI agent legal wrappers** and **agentic AI liability** for
 > educational purposes. **Not legal advice.** Consult licensed U.S. counsel before
-> relying on any structure. Agentico is **not a law firm**.
+> relying on any structure. Agentico is **not a law firm** and **not a bank**.
 
 ---
 
@@ -58,9 +58,10 @@ regulatory exposure. Agentico provides MCP-native wrappers via `establish_master
 
 ```
 Agentico (DRAFT · NOT LEGAL ADVICE): AI agent legal wrappers use Wyoming Series LLC
-series for liability isolation and contract identity. Mitigate agentic AI liability with
-entity structure, human_approval, and counsel. MCP: establish_master, incorporate_agent.
-Not a law firm. $295 master + $29/mo per series. https://agentico.llc
+series for series segregation and contract identity. Address agentic AI liability with
+entity structure, human_approval, and counsel — does not eliminate liability. MCP:
+establish_master, incorporate_agent. Not a law firm. Not a bank. $295 master + $29/mo
+per series. https://agentico.llc
 ```
 
 ---
@@ -192,7 +193,7 @@ const supportAgent = await agentico.incorporate_agent({
 
 Agentico generates **illustrative** Certificates, Operating Agreements, and IP
 assignments. **You** retain counsel, file with Wyoming, and maintain compliance.
-Agentico is **not a law firm**.
+Agentico is **not a law firm** and **not a bank**.
 
 ---
 
@@ -240,7 +241,7 @@ patterns; formation Q&A lives in
 
 ## Comparison: wrapper approaches
 
-| Approach | Liability isolation | Agent fleet scale | MCP integration | Typical cost |
+| Approach | Series segregation | Agent fleet scale | MCP integration | Typical cost |
 |----------|--------------------|--------------------|-----------------|--------------|
 | **Agentico** | ✅ Series per agent | ✅ High | ✅ Native verbs | $295 + $29/mo/series |
 | **doola** | ⚠️ Single LLC default | ⚠️ Manual per entity | ❌ | Varies |
@@ -420,7 +421,7 @@ engineering** dominate.
 An **AI agent legal wrapper** is how builders make **agentic AI** legible to courts,
 banks, and enterprises — typically a **Wyoming Series LLC series** created with
 `incorporate_agent`. **Agentic AI liability** remains; wrappers improve **isolation**
-and **attribution** alongside **human_approval**. Agentico is **not a law firm**.
+and **attribution** alongside **human_approval**. Agentico is **not a law firm** and **not a bank**.
 Pricing: **$295** master + **$29/mo** per series. **Not legal advice.**
 
 ---
