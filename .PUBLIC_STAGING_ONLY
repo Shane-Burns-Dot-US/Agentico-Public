@@ -1,0 +1,7 @@
+AGENTICO PUBLIC STAGING — SAFE TO PUBLISH
+
+This directory is the ONLY path that may be pushed to:
+https://github.com/Shane-Burns-Dot-US/Agentico-Public
+
+All other directories in the parent workspace are PRIVATE.
+Never copy private runtime files here without gate validation.

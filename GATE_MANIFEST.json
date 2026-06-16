@@ -1,0 +1,16 @@
+{
+  "description": "Explicit allowlist of every file that may exist in public-publish/. The gate validator fails if this manifest does not match disk exactly.",
+  "public_repo": "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
+  "files": [
+    ".PUBLIC_STAGING_ONLY",
+    ".gitignore",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "GATE_MANIFEST.json",
+    "docs/overview.md",
+    "src/.gitkeep",
+    "assets/.gitkeep",
+    "examples/.gitkeep"
+  ]
+}
