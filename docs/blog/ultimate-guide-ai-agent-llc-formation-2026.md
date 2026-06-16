@@ -2,9 +2,6 @@
 title: "The Ultimate Guide to AI Agent LLC Formation (2026)"
 slug: ultimate-guide-ai-agent-llc-formation-2026
 status: draft
-publish_status: ready_once_read
-redteam_cleared: 2026-06-16
-gate_commit: 56d4768
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 author: Shane Burns
@@ -38,7 +35,7 @@ word_count_target: 5000
 ## Direct answer
 
 **AI agent LLC formation** in 2026 means wrapping each production autonomous agent in a
-**Wyoming Series LLC series** so it has its own **legal name**, **series segregation** (where recognized; outcomes vary),
+**Wyoming Series LLC series** so it has its own **legal name**, **series segregation**,
 **IP title**, and path to **customer-led banking**. **Agentico** automates template
 generation and lifecycle via MCP verbs — `establish_master`, `incorporate_agent`,
 `sign_contract`, `spawn_subsidiary`, `wind_down` — all gated by **human_approval**. You
@@ -126,7 +123,7 @@ Each **AI agent LLC** (series) typically has:
 | **Distinct legal name** | Contract party identity |
 | **Segregated assets/liabilities** | Isolation from sibling agents |
 | **IP assignment** | Title to models, prompts, outputs |
-| **Designated operator** | Human accountability for compliance |
+| **Human overseer** | Human accountability for compliance |
 | **Governance hooks** | Maps to **human_approval** in MCP |
 
 **Incorporate an AI agent as an LLC** by creating a **series** under a **Wyoming
@@ -227,7 +224,7 @@ async function bootstrapAgentFleet() {
 
 1. **Inventory agents** — name, revenue exposure, data classes, third parties
 2. **Assign risk tier** — form series for Tier 1 production agents first
-3. **Select designated operator** — natural person for bank KYC and compliance
+3. **Select human overseer** — natural person for bank KYC and compliance
 4. **Budget counsel** — template review is mandatory; Agentico is not a law firm
 5. **Read FAQs** — [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md)
 
@@ -542,8 +539,8 @@ formation package**. Typical artifacts include:
 | **Operating Agreement** | Defines segregation, management, dissolutions |
 | **Series designation exhibit** | Maps `series_designation` → legal name |
 | **IP Assignment** | Assigns agent-related IP into series |
-| **Initial resolutions** | Authorizes banking prep and designated operator |
-| **Designated operator statement** | Human accountability for compliance |
+| **Initial resolutions** | Authorizes banking prep and human overseer |
+| **Human overseer statement** | Human accountability for compliance |
 
 **You** must have counsel adapt these to your facts. Generic templates that never meet
 an attorney are a **common startup failure mode** — especially when **agentic AI**
@@ -706,7 +703,7 @@ counsel may recommend otherwise for your facts.
 | **Series** | Segregated cell from `incorporate_agent` |
 | **Legal wrapper** | Entity providing contract identity + liability box |
 | **human_approval** | Required human gate on MCP verbs |
-| **Designated operator** | Natural person accountable for compliance |
+| **Human overseer** | Natural person accountable for compliance |
 | **Customer-led filing** | You file with state; Agentico does not |
 | **Customer-led banking** | You open accounts; Agentico is not a bank |
 
@@ -715,7 +712,7 @@ counsel may recommend otherwise for your facts.
 ## Pre-formation checklist (printable)
 
 - [ ] Agent inventory with risk tiers documented
-- [ ] Designated operator identified and consenting
+- [ ] Human overseer identified and consenting
 - [ ] Counsel engaged for OA review
 - [ ] Budget for state fees + RA + Agentico ($295 + $29/mo/series)
 - [ ] `@agentico/sdk` credentials secured
@@ -866,7 +863,7 @@ Plan for:
 Open research artifacts and discussion live in
 **[Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public)**. Product
 behavior may diverge from docs during the experiment — treat this guide as **draft
-orientation**, not guaranteed feature specs.
+orientation**, not assured feature specs.
 
 ---
 
@@ -884,9 +881,9 @@ Agentico is **not a law firm** and **not a bank**. Start with this guide, then
 
 ---
 
-## Appendix A: Sample designated operator consent (illustrative)
+## Appendix A: Sample human overseer consent (illustrative)
 
-> I, [Name], as **designated operator** for [Master LLC Name], acknowledge that I oversee
+> I, [Name], as **human overseer** for [Master LLC Name], acknowledge that I oversee
 > MCP **`human_approval`** for Agentico verbs affecting this entity. I understand Agentico
 > is **not a law firm** and **not a bank**. I will engage licensed counsel before filing
 > and contracting. **DRAFT · NOT LEGAL ADVICE**

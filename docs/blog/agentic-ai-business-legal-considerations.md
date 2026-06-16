@@ -2,9 +2,6 @@
 title: "Agentic AI Business: Legal Considerations in 2026"
 slug: agentic-ai-business-legal-considerations
 status: draft
-publish_status: ready_once_read
-redteam_cleared: 2026-06-16
-gate_commit: 56d4768
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 author: Shane Burns
@@ -88,15 +85,15 @@ guide addresses.
 
 ---
 
-## Entity status vs. legal entity (critical distinction)
+## Legal entity status vs. corporate person (critical distinction)
 
 Headlines ask whether AI can be a **legal person**. Today, the operative question for
 builders is narrower: **can my agent operate through a legal entity?**
 
 | Concept | Status for builders |
 |---------|---------------------|
-| **Entity status** | Not granted to models; jurisdiction-specific debates |
-| **Legal entity wrapper** | ✅ Wyoming Series LLC series per agent (with human designated operator) |
+| **Legal person status** | Not granted to models; jurisdiction-specific debates |
+| **Legal entity wrapper** | ✅ Wyoming Series LLC series per agent (with human overseer) |
 | **Contract capacity** | Entity (series) contracts; humans approve material terms |
 | **Bank account** | Customer-led account in series name — see [ai-agent-contracts-bank-account.md](ai-agent-contracts-bank-account.md) |
 
@@ -257,7 +254,7 @@ When selling **agentic AI** B2B, buyers ask:
 - [ ] **SOC 2** / security pack for agent tool access
 - [ ] **DPA** and subprocessor disclosures
 - [ ] **Disaster recovery** and `wind_down` plan
-- [ ] **Designated operator** contact for escalations
+- [ ] **Human overseer** contact for escalations
 
 Formation packages from Agentico accelerate **legal name** and **governance** answers.
 

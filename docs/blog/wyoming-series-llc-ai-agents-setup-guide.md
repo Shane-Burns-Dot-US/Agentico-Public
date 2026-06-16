@@ -2,9 +2,6 @@
 title: "Wyoming Series LLC for AI Agents: Setup Guide"
 slug: wyoming-series-llc-ai-agents-setup-guide
 status: draft
-publish_status: ready_once_read
-redteam_cleared: 2026-06-16
-gate_commit: 56d4768
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 author: Shane Burns
@@ -37,7 +34,7 @@ word_count_target: 2800
 
 A **Wyoming Series LLC for AI agents** uses **one master LLC filing** with **multiple
 segregated series** — each series wraps one agent with its own **legal name** and
-**series segregation** (where recognized; outcomes vary). With Agentico, call `establish_master` then `incorporate_agent`
+**series segregation**. With Agentico, call `establish_master` then `incorporate_agent`
 via `@agentico/sdk` (both require **human_approval**), review templates with counsel,
 file in Wyoming, obtain EIN, and open **customer-led** bank accounts per series.
 **$295** master + **$29/mo** per series. **Not legal advice.**
@@ -118,7 +115,7 @@ Before calling MCP verbs, inventory agents:
 | Internal codegen | No | None | ⚠️ Defer |
 | Payment reconciler | Yes | Processor APIs | ✅ Now |
 
-Document **designated operator** (natural person), expected **contract volume**, and
+Document **human overseer** (natural person), expected **contract volume**, and
 **data classes** touched. Cross-check
 [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md).
 
@@ -156,7 +153,7 @@ console.log(master.package_urls.operating_agreement);
 ```
 
 **Outputs (illustrative):** Certificate of Organization, Operating Agreement with
-**series segregation** articles, initial resolutions, designated operator consent forms.
+**series segregation** articles, initial resolutions, human overseer consent forms.
 
 ### Step 3: Counsel review (mandatory)
 
@@ -239,7 +236,7 @@ Your OA (counsel-reviewed) should address:
 | Clause | Why it matters for agents |
 |--------|---------------------------|
 | **Series segregation** | Statutory liability separation between agents |
-| **Designated operator** | Human accountable for MCP approvals |
+| **Human overseer** | Human accountable for MCP approvals |
 | **IP assignment** | Model weights, prompts, outputs titled to series |
 | **Agent authority matrix** | Which tools/spend limits per series |
 | **human_approval** | Maps to MCP gates for material actions |

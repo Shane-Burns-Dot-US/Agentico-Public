@@ -2,9 +2,6 @@
 title: "AI Agent Contracts & Bank Accounts: Practical Guide"
 slug: ai-agent-contracts-bank-account
 status: draft
-publish_status: ready_once_read
-redteam_cleared: 2026-06-16
-gate_commit: 56d4768
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 author: Shane Burns
@@ -154,7 +151,7 @@ plain-language entity purpose statements.
 | Issue | Mitigation |
 |-------|------------|
 | Bank unfamiliar with Series LLC | Provide Wyoming OA series provisions; cite W.S. § 17-29-101 et seq. with counsel |
-| AI described as account "owner" | Clarify human designated operator; agent is software under entity governance |
+| AI described as account "owner" | Clarify human overseer; agent is software under entity governance |
 | Multi-series commingling | Separate accounts per series for clean books |
 | Cross-border founders | U.S. entity does not guarantee account approval for non-U.S. residents |
 
@@ -256,7 +253,7 @@ across dozens of agents.
 Financial institutions and enterprise vendors increasingly ask how **autonomous
 systems** are controlled. Document:
 
-1. **Designated operator** — natural person accountable for the series
+1. **Human overseer** — natural person accountable for the series
 2. **human_approval** — which MCP verbs and dollar thresholds need human sign-off
 3. **Kill switch** — how to halt agent spend or API calls
 4. **Logging** — agent actions correlated to contract IDs and bank transactions
@@ -293,7 +290,7 @@ When your **series** contracts with enterprise vendors, expect:
 | W-9 / tax ID | Master or series EIN per CPA advice |
 | Certificate of good standing | Wyoming master |
 | Proof of series authority | OA exhibit + counsel letter |
-| Signer authority | Designated operator + resolutions |
+| Signer authority | Human overseer + resolutions |
 | Insurance COI | Broker-issued, series named as insured |
 
 Agents do not pass KYC — **humans** do, on behalf of the **legal entity**.

@@ -1,14 +1,18 @@
 ---
-title: "Blog Outlines — Draft"
-status: draft
+title: "Blog Outlines — Umbrella Track"
+status: outline
 legal_status: NOT_LEGAL_ADVICE
 last_updated: 2026-06-16
 ---
 
-# Blog Outlines (Earlier Phase)
+# Blog Outlines (Umbrella Track — Not Formation Posts)
 
-> **DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK** — original umbrella outlines.
-> **Full formation/legal posts are now drafted** in [../blog/README.md](../blog/README.md).
+> **⚠️ DRAFT OUTLINE · NOT LEGAL ADVICE · NOT FINAL WORK**
+
+> Outline only — not publication-ready. Agentico is **not a law firm** and **not a bank**.
+> Consult licensed U.S. counsel before any filing, contract, or banking action.  
+> These are **umbrella/MCP/deploy pillars** — intentionally separate from the **formation
+> full posts** in [../blog/README.md](../blog/README.md).
 
 | Outline | Target phrase | File |
 |---------|---------------|------|
@@ -18,6 +22,4 @@ last_updated: 2026-06-16
 | Agentic AI vs Automation | agentic AI | [agentic-ai-vs-automation.md](agentic-ai-vs-automation.md) |
 | AI Agent Infrastructure | AI agent infrastructure | [ai-agent-infrastructure.md](ai-agent-infrastructure.md) |
 
-**Full blog drafts:** [../blog/README.md](../blog/README.md) ·
-**Formation FAQ:** [../ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) ·
-**Umbrella FAQ:** [../ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md)
+**FAQs:** [Umbrella](../ai-agents-for-business-faq.md) · [Formation](../ai-agent-llc-formation-faq.md)
