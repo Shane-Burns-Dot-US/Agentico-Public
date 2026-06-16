@@ -69,43 +69,64 @@
       "id": "ai-agent-llc-formation-faq",
       "path": "docs/ai-agent-llc-formation-faq.md",
       "title": "AI agent LLC formation FAQ (AEO)",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-index",
       "path": "docs/blog/README.md",
       "title": "Blog full drafts index",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-pillar-llc-formation",
       "path": "docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md",
       "title": "Pillar: Ultimate Guide to AI Agent LLC Formation 2026",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-wyoming-series-llc",
       "path": "docs/blog/wyoming-series-llc-ai-agents-setup-guide.md",
       "title": "Wyoming Series LLC for AI Agents setup guide",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-legal-wrapper",
       "path": "docs/blog/ai-agent-legal-wrapper-liability-protection.md",
       "title": "AI agent legal wrapper liability guide",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-agentic-ai-business",
       "path": "docs/blog/agentic-ai-business-legal-considerations.md",
       "title": "Agentic AI for business legal considerations",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-contracts-bank",
       "path": "docs/blog/ai-agent-contracts-bank-account.md",
       "title": "AI agent contracts and bank account how-to",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     },
     {
       "id": "blog-outlines",
@@ -123,7 +144,10 @@
       "id": "schema-formation-faq-jsonld",
       "path": "docs/schema/ai-agent-llc-formation-faqpage.jsonld.json",
       "title": "AI agent LLC formation FAQPage JSON-LD",
-      "status": "draft"
+      "status": "ready_once_read",
+      "redteam_cleared": "2026-06-16",
+      "gate_commit": "56d4768",
+      "ship_note": "Human read-through required; then approve-publish.sh"
     }
   ]
 }

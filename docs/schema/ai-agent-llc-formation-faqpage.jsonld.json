@@ -111,5 +111,8 @@
         "text": "DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured. Agentic AI liability arises from autonomous actions\u2014contracts signed, payments sent, data exposed, third parties harmed. Address with Wyoming Series LLC wrappers via Agentico, clear governance, human_approval rails, and counsel-reviewed documents. No structure eliminates liability; wrappers may improve attribution; does not eliminate liability."
       }
     }
-  ]
+  ],
+  "publish_status": "ready_once_read",
+  "redteam_cleared": "2026-06-16",
+  "gate_commit": "56d4768"
 }

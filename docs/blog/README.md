@@ -1,7 +1,10 @@
 ---
 title: "Agentico Blog — AI Agent LLC Formation"
 slug: blog
-status: draft
+status: ready_once_read
+publish_status: ready_once_read
+redteam_cleared: 2026-06-16
+gate_commit: 56d4768
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 author: Shane Burns
@@ -18,6 +21,15 @@ last_updated: 2026-06-16
 > These posts describe **AI agent LLC formation** concepts and the Agentico product
 > experiment for educational purposes. **Not legal advice.** Consult licensed U.S.
 > counsel before any filing, contract, or banking action.
+
+## Ship status
+
+> **READY TO SHIP ONCE READ** — Red-team P0 cleared 2026-06-16 · gate @ `56d4768` · branch `content/aeo-faq-and-blog-drafts-2026-06-16`
+>
+> Human read-through required before publish. Then: `./.public-gate/approve-publish.sh` → select piece numbers → `./.public-gate/publish.sh`
+>
+> Private compliance report: `Agentico/private-drafts/content-export/COMPLIANCE_REDTEAM_REPORT.md` (never ships)
+
 
 ---
 
