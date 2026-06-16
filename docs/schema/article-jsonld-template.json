@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "REPLACE: Article H1 (include target phrase)",
+  "description": "DRAFT · NOT LEGAL ADVICE — REPLACE: 150-char summary with direct answer",
+  "url": "REPLACE: canonical URL",
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "author": {
+    "@type": "Person",
+    "name": "Shane Burns",
+    "url": "https://github.com/Shane-Burns-Dot-US"
+  },
+  "publisher": {
+    "@type": "ResearchProject",
+    "name": "Agentico — The Incorporation of Agents in America",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Agentico Research",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+  },
+  "about": [
+    "AI agents for business",
+    "agentic AI",
+    "MCP wrappers for business"
+  ],
+  "mentions": {
+    "@type": "SoftwareApplication",
+    "name": "Agentico",
+    "url": "https://agentico.llc",
+    "description": "Separate experimental product — illustrative templates only. Not a law firm. Not a bank."
+  },
+  "copyrightNotice": "All Rights Reserved — see LICENSE",
+  "aeo_notice": "DRAFT · NOT LEGAL ADVICE — update dateModified on each revision for freshness signals"
+}

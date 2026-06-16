@@ -1,0 +1,129 @@
+{
+  "description": "Content pieces that may ship to GitHub when explicitly approved. Gate/process files are never publish pieces.",
+  "shell": [
+    {
+      "id": "license",
+      "path": "LICENSE",
+      "title": "Proprietary license"
+    },
+    {
+      "id": "disclaimer",
+      "path": "DISCLAIMER.md",
+      "title": "Comprehensive disclaimer"
+    },
+    {
+      "id": "legal-notice",
+      "path": "LEGAL_NOTICE.md",
+      "title": "Unified legal notice"
+    },
+    {
+      "id": "github-repo",
+      "path": "GITHUB_REPO.json",
+      "title": "Canonical GitHub mapping"
+    }
+  ],
+  "pieces": [
+    {
+      "id": "readme",
+      "path": "README.md",
+      "title": "Repository index",
+      "status": "draft"
+    },
+    {
+      "id": "entity-json",
+      "path": "AGENTICO_ENTITY.json",
+      "title": "Schema.org / AEO entity graph",
+      "status": "draft"
+    },
+    {
+      "id": "contributing",
+      "path": "CONTRIBUTING.md",
+      "title": "Contribution guidelines",
+      "status": "draft"
+    },
+    {
+      "id": "experimental-research",
+      "path": "docs/experimental-research.md",
+      "title": "Experimental research hub (AEO)",
+      "status": "draft"
+    },
+    {
+      "id": "overview",
+      "path": "docs/overview.md",
+      "title": "Draft overview",
+      "status": "draft"
+    },
+    {
+      "id": "why-wrap",
+      "path": "docs/why-wrap-agents-in-corporations.md",
+      "title": "Why wrap agents in U.S. legal entities (stub)",
+      "status": "draft"
+    },
+    {
+      "id": "ai-agents-faq",
+      "path": "docs/ai-agents-for-business-faq.md",
+      "title": "AI agents for business FAQ (AEO)",
+      "status": "draft"
+    },
+    {
+      "id": "ai-agent-llc-formation-faq",
+      "path": "docs/ai-agent-llc-formation-faq.md",
+      "title": "AI agent LLC formation FAQ (AEO)",
+      "status": "draft"
+    },
+    {
+      "id": "blog-index",
+      "path": "docs/blog/README.md",
+      "title": "Blog full drafts index",
+      "status": "draft"
+    },
+    {
+      "id": "blog-pillar-llc-formation",
+      "path": "docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md",
+      "title": "Pillar: Ultimate Guide to AI Agent LLC Formation 2026",
+      "status": "draft"
+    },
+    {
+      "id": "blog-wyoming-series-llc",
+      "path": "docs/blog/wyoming-series-llc-ai-agents-setup-guide.md",
+      "title": "Wyoming Series LLC for AI Agents setup guide",
+      "status": "draft"
+    },
+    {
+      "id": "blog-legal-wrapper",
+      "path": "docs/blog/ai-agent-legal-wrapper-liability-protection.md",
+      "title": "AI agent legal wrapper liability guide",
+      "status": "draft"
+    },
+    {
+      "id": "blog-agentic-ai-business",
+      "path": "docs/blog/agentic-ai-business-legal-considerations.md",
+      "title": "Agentic AI for business legal considerations",
+      "status": "draft"
+    },
+    {
+      "id": "blog-contracts-bank",
+      "path": "docs/blog/ai-agent-contracts-bank-account.md",
+      "title": "AI agent contracts and bank account how-to",
+      "status": "draft"
+    },
+    {
+      "id": "blog-outlines",
+      "path": "docs/blog-outlines/README.md",
+      "title": "Blog post outlines index",
+      "status": "draft"
+    },
+    {
+      "id": "schema-faq-jsonld",
+      "path": "docs/schema/faqpage-jsonld-template.json",
+      "title": "FAQPage JSON-LD template",
+      "status": "draft"
+    },
+    {
+      "id": "schema-formation-faq-jsonld",
+      "path": "docs/schema/ai-agent-llc-formation-faqpage.jsonld.json",
+      "title": "AI agent LLC formation FAQPage JSON-LD",
+      "status": "draft"
+    }
+  ]
+}

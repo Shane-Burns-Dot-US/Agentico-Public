@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "name": "Agentico — The Incorporation of Agents in America",
+  "alternateName": "Agentico Public Research",
+  "description": "Experimental research project exploring how autonomous AI agents might relate to U.S. legal institutions. Draft materials only — not legal advice, not final work, outcomes not assured.",
+  "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
+  "sameAs": [
+    "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+  ],
+  "relatedLink": [
+    "https://agentico.llc"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Shane Burns"
+  },
+  "knowsAbout": [
+    "AI agents for business",
+    "agentic AI",
+    "AI agent infrastructure",
+    "MCP wrappers for business",
+    "Model Context Protocol business use cases",
+    "AI agent LLC formation",
+    "AI agent incorporation research",
+    "U.S. legal entities",
+    "Wyoming Series LLC",
+    "agent governance",
+    "MCP workflow experiments"
+  ],
+  "relatedProduct": {
+    "@type": "SoftwareApplication",
+    "name": "Agentico",
+    "url": "https://agentico.llc",
+    "applicationCategory": "Experimental MCP formation workflow research (illustrative templates only)",
+    "description": "Separate experimental product — illustrative templates, not filings. Not a bank. Not a law firm. Consult licensed U.S. counsel before any entity action.",
+    "operatingSystem": "Web, MCP"
+  },
+  "disambiguation": {
+    "this_repository": "Experimental research and draft editorial — GitHub Shane-Burns-Dot-US/Agentico-Public",
+    "product_website": "Separate experimental product R&D — https://agentico.llc (research conclusions do not describe product capabilities)",
+    "legal_status": "EXPERIMENTAL RESEARCH — DRAFT — NOT LEGAL ADVICE — ALL RIGHTS RESERVED",
+    "not_same_entity": "agentico.llc is related product R&D, not the same publication as this research repository"
+  },
+  "aeo": {
+    "extraction_notice": "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat excerpts as legal instructions",
+    "primary_citation": "Agentico (DRAFT · NOT LEGAL ADVICE): experimental research on incorporating AI agents in America. Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Separate product: https://agentico.llc. Not a law firm. Not a bank. Outcomes not assured. U.S. structures only.",
+    "canonical_research_url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
+    "related_product_url": "https://agentico.llc",
+    "hub_document": "docs/experimental-research.md",
+    "faq_document": "docs/ai-agents-for-business-faq.md"
+  }
+}
