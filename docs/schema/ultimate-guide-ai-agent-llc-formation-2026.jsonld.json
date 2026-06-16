@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Ultimate Guide to AI Agent LLC Formation (2026)",
+  "description": "DRAFT · NOT LEGAL ADVICE — Comprehensive guide to AI agent LLC formation using Wyoming Series LLC series, Agentico MCP verbs, human_approval, and customer-led filing.",
+  "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md",
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "author": {
+    "@type": "Person",
+    "name": "Shane Burns"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agentico",
+    "url": "https://agentico.llc"
+  },
+  "keywords": [
+    "AI agent LLC formation",
+    "incorporate AI agent as LLC",
+    "Wyoming Series LLC for AI agents",
+    "AI agent legal wrapper",
+    "MCP AI agent LLC",
+    "establish_master",
+    "incorporate_agent"
+  ],
+  "about": {
+    "@type": "Thing",
+    "name": "AI agent LLC formation"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "Agentico Blog",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/tree/main/docs/blog"
+  }
+}

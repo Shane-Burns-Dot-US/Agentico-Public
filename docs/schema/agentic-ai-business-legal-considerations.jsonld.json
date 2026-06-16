@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Agentic AI Business: Legal Considerations in 2026",
+  "description": "DRAFT · NOT LEGAL ADVICE — Legal considerations for agentic AI in business: contracts, liability, privacy, and Wyoming Series LLC entity wrappers via Agentico.",
+  "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/agentic-ai-business-legal-considerations.md",
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "author": {
+    "@type": "Person",
+    "name": "Shane Burns"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agentico",
+    "url": "https://agentico.llc"
+  },
+  "keywords": [
+    "agentic AI",
+    "AI agents for business",
+    "agentic AI liability",
+    "AI agent LLC formation"
+  ],
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "Agentico Blog",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/tree/main/docs/blog"
+  }
+}

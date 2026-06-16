@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Agent Legal Wrapper & Liability Protection",
+  "description": "DRAFT · NOT LEGAL ADVICE — AI agent legal wrappers using Wyoming Series LLC series; agentic AI liability sources and mitigation with Agentico MCP verbs.",
+  "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ai-agent-legal-wrapper-liability-protection.md",
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "author": {
+    "@type": "Person",
+    "name": "Shane Burns"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agentico",
+    "url": "https://agentico.llc"
+  },
+  "keywords": [
+    "AI agent legal wrapper",
+    "agentic AI liability",
+    "Wyoming Series LLC",
+    "AI agent LLC"
+  ],
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "Agentico Blog",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/tree/main/docs/blog"
+  }
+}
