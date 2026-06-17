@@ -1,14 +1,15 @@
 ---
-
-
 title: "Content Lifecycle — Sanitization States"
 slug: content-lifecycle
 status: reference
 legal_status: NOT_LEGAL_ADVICE
-document_status: DRAFT_NOT_FINAL
+document_status: SANITIZED
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — process reference only"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-17
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # Content Lifecycle — Sanitization States
@@ -132,3 +133,4 @@ Outcomes not assured · Agentico (DRAFT): … Research: https://github.com/Shane
 · Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 ```
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

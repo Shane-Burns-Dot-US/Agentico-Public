@@ -46,7 +46,7 @@ official_website: https://agentico.llc
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-16
 sanitization_state: sanitized
-sanitization_run_id: 20260617T132624Z-standard-sanitation
+sanitization_run_id: 20260617T132852Z-591b3133
 sanitization_completed: 2026-06-17
 ---
 
@@ -474,3 +474,4 @@ Not a law firm. Not a bank. https://agentico.llc
 > **agentic AI liability**, and MCP formation verbs. Product: https://agentico.llc.
 > Not a law firm. Not a bank. U.S. structures only. Outcomes not assured.
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

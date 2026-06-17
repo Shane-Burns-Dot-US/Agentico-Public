@@ -3,13 +3,16 @@ title: "Why Wrap Agents in U.S. Legal Entities?"
 slug: why-wrap-agents-in-corporations
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: DRAFT_NOT_FINAL
+document_status: SANITIZED
 project_type: experimental_research
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE — research hypothesis only"
 primary_entity: Agentico Research
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-17
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # Why Wrap Agents in U.S. Legal Entities?
@@ -73,3 +76,4 @@ An **experimental research project** with drafts in this repository.
 
 *Stub only — full essay body not yet published.*
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

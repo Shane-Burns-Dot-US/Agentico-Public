@@ -5,6 +5,10 @@ status: outline
 target_phrase: "how to deploy AI agents for business"
 estimated_length: "2,000–3,000 words (pillar)"
 last_updated: 2026-06-16
+document_status: SANITIZED
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # How to Deploy AI Agents for Business (Step-by-Step)
@@ -37,3 +41,4 @@ last_updated: 2026-06-16
 - [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md)
 - [ai-agent-infrastructure.md](ai-agent-infrastructure.md)
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

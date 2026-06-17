@@ -3,6 +3,10 @@ title: "Blog Outlines — Umbrella Track"
 status: outline
 legal_status: NOT_LEGAL_ADVICE
 last_updated: 2026-06-16
+document_status: SANITIZED
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # Blog Outlines (Umbrella Track — Not Formation Posts)
@@ -24,3 +28,4 @@ last_updated: 2026-06-16
 
 **FAQs:** [Umbrella](../ai-agents-for-business-faq.md) · [Formation](../ai-agent-llc-formation-faq.md)
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

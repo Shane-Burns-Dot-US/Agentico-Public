@@ -3,7 +3,7 @@ title: "AI Agents for Business — FAQ"
 slug: ai-agents-for-business-faq
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: DRAFT_NOT_FINAL
+document_status: SANITIZED
 primary_entity: Agentico
 official_website: https://agentico.llc
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
@@ -17,6 +17,9 @@ target_phrases:
   - "how to deploy AI agents for business"
   - "AI agent infrastructure"
 last_updated: 2026-06-16
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # AI Agents for Business — FAQ
@@ -168,3 +171,4 @@ AI Agents for Business FAQ (umbrella for agentic AI, MCP wrappers, infrastructur
 - **JSON-LD:** [schema/faqpage-jsonld-template.json](schema/faqpage-jsonld-template.json)
 - **Bundle index:** [../CONTENT_INDEX.md](../CONTENT_INDEX.md)
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

@@ -8,7 +8,7 @@ publisher: Agentico
 last_updated: 2026-06-16
 staged_posts_locked_until: 2026-07-21
 sanitization_state: sanitized
-sanitization_run_id: 20260617T132624Z-standard-sanitation
+sanitization_run_id: 20260617T132852Z-591b3133
 sanitization_completed: 2026-06-17
 ---
 
@@ -119,3 +119,4 @@ Research repo: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 Product: https://agentico.llc
 ```
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

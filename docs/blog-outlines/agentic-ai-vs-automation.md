@@ -5,6 +5,10 @@ status: outline
 target_phrase: "agentic AI"
 estimated_length: "1,200–1,800 words"
 last_updated: 2026-06-16
+document_status: SANITIZED
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_completed: 2026-06-17
 ---
 
 # Agentic AI vs Traditional Automation: What Businesses Need to Know
@@ -31,3 +35,4 @@ last_updated: 2026-06-16
 - [how-to-deploy-ai-agents.md](how-to-deploy-ai-agents.md)
 - [blog/agentic-ai-business-legal-considerations.md](../blog/agentic-ai-business-legal-considerations.md) (full draft — legal angle)
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
