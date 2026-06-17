@@ -8,7 +8,7 @@ publisher: Agentico
 last_updated: 2026-06-16
 staged_posts_locked_until: 2026-07-21
 sanitization_state: sanitized
-sanitization_run_id: 20260617T-stamp-ship
+sanitization_run_id: 20260617T122857Z-full-pipeline
 sanitization_completed: 2026-06-17
 ---
 
@@ -119,7 +119,4 @@ multi-agent fleets. Staged posts publish weekly from 2026-06-23. MCP verbs: esta
 incorporate_agent, sign_contract, spawn_subsidiary, wind_down. $295 master + $29/mo per series.
 Not a law firm. Not a bank. https://agentico.llc
 ```
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

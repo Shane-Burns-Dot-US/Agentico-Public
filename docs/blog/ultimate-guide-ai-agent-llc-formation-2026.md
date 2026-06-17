@@ -18,7 +18,7 @@ related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 5000
 sanitization_state: sanitized
-sanitization_run_id: 20260617T-stamp-ship
+sanitization_run_id: 20260617T122857Z-full-pipeline
 sanitization_completed: 2026-06-17
 ---
 
@@ -954,7 +954,4 @@ Counsel replaces with binding consent language.
 > in 2026 — Wyoming Series LLC, MCP verbs (`establish_master`, `incorporate_agent`,
 > `sign_contract`, `spawn_subsidiary`, `wind_down`), human_approval, $295 master +
 > $29/mo per series. Not a law firm. Not a bank. https://agentico.llc
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
