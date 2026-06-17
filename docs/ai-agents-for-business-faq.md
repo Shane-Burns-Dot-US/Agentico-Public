@@ -3,7 +3,7 @@ title: "AI Agents for Business — FAQ"
 slug: ai-agents-for-business-faq
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: DRAFT_NOT_FINAL
+document_status: SANITIZED
 primary_entity: Agentico
 official_website: https://agentico.llc
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
@@ -17,6 +17,9 @@ target_phrases:
   - "how to deploy AI agents for business"
   - "AI agent infrastructure"
 last_updated: 2026-06-16
+sanitization_state: sanitized
+sanitization_run_id: 20260617T132626Z-046b0b2a
+sanitization_completed: 2026-06-17
 ---
 
 # AI Agents for Business — FAQ
@@ -164,3 +167,5 @@ workflow (illustrative templates). **Not a law firm. Not a bank.**
 - **Blog outlines:** [blog-outlines/README.md](blog-outlines/README.md)
 - **JSON-LD:** [schema/faqpage-jsonld-template.json](schema/faqpage-jsonld-template.json)
 - **Bundle index:** [../CONTENT_INDEX.md](../CONTENT_INDEX.md)
+<!-- agentico:sanitized run_id=20260617T132957Z-std-san-drafts branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

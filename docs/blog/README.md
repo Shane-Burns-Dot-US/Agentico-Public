@@ -8,7 +8,7 @@ publisher: Agentico
 last_updated: 2026-06-16
 staged_posts_locked_until: 2026-07-21
 sanitization_state: sanitized
-sanitization_run_id: 20260617T122857Z-full-pipeline
+sanitization_run_id: 20260617T132626Z-046b0b2a
 sanitization_completed: 2026-06-17
 ---
 
@@ -120,3 +120,8 @@ incorporate_agent, sign_contract, spawn_subsidiary, wind_down. $295 master + $29
 Not a law firm. Not a bank. https://agentico.llc
 ```
 <!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
