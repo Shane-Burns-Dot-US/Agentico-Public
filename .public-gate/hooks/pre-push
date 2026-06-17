@@ -3,10 +3,23 @@ set -euo pipefail
 
 REPO="$(git rev-parse --show-toplevel)"
 GATE="$REPO/.public-gate"
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 
 [[ -f "$REPO/.PUBLIC_STAGING_ONLY" ]] || { echo "⛔ Push blocked." >&2; exit 1; }
 [[ "${2:-}" != *"Agentico-Public"* && "${1:-}" == "origin" ]] && { echo "⛔ Wrong remote." >&2; exit 1; }
-[[ -f "$GATE/PUBLISH_APPROVED" ]] || { echo "⛔ Run ./.public-gate/approve-publish.sh first." >&2; exit 1; }
+
+# awaiting-approval: staging gate only — content queue, not mainstream publish
+if [[ "$BRANCH" == "awaiting-approval" ]]; then
+  python3 "$GATE/validate.py" || exit 1
+  echo "✅ pre-push: awaiting-approval branch (staging gate only)"
+  exit 0
+fi
+
+# main / other: full pieces approval required
+[[ -f "$GATE/PUBLISH_APPROVED" ]] || {
+  echo "⛔ Run ./.public-gate/approve-publish.sh before pushing $BRANCH to mainstream." >&2
+  exit 1
+}
 
 python3 "$GATE/validate.py" --for-publish || exit 1
 echo "✅ pre-push gate passed"
