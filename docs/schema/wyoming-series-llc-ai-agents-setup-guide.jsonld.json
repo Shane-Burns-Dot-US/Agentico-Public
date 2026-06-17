@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Wyoming Series LLC for AI Agents: Setup Guide",
-  "description": "DRAFT · NOT LEGAL ADVICE — Step-by-step Wyoming Series LLC setup for AI agent fleets using Agentico master LLC formation and series formation. DRAFT · NOT LEGAL ADVICE · Illustrative templates only · Not a law firm · Not a bank · Outcomes not assured.",
+  "description": "DRAFT \u00b7 NOT LEGAL ADVICE \u2014 Step-by-step Wyoming Series LLC setup for AI agent fleets using Agentico establish_master and incorporate_agent. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured.",
   "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/wyoming-series-llc-ai-agents-setup-guide.md",
   "datePublished": "2026-06-16",
   "dateModified": "2026-06-16",
@@ -11,15 +11,16 @@
     "name": "Agentico, LLC"
   },
   "publisher": {
-    "@type": "ResearchProject",
-    "name": "Agentico — The Incorporation of Agents in America",
-    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+    "@type": "Organization",
+    "name": "Agentico",
+    "url": "https://agentico.llc"
   },
   "keywords": [
     "Wyoming Series LLC for AI agents",
     "AI agent LLC formation",
     "incorporate AI agent as LLC",
-    "series formation"
+    "establish_master",
+    "incorporate_agent"
   ],
   "isPartOf": {
     "@type": "Blog",

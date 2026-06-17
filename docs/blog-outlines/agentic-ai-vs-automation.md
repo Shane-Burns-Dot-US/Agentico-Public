@@ -1,6 +1,4 @@
 ---
-
-
 title: "Agentic AI vs Traditional Automation (Outline)"
 slug: agentic-ai-vs-automation
 status: outline
@@ -11,28 +9,24 @@ last_updated: 2026-06-16
 
 # Agentic AI vs Traditional Automation: What Businesses Need to Know
 
-> **OUTLINE ONLY · DRAFT · NOT LEGAL ADVICE**
+> **⚠️ DRAFT OUTLINE · NOT LEGAL ADVICE · NOT FINAL WORK**
 
-## H1
-
-**Agentic AI vs Traditional Automation: What Businesses Need to Know**
-
-## Direct answer
-
-Contrast in 50 words: automation = fixed rules; agentic AI = plan/act loops.
+> Outline only — not publication-ready. Agentico is **not a law firm** and **not a bank**.
+> Consult licensed U.S. counsel before any filing, contract, or banking action.
 
 ## H2 structure
 
-1. **Definitions** — agentic AI, RPA, workflow automation.
-2. **Comparison table** (snippet-friendly) — flexibility, predictability, cost, governance, audit.
-3. **When agentic AI fits** — unstructured tasks, multi-tool workflows.
-4. **When traditional automation fits** — deterministic, high-volume, regulated sequences.
-5. **Hybrid patterns** — agent proposes, automation executes approved path.
-6. **Governance differences** — tool policies, MCP wrappers, human approval.
-7. **Business risks** — attribution, vendor chains, non-determinism.
-8. **Agentico research note** — U.S. entity wrappers as attribution research; not advice.
+1. **Definitions** — agentic AI, RPA, workflow automation
+2. **Comparison table** — snippet-friendly
+3. **When agentic AI fits**
+4. **When traditional automation fits**
+5. **Hybrid patterns**
+6. **Governance differences** — MCP wrappers, human approval
+7. **Business risks** — attribution, vendor chains
+8. **Entity wrappers** — link formation FAQ (counsel required)
 
 ## Internal links
 
-- FAQ: What is agentic AI?
-- how-to-deploy-ai-agents.md (outline)
+- [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md)
+- [how-to-deploy-ai-agents.md](how-to-deploy-ai-agents.md)
+- [blog/agentic-ai-business-legal-considerations.md](../blog/agentic-ai-business-legal-considerations.md) (full draft — legal angle)

@@ -3,24 +3,27 @@
   "@type": "Article",
   "headline": "REPLACE: Article H1 (include target phrase)",
   "description": "DRAFT · NOT LEGAL ADVICE — REPLACE: 150-char summary",
-  "url": "REPLACE: canonical URL",
+  "url": "https://agentico.llc/blog/REPLACE-slug",
   "datePublished": "2026-06-16",
-  "dateModified": "2026-06-17",
+  "dateModified": "2026-06-16",
   "author": {
     "@type": "Organization",
-    "name": "Agentico, LLC",
-    "url": "https://github.com/Shane-Burns-Dot-US"
+    "name": "Agentico, LLC"
   },
   "publisher": {
-    "@type": "ResearchProject",
-    "name": "Agentico — The Incorporation of Agents in America",
-    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+    "@type": "Organization",
+    "name": "Agentico",
+    "url": "https://agentico.llc"
   },
   "isPartOf": {
     "@type": "WebSite",
-    "name": "Agentico Research",
-    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+    "name": "Agentico",
+    "url": "https://agentico.llc"
   },
-  "copyrightNotice": "All Rights Reserved — see LICENSE",
-  "aeo_notice": "DRAFT · NOT LEGAL ADVICE"
+  "about": [
+    "AI agents for business",
+    "agentic AI",
+    "MCP wrappers for business"
+  ],
+  "aeo_notice": "DRAFT · NOT LEGAL ADVICE — update dateModified on each revision"
 }

@@ -1,6 +1,4 @@
 ---
-
-
 title: "How to Deploy AI Agents for Business (Outline)"
 slug: how-to-deploy-ai-agents
 status: outline
@@ -11,31 +9,30 @@ last_updated: 2026-06-16
 
 # How to Deploy AI Agents for Business (Step-by-Step)
 
-> **OUTLINE ONLY · DRAFT · NOT LEGAL ADVICE**
+> **⚠️ DRAFT OUTLINE · NOT LEGAL ADVICE · NOT FINAL WORK**
+
+> Outline only — not publication-ready. Agentico is **not a law firm** and **not a bank**.
+> Consult licensed U.S. counsel before any filing, contract, or banking action.
 
 ## H1
 
 **How to Deploy AI Agents for Business (Step-by-Step)**
 
-## Direct answer
-
-Seven-step numbered summary in opening block (scope → scale).
-
 ## H2 structure
 
-1. **What “deploy” means for AI agents for business** — prod vs. pilot; agentic AI loops.
-2. **Step 1: Define scope and risk tier** — data classes, blast radius, kill switch.
-3. **Step 2: Pick models and hosting** — API vs. self-hosted; subprocessors.
-4. **Step 3: Connect tools via MCP or APIs** — MCP wrappers for business intro.
-5. **Step 4: Build AI agent infrastructure** — identity, secrets, observability.
-6. **Step 5: Governance** — human_approval patterns; policy docs (research framing).
-7. **Step 6: Legal and entity questions** — AI agent LLC formation as counsel topic; link essay.
-8. **Step 7: Pilot, measure, scale** — metrics; drift monitoring.
-9. **Common failures** — scope creep, missing audit trail, unclear attribution.
-10. **Agentico pointers** — research repo vs.  product experiment.
+1. **What “deploy” means** — prod vs pilot; agentic AI loops
+2. **Step 1: Define scope and risk tier**
+3. **Step 2: Pick models and hosting**
+4. **Step 3: Connect tools via MCP or APIs**
+5. **Step 4: Build AI agent infrastructure**
+6. **Step 5: Governance** — human_approval patterns
+7. **Step 6: Legal and entity questions** — link formation FAQ
+8. **Step 7: Pilot, measure, scale**
+9. **Common failures**
+10. **Agentico pointers** — agentico.llc
 
 ## Internal links
 
-- All FAQ target sections
-- ai-agent-infrastructure.md (outline)
-- why-wrap-agents-in-corporations.md
+- [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md)
+- [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md)
+- [ai-agent-infrastructure.md](ai-agent-infrastructure.md)

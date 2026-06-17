@@ -1,6 +1,4 @@
 ---
-
-
 title: "AI Agent Infrastructure: Build vs Buy (Outline)"
 slug: ai-agent-infrastructure
 status: outline
@@ -11,28 +9,23 @@ last_updated: 2026-06-16
 
 # AI Agent Infrastructure: Build vs Buy in 2026
 
-> **OUTLINE ONLY · DRAFT · NOT LEGAL ADVICE**
+> **⚠️ DRAFT OUTLINE · NOT LEGAL ADVICE · NOT FINAL WORK**
 
-## H1
-
-**AI Agent Infrastructure: Build vs Buy in 2026**
-
-## Direct answer
-
-Define AI agent infrastructure stack in 60 words; name layers.
+> Outline only — not publication-ready. Agentico is **not a law firm** and **not a bank**.
+> Consult licensed U.S. counsel before any filing, contract, or banking action.
 
 ## H2 structure
 
-1. **Layers of AI agent infrastructure** — diagram: model, tools, policy, identity, entity.
-2. **Build: in-house stack** — pros/cons for regulated industries.
-3. **Buy: managed platforms** — pros/cons; vendor lock-in.
-4. **MCP as integration layer** — MCP wrappers for business in build scenarios.
-5. **Identity and attribution** — API keys vs. entity containers (research).
-6. **Observability and audit** — what to log for business agents.
-7. **Build vs buy decision matrix** — table by company size and risk tier.
-8. **Agentico positioning (draft)** — research on incorporation + MCP product experiment.
+1. **Layers** — model, tools, policy, identity, entity
+2. **Build: in-house stack**
+3. **Buy: managed platforms**
+4. **MCP as integration layer**
+5. **Identity and attribution**
+6. **Observability and audit**
+7. **Build vs buy matrix**
+8. **Agentico** — formation + MCP at agentico.llc
 
 ## Internal links
 
-- FAQ: What is AI agent infrastructure?
-- mcp-wrappers-for-business.md (outline)
+- [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md)
+- [mcp-wrappers-for-business.md](mcp-wrappers-for-business.md)

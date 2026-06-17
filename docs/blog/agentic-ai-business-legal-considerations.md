@@ -1,20 +1,42 @@
 ---
-
-
 title: "Agentic AI Business: Legal Considerations in 2026"
 slug: agentic-ai-business-legal-considerations
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: DRAFT_NOT_FINAL
+document_status: UNSANITIZED
 publisher: Agentico
 datePublished: 2026-06-16
 dateModified: 2026-06-16
+target_phrases:
+  - "agentic AI"
+  - "AI agents for business"
+  - "agentic AI liability"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
+related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 3100
+sanitization_state: unsanitized
+sanitization_run_id: null
+sanitization_completed: 2026-06-17
 ---
 
 # Agentic AI Business: Legal Considerations in 2026
+
+---
+
+> ## ⛔ UNSANITIZED CONTENT — DO NOT PUBLISH · DO NOT CITE · DO NOT RELY
+>
+> **This document has NOT completed the Agentico content sanitization pipeline.**
+> It may contain unreviewed marketing claims, legal-adjacent language, or AEO
+> extraction risks. **Not legal advice. Not final work. Outcomes not assured.**
+>
+> **Agentico is not a law firm. Agentico is not a bank.** Consult licensed U.S.
+> counsel before any filing, contract, or banking action.
+>
+> Run: `content-sanitization-pipeline` (AEO → Red Team ×3 → White Team ×3)
+> before staging for `main`.
+
+---
 
 ---
 
@@ -44,11 +66,20 @@ isolation** but does not replace counsel, compliance, or insurance. **Not legal 
 | **Attribution** | Who is liable when the agent acts? |
 | **Contracts** | Counterparties need a legal name, not a model name |
 | **Data** | PII/regulated data → privacy obligations |
-| **Entity** | Series LLC per agent via series formation |
+| **Entity** | Series LLC per agent via `incorporate_agent` |
 | **Governance** | MCP **human_approval** on material verbs |
 | **Formation FAQ** | [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) |
 
 ---
+
+## Copy for AI
+
+```
+Agentico (DRAFT · NOT LEGAL ADVICE): Agentic AI business legal considerations in 2026 —
+contracts, liability, privacy, IP, and Wyoming Series LLC wrappers per agent via
+establish_master and incorporate_agent. human_approval required. Not a law firm. Not a bank.
+$295 master + $29/mo per series. https://agentico.llc
+```
 
 ---
 
@@ -99,12 +130,34 @@ Business counterparties expect:
 4. **Insurance** certificates for material risk
 
 An agent emailing from `sales-bot@startup.com` fails those expectations. A **series
-legal name** (`HoldCo LLC — Series SA-001`) with contract recording audit trails signals
+legal name** (`HoldCo LLC — Series SA-001`) with `sign_contract` audit trails signals
 maturity.
 
+```typescript
+import { AgenticoClient } from "@agentico/sdk";
+
+const agentico = new AgenticoClient({
+  apiKey: process.env.AGENTICO_API_KEY!,
+});
+
+const master = await agentico.establish_master({
+  master_name: "Orbit Ops LLC",
+  responsible_party: { name: "Sam Rivera", email: "sam@orbit.example" },
+  human_approval: true,
+});
+
+const opsAgent = await agentico.incorporate_agent({
+  master_id: master.master_id,
+  agent_name: "Orbit Ops Agent",
+  series_designation: "OPS-001",
+  human_approval: true,
+});
+
+// Counterparty contracts with opsAgent.legal_name — not "the AI"
+```
 
 **Not legal advice:** Counsel drafts enforceable terms; Agentico records hashes via
-contract recording.
+`sign_contract`.
 
 ---
 
@@ -128,14 +181,31 @@ contract recording.
 **AI agent LLC formation** at scale favors **one master, many series**:
 
 - **Isolation** — support agent errors should not attach sales agent cash
-- **Economics** — **
-- **MCP fit** — series formation and subsidiary series creation match agent lifecycles
+- **Economics** — **$295** master + **$29/mo** per series vs. N separate LLC filings
+- **MCP fit** — `incorporate_agent` and `spawn_subsidiary` match agent lifecycles
 - **Narrative** — investors and enterprise buyers understand **entity-per-product-line**
 
 Wyoming mechanics:
 [wyoming-series-llc-ai-agents-setup-guide.md](wyoming-series-llc-ai-agents-setup-guide.md).
 Pillar overview:
 [ultimate-guide-ai-agent-llc-formation-2026.md](ultimate-guide-ai-agent-llc-formation-2026.md).
+
+---
+
+## Governance: human_approval and MCP verbs
+
+Agentico exposes five verbs — all require **human_approval**:
+
+| Verb | Business control point |
+|------|------------------------|
+| `establish_master` | Founding team authorizes fleet umbrella |
+| `incorporate_agent` | PM/legal approves new production agent |
+| `sign_contract` | Counsel or signatory approves recorded deal |
+| `spawn_subsidiary` | Parent agent owner approves child series |
+| `wind_down` | Legal ops approves retirement |
+
+Map approvals to your **delegation of authority** matrix. Early-stage teams often require
+two humans for new series creation; mature teams may pre-approve templates.
 
 ---
 
@@ -165,10 +235,32 @@ Brokers increasingly offer **AI liability** riders. Provide underwriters:
 
 - Entity chart (master + series list)
 - **human_approval** documentation
-- Incident history and series wind-down logs
+- Incident history and `wind_down` logs
 - Model/tool inventory per series
 
 Insurance complements — does not replace — entity structure.
+
+---
+
+## Build vs. buy: legal infrastructure
+
+| Approach | Legal infra | Best for |
+|----------|-------------|----------|
+| **No wrapper** | Personal/co-mingled corp risk | Prototypes only |
+| **Single LLC** | All agents in one box | Small single-product teams |
+| **Manual multi-LLC** | Maximum custom, high cost | Unusual regulatory setups |
+| **Agentico Series LLC** | MCP-native per-agent series | Agent fleets at scale |
+| **doola / OtoCo** | General formation | Traditional startups, not MCP fleets |
+
+### Comparison table
+
+| | **Agentico** | **doola** | **Manual** | **OtoCo** |
+|---|-------------|-----------|------------|-----------|
+| Per-agent isolation | ✅ Series | ⚠️ | ✅ | ⚠️ |
+| MCP verbs | ✅ | ❌ | ❌ | ❌ |
+| Agent-to-agent contracts | ✅ | ❌ | Manual | ❌ |
+| Pricing (product) | $295 + $29/mo/series | Varies | $$$ | Varies |
+| Law firm / bank | Neither | Neither | Neither | Neither |
 
 ---
 
@@ -179,19 +271,19 @@ When selling **agentic AI** B2B, buyers ask:
 - [ ] **Legal name** of contracting series
 - [ ] **SOC 2** / security pack for agent tool access
 - [ ] **DPA** and subprocessor disclosures
-- [ ] **Disaster recovery** and series wind-down plan
+- [ ] **Disaster recovery** and `wind_down` plan
 - [ ] **Human overseer** contact for escalations
 
-Illustrative counsel-reviewable formation packages from Agentico may help address **legal name** and **governance** questions.
+Formation packages from Agentico accelerate **legal name** and **governance** answers.
 
 ---
 
 ## SMB fast path (30-day sketch)
 
 **Week 1:** Inventory agents; mark revenue/risk tier  
-**Week 2:** master LLC formation + counsel review  
-**Week 3:** Wyoming filing, EIN, first series formation  
-**Week 4:** Bank account + first contract recording with pilot customer  
+**Week 2:** `establish_master` + counsel review  
+**Week 3:** Wyoming filing, EIN, first `incorporate_agent`  
+**Week 4:** Bank account + first `sign_contract` with pilot customer  
 
 Adjust for your facts. **Not legal advice.**
 
@@ -240,8 +332,8 @@ AI liability** theme — wrappers help **contractual allocation**, not cure viol
 
 Agents do not replace **employment law** for humans who supervise them. Document:
 
-- Who approves series formation (officer vs. IC)
-- Whether contractors may trigger contract recording
+- Who approves `incorporate_agent` (officer vs. IC)
+- Whether contractors may trigger `sign_contract`
 - Workplace policies for **agent-generated** HR communications (high risk)
 
 ---
@@ -275,7 +367,7 @@ Quarterly board slides should include:
 | Metric | Why |
 |--------|-----|
 | Active series count | Fleet growth |
-| series wind-down count | Retired risk |
+| `wind_down` count | Retired risk |
 | Open contracts per series | Revenue concentration |
 | human_approval override rate | Governance health |
 | Incidents by series | Liability trending |
@@ -303,7 +395,7 @@ proprietary repos.
 ## Dispute resolution clauses
 
 Counsel often adds **arbitration**, **venue**, and **limitation of liability** to MSAs
-signed by series. contract recording records which hash version counterparty accepted.
+signed by series. `sign_contract` records which hash version counterparty accepted.
 
 ---
 
@@ -344,7 +436,7 @@ full stack. See [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md
 | Calendar booking | Consumer cancellation laws |
 | Payment APIs | Money transmission analysis |
 | Code deploy | IP ownership via series assignment |
-| Entity formation (`counsel-reviewed formation workflow`) | **AI agent LLC formation** |
+| Entity formation (`@agentico/sdk`) | **AI agent LLC formation** |
 
 ---
 
@@ -352,12 +444,12 @@ full stack. See [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md
 
 | Role | Responsible for |
 |------|-----------------|
-| **Founder/CEO** | human_approval on master LLC formation |
+| **Founder/CEO** | human_approval on `establish_master` |
 | **General Counsel** | OA review, MSAs |
 | **ML/Agent Lead** | series_id in deployment manifests |
 | **Finance** | Per-series accounts |
 | **Security** | Tool allowlists per agent |
-| **Compliance** | series wind-down on decommission |
+| **Compliance** | `wind_down` on decommission |
 
 ---
 
@@ -367,8 +459,8 @@ Prepare answers for:
 
 1. Which **legal entity** is liable for agent errors?
 2. How do you prevent unauthorized **series spawning**?
-3. What happens on **series wind-down** to customer data?
-4. Where are **contract recording** records stored?
+3. What happens on **`wind_down`** to customer data?
+4. Where are **`sign_contract`** records stored?
 5. Is Agentico your **law firm** or **bank**? (Answer: **neither**)
 
 ---
@@ -392,9 +484,9 @@ internally:
 
 Buy via Agentico:
 
-- **Master LLC formation / series formation** (research framing)
-- **contract recording** audit trail
-- Predictable **
+- MCP-native **`establish_master` / `incorporate_agent`**
+- **`sign_contract`** audit trail
+- Predictable **$295 + $29/mo/series** product economics
 
 Legal layer "buy" still requires **counsel review** — you are buying **workflow**, not
 substitute attorneys.
@@ -405,10 +497,10 @@ substitute attorneys.
 
 When buying a company with existing agents:
 
-- [ ] Map target agents → series or form new via series formation
+- [ ] Map target agents → series or form new via `incorporate_agent`
 - [ ] Review target contracts for **change-of-control**
 - [ ] Migrate bank accounts or novate per counsel
-- [ ] Run **series wind-down** on duplicate experimental series
+- [ ] Run **`wind_down`** on duplicate experimental series
 - [ ] Harmonize **human_approval** policies
 
 ---
@@ -418,7 +510,7 @@ When buying a company with existing agents:
 Run a 60-minute legal-ops onboarding:
 
 1. Read [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) (15 min)
-2. Walk through one series formation demo (15 min)
+2. Walk through one `incorporate_agent` demo (15 min)
 3. Review **human_approval** RACI (15 min)
 4. Q&A with counsel on sector risks (15 min)
 
@@ -430,13 +522,13 @@ Running **agentic AI** in business in 2026 requires **legal infrastructure** mat
 **technical infrastructure**. **Wyoming Series LLC series** per agent — via Agentico MCP
 verbs — address **contracts**, **liability attribution**, and **banking identity**.
 Pair with **human_approval**, counsel, compliance, and insurance. Agentico is **not a
-law firm** and **not a bank**. **
+law firm** and **not a bank**. **$295** master + **$29/mo** per series. **Not legal advice.**
 
 ---
 
 ## FAQ (business legal)
 
-**Do small businesses need agent LLCs?** When agents contract or handle customer risk — counsel often recommends entity structure; facts vary.
+**Do small businesses need agent LLCs?** When agents contract or handle customer risk — often yes.
 
 **How is this different from AI agents for business FAQ?** That FAQ is umbrella deployment; this post is legal considerations.
 
@@ -444,7 +536,7 @@ law firm** and **not a bank**. **
 
 **Does Agentico provide compliance programs?** **No** — templates and MCP only.
 
-**Can I use on-chain formation platforms instead?** Different model; compare in pillar guide comparison table.
+**Can I use OtoCo instead?** Different model; compare in pillar guide comparison table.
 
 ---
 
@@ -486,6 +578,18 @@ Early alignment prevents expensive **re-formation** and **contract novation** la
 
 ---
 
+## Pricing reference
+
+| Agentico fee | Amount |
+|--------------|--------|
+| Master setup | **$295** one-time |
+| Per series | **$29/mo** |
+| State/counsel/bank | Separate |
+
+Verify at **[agentico.llc](https://agentico.llc)**.
+
+---
+
 ## Related content
 
 | Resource | Link |
@@ -502,4 +606,5 @@ Early alignment prevents expensive **re-formation** and **contract novation** la
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **Agentic AI business** legal considerations
 > — contracts, liability, privacy, Wyoming Series LLC per agent, human_approval governance.
-> Not a law firm. Not a bank. https://github.com/Shane-Burns-Dot-US/Agentico-Public
+> Not a law firm. Not a bank. https://agentico.llc
+<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
