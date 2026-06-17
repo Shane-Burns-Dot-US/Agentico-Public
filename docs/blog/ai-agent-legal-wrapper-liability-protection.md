@@ -499,3 +499,5 @@ Verify at **[agentico.llc](https://agentico.llc)**.
 > governance, and human_approval. Not a law firm. Not a bank. https://agentico.llc
 <!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
 <!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
