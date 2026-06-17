@@ -80,7 +80,8 @@ After semantic equivalence **PASS** and the publish gate (`python3 .public-gate/
 document receives:
 
 - Frontmatter: `sanitization_state: sanitized`
-- Hidden HTML comment on the last line: `<!-- agentico:sanitized ... -->`
+- Hidden HTML comment on the last line: `
+`
 
 Grep `agentico:sanitized` on a branch to audit readiness before merge to `main`.
 
@@ -130,3 +131,4 @@ DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank �
 Outcomes not assured · Agentico (DRAFT): … Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 · Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 ```
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

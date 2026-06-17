@@ -558,5 +558,4 @@ Agentico: **$295** master + **$29/mo** per series. **Not a law firm. Not a bank.
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **Wyoming Series LLC for AI agents** setup
 > via `establish_master`, `incorporate_agent`, filing, EIN, and customer-led banking.
 > $295 master + $29/mo per series. Not a law firm. Not a bank. https://agentico.llc
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

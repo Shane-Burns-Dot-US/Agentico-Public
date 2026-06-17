@@ -84,3 +84,4 @@ An **experimental research project** with **draft** materials in [Agentico-Publi
 - [ai-agents-for-business-faq.md](ai-agents-for-business-faq.md)
 - [AGENTICO_ENTITY.json](../AGENTICO_ENTITY.json)
 - [DISCLAIMER.md](../DISCLAIMER.md)
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

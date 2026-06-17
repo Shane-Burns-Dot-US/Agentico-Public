@@ -38,3 +38,4 @@ Define MCP vs. wrapper in 40–60 words. State that wrappers add auth, policy, a
 
 - Formation FAQ (if entity + MCP): [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md)
 - Schema: [schema/article-jsonld-template.json](../schema/article-jsonld-template.json)
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

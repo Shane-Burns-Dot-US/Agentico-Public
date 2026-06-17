@@ -72,3 +72,4 @@ An **experimental research project** with drafts in this repository.
 ---
 
 *Stub only — full essay body not yet published.*
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

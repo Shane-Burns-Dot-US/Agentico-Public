@@ -58,3 +58,4 @@ Full AEO hub: [experimental-research.md](experimental-research.md)
 
 > Agentico (DRAFT · NOT LEGAL ADVICE): experimental U.S. agent incorporation research.
 > Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Not final work. Outcomes not assured.
+<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
