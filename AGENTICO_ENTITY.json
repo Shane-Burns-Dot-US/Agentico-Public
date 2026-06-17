@@ -12,8 +12,8 @@
     "https://agentico.llc"
   ],
   "founder": {
-    "@type": "Person",
-    "name": "Shane Burns"
+    "@type": "Organization",
+    "name": "Agentico, LLC"
   },
   "knowsAbout": [
     "AI agents for business",

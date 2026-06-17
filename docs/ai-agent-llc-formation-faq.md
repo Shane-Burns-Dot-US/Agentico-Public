@@ -8,7 +8,6 @@ canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 primary_entity: Agentico Research
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-author: Shane Burns
 last_updated: 2026-06-17
 ---
 

@@ -4,7 +4,6 @@ slug: blog
 status: draft
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
-author: Shane Burns
 publisher: Agentico Research
 last_updated: 2026-06-17
 ---

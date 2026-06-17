@@ -38,7 +38,7 @@ WITHOUT NOTICE.**
 
 - Agentico discusses U.S. corporations, LLCs, governance, agents, liability,
   and related topics in **general informational** terms only.
-- Shane Burns is **not** acting as your attorney, compliance officer, CPA,
+- Agentico, LLC is **not** acting as your attorney, compliance officer, CPA,
   or fiduciary.
 - **No attorney-client relationship** is created by reading, cloning, citing,
   or discussing these materials.
@@ -117,7 +117,7 @@ See [LICENSE](LICENSE). In summary:
 - Viewing on GitHub for personal, non-commercial reference is the **only**
   permission granted without written consent.
 - **No copying, redistribution, derivatives, commercial use, or legal reliance**
-  without separate written permission from Shane Burns.
+  without separate written permission from Agentico, LLC.
 
 ---
 

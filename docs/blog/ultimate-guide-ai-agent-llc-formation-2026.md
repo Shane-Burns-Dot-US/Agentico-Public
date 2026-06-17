@@ -6,7 +6,6 @@ slug: ultimate-guide-ai-agent-llc-formation-2026
 status: draft
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
-author: Shane Burns
 publisher: Agentico
 datePublished: 2026-06-16
 dateModified: 2026-06-16

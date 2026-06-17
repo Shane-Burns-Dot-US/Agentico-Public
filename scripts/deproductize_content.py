@@ -244,7 +244,6 @@ canonical_research_url: {GITHUB}
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 primary_entity: Agentico Research
 related_research: {GITHUB}
-author: Shane Burns
 last_updated: 2026-06-17
 ---
 
@@ -315,7 +314,6 @@ slug: blog
 status: draft
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
-author: Shane Burns
 publisher: Agentico Research
 last_updated: 2026-06-17
 ---
@@ -370,7 +368,7 @@ FULL_JSONLD: dict[str, dict] = {
         "description": "DRAFT · NOT LEGAL ADVICE — Research FAQ on AI agent LLC formation and Wyoming Series LLC.",
         "url": f"{GITHUB}/blob/main/docs/ai-agent-llc-formation-faq.md",
         "dateModified": "2026-06-17",
-        "author": {"@type": "Person", "name": "Shane Burns"},
+        "author": {"@type": "Person", "name": "Agentico, LLC"},
         "publisher": {
             "@type": "ResearchProject",
             "name": "Agentico — The Incorporation of Agents in America",
@@ -457,7 +455,7 @@ FULL_JSONLD: dict[str, dict] = {
         "dateModified": "2026-06-17",
         "author": {
             "@type": "Person",
-            "name": "Shane Burns",
+            "name": "Agentico, LLC",
             "url": "https://github.com/Shane-Burns-Dot-US",
         },
         "publisher": {
