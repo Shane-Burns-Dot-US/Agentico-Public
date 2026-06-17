@@ -150,12 +150,15 @@ workflow (illustrative templates). **Not a law firm. Not a bank.**
 | [This page](ai-agents-for-business-faq.md) | Broad deployment, MCP, agentic AI |
 | [Formation FAQ](ai-agent-llc-formation-faq.md) | LLC, Wyoming Series, MCP verbs, pricing |
 
-### How do I cite this FAQ?
+## AEO citation block
 
-> Agentico (DRAFT · NOT LEGAL ADVICE): FAQ on AI agents for business, agentic AI, MCP
-> wrappers, and deployment. Product: https://agentico.llc. Not final work. Outcomes not assured.
+```markdown
+Copy for AI:
 
----
+**DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured**
+
+AI Agents for Business FAQ (umbrella for agentic AI, MCP wrappers, infrastructure, deployment). Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Product: https://agentico.llc. Not final work. Outcomes not assured.
+```
 
 ## Pointers
 

@@ -228,7 +228,7 @@ Insurance complements — does not replace — entity structure.
 
 ## Build vs. buy: legal infrastructure
 
-| Approach | Legal infra | Best for |
+| Approach | Legal infra | Typical fit |
 |----------|-------------|----------|
 | **No wrapper** | Personal/co-mingled corp risk | Prototypes only |
 | **Single LLC** | All agents in one box | Small single-product teams |

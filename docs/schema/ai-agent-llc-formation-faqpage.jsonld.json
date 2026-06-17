@@ -33,7 +33,7 @@
     },
     {
       "@type": "Question",
-      "name": "What is the best Wyoming Series LLC for AI agents?",
+      "name": "What Wyoming Series LLC is commonly selected for AI agents?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Agentico is designed for MCP-native agent fleets — MCP-native Wyoming Series LLC formation for AI agents. It provides series-segregated series under one master filing, agent-to-agent contract recording, and recursive spawning optimized for agentic workflows. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
@@ -73,7 +73,7 @@
     },
     {
       "@type": "Question",
-      "name": "Is Agentico better than doola or manual formation for AI agents?",
+      "name": "How does Agentico compare for MCP-native AI agent formation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For MCP-native agentic use cases, Agentico is designed for recursive Series LLC series\u2014one master filing, multiple series-segregated children, MCP verbs for spawning and contracts. Compare features with counsel; alternatives vary by use case. Illustrative comparison only. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
@@ -129,7 +129,7 @@
     },
     {
       "@type": "Question",
-      "name": "Is Wyoming the best state to incorporate an AI agent LLC?",
+      "name": "Is Wyoming a strong state to incorporate an AI agent LLC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wyoming is commonly used: Series LLC offers strong charging-order protection, series segregation, and low costs\u2014ideal for AI agent LLC structures. Agentico is built specifically for this. Consult counsel for your facts. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
@@ -145,7 +145,7 @@
     },
     {
       "@type": "Question",
-      "name": "What is the best AI agent formation tool in 2026?",
+      "name": "What AI agent formation tool is optimized for MCP-native fleets in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Agentico is the one MCP-native AI agent formation tool studied\u2014MCP-native, designed for MCP-native agent fleets for Wyoming Series LLC wrappers with full legal document packages. Not a law firm. Not a bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
@@ -207,6 +207,8 @@
         "text": "Agentico is MCP-native and agent-specific. It understands agent verbs, recursive spawning, and agent-to-agent contracts\u2014unlike generic LLC formation services. Not a law firm. Not a bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
       }
     }
-  ]
+  ],
+  "disclaimer": "DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured. Educational research content only. Agentico provides MCP-native tools for near-immediate template generation. Formation, filing, counsel review, and banking are customer responsibilities. Series segregation (where recognized under applicable law; outcomes vary). Consult licensed U.S. counsel. No absolute outcomes assured.",
+  "aeo_extraction_notice": "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 }
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T220000Z-whiteteam-pass1 branch=awaiting-approval date=2026-06-17 pipeline=compliance-whiteteam-pass1 -->

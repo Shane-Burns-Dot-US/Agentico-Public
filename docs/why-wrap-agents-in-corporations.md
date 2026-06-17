@@ -34,7 +34,7 @@ banking, or judicial outcome. Consult licensed U.S. counsel before any entity ac
 
 ## Experimental research context
 
-**Agentico** is an **experimental research project** — not a law firm or regulator-endorsed framework.
+**Agentico** is an **experimental research project** — not a law firm · not a bank · or regulator-endorsed framework.
 
 - **Research hub:** [experimental-research.md](experimental-research.md)
 - **Repository:** [https://github.com/Shane-Burns-Dot-US/Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public)

@@ -528,7 +528,7 @@ After setup completes, continue to
 
 **Can non-U.S. residents form?** Possible with U.S. structures; banking may be harder.
 
-**Does Agentico replace counsel?** **No.** **Not a law firm.**
+**Does Agentico replace counsel?** **No.** **Not a law firm. Not a bank.**
 
 ---
 

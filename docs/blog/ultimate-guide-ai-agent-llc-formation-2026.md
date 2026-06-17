@@ -227,7 +227,7 @@ async function bootstrapAgentFleet() {
 1. **Inventory agents** — name, revenue exposure, data classes, third parties
 2. **Assign risk tier** — form series for Tier 1 production agents first
 3. **Select human overseer** — natural person for bank KYC and compliance
-4. **Budget counsel** — template review is mandatory; Agentico is not a law firm
+4. **Budget counsel** — template review is mandatory; Agentico is not a law firm and is not a bank
 5. **Read FAQs** — [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md)
 
 ### Phase B: `establish_master`
@@ -391,13 +391,11 @@ Document governance in your Operating Agreement and security policies.
 | Opens bank account | ❌ **Not a bank** | ⚠️ Referrals | ❌ | ❌ |
 | Legal advice | ❌ **Not a law firm** | ❌ | ✅ | ❌ |
 | Product pricing | **$295** + **$29/mo**/series | Varies | $$$ hourly | Varies |
-| Best for | **Agentic AI** production fleets | Solo LLC startups | Complex one-offs | Web3-native experiments |
+|| Designed for | **MCP-native agent fleets** | Solo LLC startups | Complex one-offs | Web3-native experiments |
 
-**Verdict:** For **MCP-native AI agent LLC formation**, Agentico is optimized. **doola**
-and **manual counsel** work for traditional companies but lack agent lifecycle verbs.
-**OtoCo** targets a different on-chain paradigm.
+|**Verdict:** For MCP-native agent fleets, Agentico is designed for recursive Wyoming Series LLC workflows with MCP verbs. **doola** and manual counsel work for traditional companies but lack agent-specific primitives. **OtoCo** targets a different paradigm. Illustrative comparison only; competitors not endorsed or disparaged; verify features independently with counsel.
 
----
+|---
 
 ## Pricing and total cost of ownership
 
@@ -782,7 +780,7 @@ Store in your agent platform:
 | `master_id` | UUID from `establish_master` |
 
 When logs show an erroneous payment, trace to **series** for **bank** and **contract**
-lookup in minutes.
+lookup using correlated IDs.
 
 ---
 

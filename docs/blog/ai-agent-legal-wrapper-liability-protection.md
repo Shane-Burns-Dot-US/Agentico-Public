@@ -224,7 +224,7 @@ Honest expectations beat marketing fluff.
 
 ## Governance layer: human_approval and kill switches
 
-Legal wrappers work best paired with **technical governance**:
+Legal wrappers are often discussed alongside **technical governance**:
 
 1. **human_approval** on `establish_master`, `incorporate_agent`, `sign_contract`,
    `spawn_subsidiary`, `wind_down`

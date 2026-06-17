@@ -30,7 +30,7 @@ Research may discuss U.S. entities broadly (corporations, LLCs, and related stru
 
 Materials must **not** be read to promise or guarantee:
 
-- Legal **protection**, immunity, or **liability isolation** (series treatment **varies by jurisdiction and facts**)
+- Legal **protection**, immunity, or **series segregation (where recognized under applicable law; outcomes vary)**
 - **Court-ready** outcomes or that any record **will** satisfy regulators or judges
 - **Real legal standing** or filing fitness **without review by licensed U.S. counsel**
 - That wrapping **eliminates** agent or vendor unpredictability

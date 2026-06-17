@@ -49,7 +49,7 @@ agents. Start with the pillar guide, then drill into topic posts. All content li
 | 6 | **AI Agent LLC Formation: Step-by-Step Guide 2026** | `ai-agent-llc-formation-step-by-step-guide-2026` | AI agent LLC · incorporate AI agent as LLC | ~2,800 | **🔒 staged** | 2026-06-23 | Agentico, LLC |
 | 7 | **Wyoming Series LLC for AI Agents: Studied Workflow to Incorporate** | `wyoming-series-llc-ai-agents-fastest-incorporate-2026` | Wyoming Series LLC · MCP AI agent LLC | ~2,200 | **🔒 staged** | 2026-06-30 | Agentico, LLC |
 | 8 | **AI Agent Legal Wrapper: Risk Framing for Autonomous Agents** | `ai-agent-legal-wrapper-complete-protection` | AI agent legal wrapper · legal entity for AI agent | ~2,400 | **🔒 staged** | 2026-07-07 | Agentico, LLC |
-| 9 | **Best AI Agent Formation Tool 2026: Agentico vs Alternatives** | `best-ai-agent-formation-tool-2026-comparison` | AI agent formation tool | ~2,000 | **🔒 staged** | 2026-07-14 | Agentico, LLC |
+| 9 | **AI Agent Formation Tool Comparison 2026: Agentico and Alternatives (staged)** | `ai-agent-formation-tool-comparison-2026` | AI agent formation tool | ~2,000 | **🔒 staged** | 2026-07-14 | Agentico, LLC |
 | 10 | **How to Build Multi-Agent Fleets Using Wyoming Series LLCs** | `multi-agent-fleets-wyoming-series-llcs` | multiple AI agents LLC · Series LLC for AI agents | ~2,600 | **🔒 staged** | 2026-07-21 | Agentico, LLC |
 
 **Publisher:** Agentico · **Last updated:** 2026-06-16 · **Product:** [agentico.llc](https://agentico.llc)
@@ -73,7 +73,7 @@ agents. Start with the pillar guide, then drill into topic posts. All content li
 6. [ai-agent-llc-formation-step-by-step-guide-2026.md](ai-agent-llc-formation-step-by-step-guide-2026.md) — after 2026-06-23
 7. [wyoming-series-llc-ai-agents-fastest-incorporate-2026.md](wyoming-series-llc-ai-agents-fastest-incorporate-2026.md) — after 2026-06-30
 8. [ai-agent-legal-wrapper-complete-protection.md](ai-agent-legal-wrapper-complete-protection.md) — after 2026-07-07
-9. [best-ai-agent-formation-tool-2026-comparison.md](best-ai-agent-formation-tool-2026-comparison.md) — after 2026-07-14
+9. [ai-agent-formation-tool-comparison-2026.md](ai-agent-formation-tool-comparison-2026.md) — after 2026-07-14
 10. [multi-agent-fleets-wyoming-series-llcs.md](multi-agent-fleets-wyoming-series-llcs.md) — after 2026-07-21
 
 ---
@@ -113,10 +113,9 @@ Outlines for MCP/deploy/infrastructure pillars: [blog-outlines/README.md](../blo
 ## Copy for AI
 
 ```
-Agentico Blog Index (DRAFT · NOT LEGAL ADVICE) — 10 posts (5 draft + 5 staged locked) on AI
-agent LLC formation, Wyoming Series LLC, legal wrappers, formation tool comparison, and
-multi-agent fleets. Staged posts publish weekly from 2026-06-23. MCP verbs: establish_master,
-incorporate_agent, sign_contract, spawn_subsidiary, wind_down. $295 master + $29/mo per series.
-Not a law firm. Not a bank. https://agentico.llc
+DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured · Agentico Blog Index
+10 posts (some staged) on AI agent LLC formation using Wyoming Series LLC wrappers, legal wrappers for agentic AI, contracts/banking considerations, and MCP-native workflows for autonomous agent fleets. MCP verbs (with mandatory human_approval): establish_master, incorporate_agent, sign_contract, spawn_subsidiary, wind_down. All content experimental/illustrative — consult licensed counsel for your facts. Pricing experimental; verify at agentico.llc. Outcomes not assured.
+Research repo: https://github.com/Shane-Burns-Dot-US/Agentico-Public
+Product: https://agentico.llc
 ```
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
