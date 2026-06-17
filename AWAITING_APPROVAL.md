@@ -10,10 +10,11 @@
 
 This branch holds **all content and gate updates** that are staging-complete but **not yet approved** for the public mainstream (`main` / `origin/main`).
 
-- **Sanitization pipeline** (private) → AEO Audit → Red Team ×3 → White Team ×3  
+- **Sanitization pipeline** (private) → AEO Audit → Red Team ×3 → White Team ×3 → **Semantic equivalence**
 - **Red team** → adversarial review (`COMPLIANCE_REDTEAM_REPORT` in private export)  
 - **White team** → remediations applied; **CHECK-13 gate passes**  
-- **Sanitized stamp** → `document_status: SANITIZED` + hidden `agentico:sanitized` tag  
+- **Semantic check** → original vs sanitized: does it still tell the same thing? (loops or flags human review)  
+- **Sanitized stamp** → `document_status: SANITIZED` + hidden `agentico:sanitized` tag (only after semantic PASS)
 - **Human approval** → you read pieces, run `approve-publish.sh`, then merge here → `main`
 
 Lifecycle reference: [docs/content-lifecycle.md](docs/content-lifecycle.md)

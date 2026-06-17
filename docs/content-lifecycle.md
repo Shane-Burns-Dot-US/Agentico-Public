@@ -36,6 +36,7 @@ red-team and white-team reports never publish to GitHub.
 | State | `document_status` | On branch | Publishable? |
 |-------|-------------------|-----------|--------------|
 | **Unsanitized** | `UNSANITIZED` | Feature / content branches | **No** |
+| **Pending semantic review** | `UNSANITIZED` + `pending_semantic_review` | Content branches | **No** — operator must resolve meaning drift |
 | **Sanitized** | `SANITIZED` | `awaiting-approval` etc. | After human sign-off |
 | **Draft (live)** | `DRAFT_NOT_FINAL` | `main` | Yes — with disclaimers |
 
@@ -46,7 +47,7 @@ red-team and white-team reports never publish to GitHub.
 Maintainers run a **private** sequential chain before staging content:
 
 ```
-AEO Audit (×1) → Red Team (×3) → White Team (×3) → Sanitized stamp
+AEO Audit (×1) → Red Team (×3) → White Team (×3) → Semantic equivalence → Sanitized stamp
 ```
 
 | Stage | Role |
@@ -54,6 +55,7 @@ AEO Audit (×1) → Red Team (×3) → White Team (×3) → Sanitized stamp
 | **AEO Audit** | Enforce answer-first structure, TL;DR, citation blocks, JSON-LD prefixes |
 | **Red Team** | Adversarial compliance — litigator, regulator, FTC, AEO extraction personas |
 | **White Team** | Apply fixes while preserving brand voice and AEO patterns |
+| **Semantic equivalence** | Compare pre-sanitization original to output — same meaning? Loop or flag human review |
 
 Tools and run outputs live in the private `Agentico` workspace only. Definitions
 are mirrored here; skills and reports do not.
@@ -73,7 +75,7 @@ has **not** completed sanitization.
 
 ## Sanitized marker
 
-After the pipeline passes the publish gate (`python3 .public-gate/validate.py`), each
+After semantic equivalence **PASS** and the publish gate (`python3 .public-gate/validate.py`), each
 document receives:
 
 - Frontmatter: `sanitization_state: sanitized`
