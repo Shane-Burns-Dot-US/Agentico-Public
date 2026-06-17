@@ -16,6 +16,7 @@ last_updated: 2026-06-17
 > **⚠️ DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK**
 >
 > Research posts on **AI agent LLC formation**. **Not legal advice.** Consult licensed U.S. counsel.
+> Agentico is **not a law firm** and **not a bank**. Outcomes not assured.
 
 ---
 
