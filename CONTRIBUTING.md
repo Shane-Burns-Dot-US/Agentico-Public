@@ -1,22 +1,48 @@
 # Contributing to Agentico Public
 
+---
+
+> **⚠️ DRAFT REPOSITORY · NOT LEGAL ADVICE · ALL RIGHTS RESERVED**
+>
+> By contributing you acknowledge [DISCLAIMER.md](DISCLAIMER.md) and [LICENSE](LICENSE).
+> Contributions become part of draft materials protected under the restrictive
+> proprietary license unless a separate written agreement applies.
+
+---
+
 Thank you for your interest in Agentico.
 
-## Public vs private
+## Before you contribute
 
-- **This repository** (`Agentico-Public`) is public and indexed by search engines.
-- **The private workspace** contains runtime configuration, sessions, credentials, and unreleased work. It never syncs automatically to this repo.
+1. Read [DISCLAIMER.md](DISCLAIMER.md) in full.
+2. Read [LICENSE](LICENSE) — contributions are **not** automatically licensed
+   under permissive open-source terms.
+3. Understand: this repo is **draft**, not final work, and **not legal advice**.
+
+## Separation
+
+`Agentico-Public/` lives on the Desktop as its own folder. It is **not** nested
+inside any private agent runtime workspace.
 
 ## How to contribute
 
 1. Open an issue describing your proposal.
-2. Fork this repository.
+2. Fork only for the purpose of submitting a pull request back to the canonical
+   repository — **not** for independent redistribution (see LICENSE).
 3. Submit a pull request with clear scope and no secrets or personal data.
-4. Maintainers will review for safety and alignment before merge.
+4. Maintainers review for safety and alignment. Acceptance does not imply legal
+   accuracy or final publication status.
 
 ## What not to submit
 
 - API keys, tokens, passwords, or credentials
 - Personal data or private correspondence
-- Unreleased proprietary designs from the private workspace
-- Runtime logs, session data, or agent memory exports
+- Private agent runtime files (sessions, logs, config, memories)
+- Content presented as legal advice or final authoritative guidance
+- Foreign or non-U.S. entity structures — U.S. scope only
+
+## Contributor warranty
+
+You represent that your contribution is your original work or you have rights
+to submit it, and you grant no rights beyond what the LICENSE and maintainer
+acceptance expressly allow.

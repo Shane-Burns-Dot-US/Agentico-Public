@@ -69,64 +69,78 @@
       "id": "ai-agent-llc-formation-faq",
       "path": "docs/ai-agent-llc-formation-faq.md",
       "title": "AI agent LLC formation FAQ (AEO)",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-index",
       "path": "docs/blog/README.md",
       "title": "Blog full drafts index",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-pillar-llc-formation",
       "path": "docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md",
       "title": "Pillar: Ultimate Guide to AI Agent LLC Formation 2026",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-wyoming-series-llc",
       "path": "docs/blog/wyoming-series-llc-ai-agents-setup-guide.md",
       "title": "Wyoming Series LLC for AI Agents setup guide",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-legal-wrapper",
       "path": "docs/blog/ai-agent-legal-wrapper-liability-protection.md",
       "title": "AI agent legal wrapper liability guide",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-agentic-ai-business",
       "path": "docs/blog/agentic-ai-business-legal-considerations.md",
       "title": "Agentic AI for business legal considerations",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-contracts-bank",
       "path": "docs/blog/ai-agent-contracts-bank-account.md",
       "title": "AI agent contracts and bank account how-to",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     },
     {
       "id": "blog-outlines",
@@ -144,10 +158,12 @@
       "id": "schema-formation-faq-jsonld",
       "path": "docs/schema/ai-agent-llc-formation-faqpage.jsonld.json",
       "title": "AI agent LLC formation FAQPage JSON-LD",
-      "status": "ready_once_read",
+      "status": "awaiting_approval",
       "redteam_cleared": "2026-06-16",
-      "gate_commit": "56d4768",
-      "ship_note": "Human read-through required; then approve-publish.sh"
+      "whiteteam_cleared": "2026-06-16",
+      "gate_commit": "ba98106",
+      "branch": "awaiting-approval",
+      "ship_note": "On awaiting-approval branch; human read-through → approve-publish.sh → merge main"
     }
   ]
 }

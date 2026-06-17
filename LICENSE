@@ -1,21 +1,121 @@
-MIT License
+AGENTICO PROPRIETARY DRAFT LICENSE
+All Rights Reserved
 
-Copyright (c) 2026 Shane Burns
+Copyright (c) 2026 Shane Burns. All rights reserved worldwide.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+================================================================================
+IMPORTANT: READ BEFORE ACCESSING, VIEWING, COPYING, OR USING ANY MATERIAL
+================================================================================
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+NO LICENSE IS GRANTED except the extremely limited permission stated below.
+This repository contains DRAFT, INCOMPLETE, PRELIMINARY materials. It is NOT
+final work product. Nothing herein constitutes legal advice.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+--------------------------------------------------------------------------------
+1. LIMITED VIEWING PERMISSION ONLY
+--------------------------------------------------------------------------------
+
+You may view this repository on GitHub solely for your own personal,
+non-commercial, informational reference. No other rights are granted—expressly
+or by implication—including any right to use, run, copy, reproduce, publish,
+distribute, transmit, display, perform, modify, adapt, translate, create
+derivative works from, reverse engineer, or commercially exploit any content.
+
+--------------------------------------------------------------------------------
+2. EXPRESS PROHIBITIONS (WITHOUT PRIOR WRITTEN CONSENT)
+--------------------------------------------------------------------------------
+
+You may NOT, and may NOT permit any third party to:
+
+  (a) Copy, clone, fork for redistribution, mirror, scrape, or republish
+      any portion of this repository or its contents;
+  (b) Create derivative works, summaries for redistribution, translations,
+      or modified versions;
+  (c) Use any content for commercial, advisory, consulting, educational
+      course, product, or service offerings;
+  (d) Attribute, cite, or rely upon any content as legal, tax, securities,
+      compliance, fiduciary, or professional advice;
+  (e) Represent any draft material as final, approved, authoritative, or
+      endorsed by any court, regulator, bar association, or government body;
+  (f) Remove, alter, or obscure copyright notices, draft warnings, or
+      disclaimer language;
+  (g) Sublicense, sell, lease, or transfer any rights in the materials.
+
+Any permission beyond viewing requires a separate written agreement signed by
+Shane Burns.
+
+--------------------------------------------------------------------------------
+3. DRAFT STATUS — NOT FINAL WORK
+--------------------------------------------------------------------------------
+
+All materials are published AS-IS in DRAFT form. Content may be wrong, incomplete,
+superseded, withdrawn, or replaced without notice. Version history does not
+create any obligation to maintain, update, or correct prior drafts.
+
+--------------------------------------------------------------------------------
+4. NO LEGAL ADVICE — NO PROFESSIONAL RELATIONSHIP
+--------------------------------------------------------------------------------
+
+Agentico materials discuss U.S. legal and corporate concepts in general,
+educational terms only. They are NOT legal advice. Shane Burns is not your
+attorney. No attorney-client, fiduciary, or professional relationship is
+created by access to this repository. You must consult qualified, licensed
+U.S. legal counsel before making any incorporation, governance, compliance,
+or operational decision.
+
+--------------------------------------------------------------------------------
+5. NO WARRANTY
+--------------------------------------------------------------------------------
+
+THE MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY
+KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF ACCURACY, COMPLETENESS, MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, OR THAT USE WILL ACHIEVE ANY
+PARTICULAR LEGAL, REGULATORY, OR BUSINESS OUTCOME.
+
+--------------------------------------------------------------------------------
+6. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL SHANE
+BURNS OR ANY CONTRIBUTOR, AFFILIATE, OR LICENSOR BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES;
+LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS; REGULATORY PENALTIES; LEGAL FEES;
+OR ANY OTHER DAMAGES ARISING FROM OR RELATED TO ACCESS TO, USE OF, OR RELIANCE
+ON THESE MATERIALS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+--------------------------------------------------------------------------------
+7. INDEMNIFICATION
+--------------------------------------------------------------------------------
+
+You agree to indemnify, defend, and hold harmless Shane Burns from any claim,
+liability, damage, loss, or expense (including reasonable attorneys' fees)
+arising from your use, misuse, reproduction, distribution, or reliance on
+these materials in violation of this license or applicable law.
+
+--------------------------------------------------------------------------------
+8. TERMINATION
+--------------------------------------------------------------------------------
+
+This limited viewing permission terminates automatically upon any breach.
+Upon termination, you must cease all use and destroy any copies in your
+possession or control.
+
+--------------------------------------------------------------------------------
+9. GOVERNING LAW
+--------------------------------------------------------------------------------
+
+This license is governed by the laws of the United States and the State of
+Delaware, without regard to conflict-of-law principles. Exclusive venue for
+disputes lies in courts of competent jurisdiction in Delaware, unless otherwise
+required by mandatory applicable law.
+
+--------------------------------------------------------------------------------
+10. ENTIRE LICENSE
+--------------------------------------------------------------------------------
+
+This document constitutes the entire license with respect to repository content.
+No GitHub "fork," "star," "clone," or platform feature grants rights beyond
+those explicitly stated here.
+
+For licensing inquiries: contact the repository owner via GitHub.

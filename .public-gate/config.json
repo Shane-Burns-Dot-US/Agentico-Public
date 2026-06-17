@@ -91,6 +91,7 @@
     "AGENTICO_ENTITY.json",
     "GATE_MANIFEST.json",
     "GITHUB_REPO.json",
+    "AWAITING_APPROVAL.md",
     "private-drafts"
   ],
   "marketing_scan_globs": [

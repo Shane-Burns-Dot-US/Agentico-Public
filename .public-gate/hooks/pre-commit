@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO="$(git rev-parse --show-toplevel)"
+GATE="$REPO/.public-gate"
+
+[[ -f "$REPO/.PUBLIC_STAGING_ONLY" ]] || { echo "⛔ Not Agentico-Public/" >&2; exit 1; }
+[[ "$REPO" == *"/Agentico/Agentico-Public"* ]] && { echo "⛔ Nested inside Agentico/" >&2; exit 1; }
+
+BLOCKED='\.env$|config\.yaml$|auth\.lock$|\.PRIVATE_WORKSPACE$|PUBLISH_APPROVED$'
+if git diff --cached --name-only | grep -E "$BLOCKED" >/dev/null 2>&1; then
+  echo "⛔ Blocked private file in commit." >&2
+  exit 1
+fi
+
+python3 "$GATE/validate.py" || exit 1

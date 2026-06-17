@@ -23,6 +23,7 @@
     ".public-gate/validate.py",
     ".public-gate/verify-github.sh",
     "AGENTICO_ENTITY.json",
+    "AWAITING_APPROVAL.md",
     "CONTRIBUTING.md",
     "DISCLAIMER.md",
     "GATE_MANIFEST.json",

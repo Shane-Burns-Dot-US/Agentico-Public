@@ -1,6 +1,8 @@
-# Never publish gate or approval artifacts
-PUBLISH_APPROVED
-.private-*
+# Local drafts — proofread before copying to docs/
+private-drafts/
+
+# Gate approval token — never commit
+.public-gate/PUBLISH_APPROVED
 
 # Build artifacts
 __pycache__/
@@ -15,6 +17,5 @@ venv/
 .DS_Store
 Thumbs.db
 *.swp
-*.swo
 .idea/
 .vscode/

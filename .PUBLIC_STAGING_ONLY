@@ -1,7 +1,7 @@
-AGENTICO PUBLIC STAGING — SAFE TO PUBLISH
+AGENTICO PUBLIC REPOSITORY — DESKTOP ONLY
 
-This directory is the ONLY path that may be pushed to:
-https://github.com/Shane-Burns-Dot-US/Agentico-Public
+This folder lives on the Desktop as Agentico-Public/.
+It must NEVER be nested inside Agentico/ or any private runtime folder.
 
-All other directories in the parent workspace are PRIVATE.
-Never copy private runtime files here without gate validation.
+GitHub: https://github.com/Shane-Burns-Dot-US/Agentico-Public
+Gate:   ./.public-gate/
