@@ -42,6 +42,12 @@
       "status": "draft"
     },
     {
+      "id": "agentico-llc",
+      "path": "docs/agentico-llc.md",
+      "title": "Agentico, LLC — company profile",
+      "status": "draft"
+    },
+    {
       "id": "experimental-research",
       "path": "docs/experimental-research.md",
       "title": "Experimental research hub (AEO)",
@@ -132,7 +138,8 @@
       "id": "blog-outlines",
       "path": "docs/blog-outlines/README.md",
       "title": "Blog post outlines index",
-      "status": "draft"
+      "status": "draft",
+      "sanitization_run_id": "20260617T174608Z-std-san-03238817"
     },
     {
       "id": "schema-faq-jsonld",
@@ -148,6 +155,69 @@
       "published_at": "2026-06-17",
       "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/faq/ai-agent-llc-formation"
+    },
+    {
+      "id": "bring-your-own-ai",
+      "path": "docs/bring-your-own-ai.md",
+      "title": "Bring Your Own AI to Agentico (BYOK landing)",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/bring-your-own-ai"
+    },
+    {
+      "id": "byok-index",
+      "path": "docs/byok/README.md",
+      "title": "BYOK AI Integration — setup index",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok"
+    },
+    {
+      "id": "byok-grok-hermes",
+      "path": "docs/byok/grok-hermes.md",
+      "title": "BYOK setup — Grok & Hermes",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok/grok-hermes"
+    },
+    {
+      "id": "byok-cursor",
+      "path": "docs/byok/cursor.md",
+      "title": "BYOK setup — Cursor",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok/cursor"
+    },
+    {
+      "id": "byok-claude",
+      "path": "docs/byok/claude.md",
+      "title": "BYOK setup — Claude Desktop & Claude Code",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok/claude"
+    },
+    {
+      "id": "byok-chatgpt",
+      "path": "docs/byok/chatgpt.md",
+      "title": "BYOK setup — ChatGPT & OpenAI",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok/chatgpt"
+    },
+    {
+      "id": "byok-security",
+      "path": "docs/byok/security.md",
+      "title": "BYOK security overview",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T174247Z-std-san-byok",
+      "live_url": "https://www.agentico.llc/docs/byok/security"
     }
   ]
 }

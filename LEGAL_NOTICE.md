@@ -21,6 +21,7 @@
 |---------|-----|------------|
 | **Research (this repo)** | [GitHub Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) | Draft essays and disclosures only |
 | **Product experiment** | [https://agentico.llc](https://agentico.llc) | v0.1 MCP formation R&D — **Wyoming Series LLC series only**; illustrative templates; **not a law firm or bank** |
+| **Official X** | [@agentico_llc](https://x.com/agentico_llc) | Agentico, LLC — LLCs for AI Agents (joined June 2026) |
 
 Research may discuss U.S. entities broadly (corporations, LLCs, and related structures). The separate product experiment currently studies **Wyoming Series LLC** series workflows only. **Research conclusions do not describe product capabilities. Product behavior does not validate research as correct law.**
 

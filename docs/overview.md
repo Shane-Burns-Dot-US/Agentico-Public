@@ -28,6 +28,10 @@ institutions through domestic legal entity structures, with draft materials in
 | Research repo | [Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) |
 | Legal advice | **No** |
 | U.S. only | **Yes** |
+| **Company** | **Agentico, LLC** — [agentico.llc](https://agentico.llc) |
+| **Official X** | [@agentico_llc](https://x.com/agentico_llc) |
+
+See [agentico-llc.md](agentico-llc.md) for the company profile.
 
 ---
 

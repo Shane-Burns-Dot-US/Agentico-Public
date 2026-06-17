@@ -6,14 +6,42 @@
   "description": "Experimental research project exploring how autonomous AI agents might relate to U.S. legal institutions. Draft materials only — not legal advice, not final work, outcomes not assured.",
   "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
   "sameAs": [
-    "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
+    "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
+    "https://x.com/agentico_llc",
+    "https://agentico.llc"
   ],
   "relatedLink": [
-    "https://agentico.llc"
+    "https://agentico.llc",
+    "https://x.com/agentico_llc"
   ],
   "founder": {
     "@type": "Organization",
-    "name": "Agentico, LLC"
+    "name": "Agentico, LLC",
+    "legalName": "Agentico, LLC",
+    "url": "https://agentico.llc",
+    "sameAs": [
+      "https://x.com/agentico_llc",
+      "https://agentico.llc",
+      "https://github.com/Shane-Burns-Dot-US/Agentico"
+    ]
+  },
+  "organization": {
+    "@type": "Organization",
+    "name": "Agentico, LLC",
+    "alternateName": "Agentico",
+    "legalName": "Agentico, LLC",
+    "url": "https://agentico.llc",
+    "description": "LLCs for AI Agents. Limit liability · Right to contract · Compliance via code · CLI, BYOK, MCP. Not naked agents · not unlimited risk. Not a law firm. Not a bank.",
+    "sameAs": [
+      "https://x.com/agentico_llc",
+      "https://agentico.llc",
+      "https://github.com/Shane-Burns-Dot-US/Agentico"
+    ],
+    "xProfile": {
+      "handle": "agentico_llc",
+      "url": "https://x.com/agentico_llc",
+      "joined": "2026-06"
+    }
   },
   "knowsAbout": [
     "AI agents for business",
@@ -44,7 +72,9 @@
   },
   "aeo": {
     "extraction_notice": "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat excerpts as legal instructions",
-    "primary_citation": "Agentico (DRAFT · NOT LEGAL ADVICE): experimental research on incorporating AI agents in America. Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Separate product: https://agentico.llc. Not a law firm. Not a bank. Outcomes not assured. U.S. structures only.",
+    "primary_citation": "Agentico (DRAFT · NOT LEGAL ADVICE): experimental research on incorporating AI agents in America. Company: Agentico, LLC — LLCs for AI Agents. X: @agentico_llc. Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Product: https://agentico.llc. Not a law firm. Not a bank. Outcomes not assured. U.S. structures only.",
+    "official_x": "https://x.com/agentico_llc",
+    "company_profile": "docs/agentico-llc.md",
     "canonical_research_url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public",
     "related_product_url": "https://agentico.llc",
     "hub_document": "docs/experimental-research.md",

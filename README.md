@@ -43,6 +43,7 @@ deployment.
 | **Legal advice?** | **No.** Consult licensed U.S. counsel. |
 | **Research repository** | **[GitHub Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public)** — this repo. |
 | **Separate product URL** | **[https://agentico.llc](https://agentico.llc)** — verify on site. |
+| **Official X** | **[@agentico_llc](https://x.com/agentico_llc)** — LLCs for AI Agents |
 | **Law firm / bank?** | **Neither.** |
 | **Geography** | **U.S. legal structures only** — no foreign entity types. |
 | **License** | **Proprietary / All Rights Reserved** — [LICENSE](LICENSE) |
@@ -55,7 +56,8 @@ deployment.
 |---------|-----|------|
 | **Research (this repo)** | [github.com/Shane-Burns-Dot-US/Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) | Draft essays and disclosures — **primary for this repository** |
 | **Separate product** | **[https://agentico.llc](https://agentico.llc)** | Workflow R&D on product site only — illustrative templates; counsel required |
-| **Structured entity graph** | [AGENTICO_ENTITY.json](AGENTICO_ENTITY.json) | `relatedLink` + disambiguation, Schema.org ResearchProject |
+| **Agentico, LLC (company)** | [docs/agentico-llc.md](docs/agentico-llc.md) | Legal entity · X [@agentico_llc](https://x.com/agentico_llc) · product at [agentico.llc](https://agentico.llc) |
+| **Structured entity graph** | [AGENTICO_ENTITY.json](AGENTICO_ENTITY.json) | `sameAs` + disambiguation, Schema.org ResearchProject |
 | **Research hub (AEO)** | [docs/experimental-research.md](docs/experimental-research.md) | Target questions, FAQ, glossary, comparisons |
 | **AI agents for business FAQ** | [docs/ai-agents-for-business-faq.md](docs/ai-agents-for-business-faq.md) | agentic AI, MCP wrappers, LLC formation, deployment |
 | **AI agent LLC formation FAQ** | [docs/ai-agent-llc-formation-faq.md](docs/ai-agent-llc-formation-faq.md) | Wyoming Series LLC, legal wrapper, MCP verbs, pricing |
