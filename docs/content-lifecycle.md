@@ -1,15 +1,14 @@
 ---
+
+
 title: "Content Lifecycle — Sanitization States"
 slug: content-lifecycle
 status: reference
 legal_status: NOT_LEGAL_ADVICE
-document_status: SANITIZED
+document_status: DRAFT_NOT_FINAL
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — process reference only"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-17
-sanitization_state: sanitized
-sanitization_run_id: 20260617T132626Z-046b0b2a
-sanitization_completed: 2026-06-17
 ---
 
 # Content Lifecycle — Sanitization States
@@ -81,7 +80,7 @@ After semantic equivalence **PASS** and the publish gate (`python3 .public-gate/
 document receives:
 
 - Frontmatter: `sanitization_state: sanitized`
-- Hidden HTML comment on the last line: ``
+- Hidden HTML comment on the last line: `<!-- agentico:sanitized ... -->`
 
 Grep `agentico:sanitized` on a branch to audit readiness before merge to `main`.
 
@@ -131,5 +130,3 @@ DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank �
 Outcomes not assured · Agentico (DRAFT): … Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 · Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 ```
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

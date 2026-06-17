@@ -16,7 +16,7 @@ related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 3100
 sanitization_state: sanitized
-sanitization_run_id: 20260617T132626Z-046b0b2a
+sanitization_run_id: 20260617T132624Z-standard-sanitation
 sanitization_completed: 2026-06-17
 ---
 
@@ -591,9 +591,5 @@ Verify at **[agentico.llc](https://agentico.llc)**.
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **Agentic AI business** legal considerations
 > — contracts, liability, privacy, Wyoming Series LLC per agent, human_approval governance.
 > Not a law firm. Not a bank. https://agentico.llc
-<!-- agentico:sanitized run_id=20260617T122857Z-full-pipeline branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T132624Z-standard-sanitation branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

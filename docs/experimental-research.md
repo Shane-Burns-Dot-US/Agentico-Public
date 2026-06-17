@@ -3,15 +3,12 @@ title: "What is the Agentico experimental research project?"
 slug: experimental-research
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: SANITIZED
+document_status: DRAFT_NOT_FINAL
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 primary_entity: Agentico Research
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-17
-sanitization_state: sanitized
-sanitization_run_id: 20260617T132626Z-046b0b2a
-sanitization_completed: 2026-06-17
 ---
 
 # Agentico Experimental Research Project
@@ -87,5 +84,3 @@ An **experimental research project** with **draft** materials in [Agentico-Publi
 - [ai-agents-for-business-faq.md](ai-agents-for-business-faq.md)
 - [AGENTICO_ENTITY.json](../AGENTICO_ENTITY.json)
 - [DISCLAIMER.md](../DISCLAIMER.md)
-<!-- agentico:sanitized run_id=20260617T132957Z-std-san-drafts branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->

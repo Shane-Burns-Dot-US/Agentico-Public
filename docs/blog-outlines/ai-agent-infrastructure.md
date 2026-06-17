@@ -5,10 +5,6 @@ status: outline
 target_phrase: "AI agent infrastructure"
 estimated_length: "1,500–2,200 words"
 last_updated: 2026-06-16
-document_status: SANITIZED
-sanitization_state: sanitized
-sanitization_run_id: 20260617T132626Z-046b0b2a
-sanitization_completed: 2026-06-17
 ---
 
 # AI Agent Infrastructure: Build vs Buy in 2026
@@ -33,4 +29,3 @@ sanitization_completed: 2026-06-17
 
 - [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md)
 - [mcp-wrappers-for-business.md](mcp-wrappers-for-business.md)
-<!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
