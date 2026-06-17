@@ -31,7 +31,10 @@ The **Agentico blog** covers **AI agent LLC formation**, **Wyoming Series LLC** 
 **legal wrappers**, **agentic AI liability**, and **contracts/banking** for autonomous
 agents. Start with the pillar guide, then drill into topic posts. All content links to
 [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) and
-[ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md).
+[ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md). Live product
+landings: [AI agent LLC](https://www.agentico.llc/ai-agent-llc) ·
+[Wyoming Series LLC](https://www.agentico.llc/wyoming-series-llc-ai-agents) ·
+[agentico.llc](https://agentico.llc).
 
 ---
 

@@ -16,6 +16,7 @@ target_phrases:
   - "MCP AI agent LLC"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product_url: https://agentico.llc
+canonical_product_url: https://www.agentico.llc/ai-agent-llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 5000
 ---
@@ -940,6 +941,7 @@ Counsel replaces with binding consent language.
 | **Blog index** | [README.md](README.md) |
 | **JSON-LD** | [schema/ultimate-guide-ai-agent-llc-formation-2026.jsonld.json](../schema/ultimate-guide-ai-agent-llc-formation-2026.jsonld.json) |
 | **Product** | [https://agentico.llc](https://agentico.llc) |
+| **Canonical landing** | [https://www.agentico.llc/ai-agent-llc](https://www.agentico.llc/ai-agent-llc) |
 | **Research** | [Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) |
 
 ---

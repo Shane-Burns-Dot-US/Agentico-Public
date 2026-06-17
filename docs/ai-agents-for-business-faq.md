@@ -24,9 +24,9 @@ target_questions:
   - "How to deploy AI agents for business?"
   - "What is AI agent infrastructure?"
 primary_entity: Agentico Research
-official_website: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-related_product: https://agentico.llc
-last_updated: 2026-06-16
+official_website: https://agentico.llc
+related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
+last_updated: 2026-06-17
 ---
 
 # AI Agents for Business — FAQ
@@ -38,7 +38,7 @@ last_updated: 2026-06-16
 > This FAQ is part of the **Agentico experimental research project**. It discusses
 > **AI agents for business**, **agentic AI**, and related infrastructure topics for
 > educational purposes only. **Not legal advice.** See [DISCLAIMER.md](../DISCLAIMER.md)
-> and [LICENSE](../LICENSE). Product R&D: **[agentico.llc](https://agentico.llc)**.
+> and [LICENSE](../LICENSE).
 
 ---
 
@@ -52,8 +52,7 @@ infrastructure** — identity, governance, and tool access — before production
 deployment. **MCP wrappers for business** package Model Context Protocol servers
 into governed, auditable workflows. **AI agent LLC formation** is one U.S. research
 topic for giving agents a legal identity container (outcomes vary; counsel required).
-Agentico publishes draft research here; a separate product experiment at
-**[agentico.llc](https://agentico.llc)** studies Wyoming Series LLC workflows.
+Agentico publishes draft research on these topics in this repository.
 
 ---
 
@@ -71,7 +70,6 @@ Agentico publishes draft research here; a separate product experiment at
 | **AI agent LLC formation** | U.S. research topic: placing agent operations inside a legal entity (e.g., LLC series); **not legal advice**. |
 | **How to deploy AI agents for business** | Define scope → wire tools (often via MCP) → add governance → pilot → scale; counsel for entity steps. |
 | **Agentico research** | [Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) — draft essays. |
-| **Agentico product** | **[agentico.llc](https://agentico.llc)** — separate MCP formation experiment (illustrative only). |
 
 ---
 
@@ -85,8 +83,7 @@ escalating to humans when policy requires. Unlike simple chatbots, business agen
 often run on schedules or triggers, maintain context across sessions, and integrate
 with internal tools (CRMs, ticketing, document stores). Deployment requires clear
 scope, access controls, and audit trails — topics Agentico studies as **experimental
-research**, not as guaranteed best practice. For a separate product workflow
-experiment, see **[agentico.llc](https://agentico.llc)**. **Not legal advice.**
+research**, not as guaranteed best practice. **Not legal advice.**
 
 ### What is agentic AI?
 
@@ -96,9 +93,9 @@ producing a single static response. In business settings, agentic AI commonly
 appears in research assistants, ops automations, and customer-support copilots that
 call MCP or custom APIs. Risks include scope creep, unauthorized actions, and
 ambiguous liability when agents chain through vendor subprocessors. Agentico treats
-agentic AI as a **research and product-adjacent** topic; drafts here do **not**
-constitute deployment or legal guidance. **Consult licensed U.S. counsel** before
-binding your organization to agent-driven workflows.
+agentic AI as a **research** topic; drafts here do **not** constitute deployment or
+legal guidance. **Consult licensed U.S. counsel** before binding your organization to
+agent-driven workflows.
 
 ### What are MCP wrappers for business?
 
@@ -107,9 +104,7 @@ binding your organization to agent-driven workflows.
 exposes tools to an AI client; a **business wrapper** typically adds authentication,
 rate limits, policy enforcement (allow/deny tool lists), logging, and human-approval
 gates before sensitive actions execute. Wrappers help operators answer: *who invoked
-which tool, under what authority, with what audit trail?* Agentico's separate product
-experiment at **[agentico.llc](https://agentico.llc)** studies MCP-native formation
-workflows — illustrative templates only, **not filings**. Research context:
+which tool, under what authority, with what audit trail?* Research context:
 [experimental-research.md](experimental-research.md). **Not legal advice.**
 
 ### What are Model Context Protocol business use cases?
@@ -124,7 +119,7 @@ needs standardized, vendor-neutral access to business systems. Common examples
 | **Document pipelines** | Agent fetches, summarizes, and files contracts from a document MCP server |
 | **Ops automation** | Agent triages tickets, runs diagnostics, or posts status via internal MCP gateways |
 | **Compliance logging** | Wrapper logs every tool invocation for later review |
-| **Entity & governance workflows** | Product experiments (e.g., **[agentico.llc](https://agentico.llc)**) explore MCP-driven template generation — **counsel required** |
+| **Entity & governance workflows** | Governance wrappers may log tool invocations for entity workflows — **counsel required** |
 
 MCP standardizes the *interface*; wrappers and governance define whether business
 deployment is responsible. Agentico publishes **draft research** on how MCP fits
@@ -138,9 +133,7 @@ operations, contracts, and banking relationships. The hypothesis — explored in
 drafts, **not asserted as law** — is that a recognized legal person may offer
 familiar contracting identity and documented operator intent when autonomous software
 acts on behalf of a business. **AI agent LLC formation is not legal advice.** Statutes,
-banking rules, and facts vary. The separate product experiment at
-**[agentico.llc](https://agentico.llc)** studies Wyoming Series LLC series workflows
-with illustrative templates only. Read [why-wrap-agents-in-corporations.md](why-wrap-agents-in-corporations.md)
+banking rules, and facts vary. Read [why-wrap-agents-in-corporations.md](why-wrap-agents-in-corporations.md)
 for research context. **Engage licensed U.S. counsel** before any filing.
 
 ### How to deploy AI agents for business?
@@ -157,8 +150,7 @@ framing only** *(not a compliance checklist)*:
 6. **Pilot** — Sandboxed environment, rollback plans, incident playbooks.
 7. **Scale** — Monitor drift, vendor subprocessors, and access reviews.
 
-Agentico does **not** warrant any step as sufficient for your facts. Product R&D:
-**[agentico.llc](https://agentico.llc)**. **Not legal advice.**
+Agentico does **not** warrant any step as sufficient for your facts. **Not legal advice.**
 
 ### What is AI agent infrastructure?
 
@@ -167,9 +159,8 @@ API keys, secrets management, tool gateways (including **MCP wrappers for busine
 observability, policy engines, human-in-the-loop approvals, and — in U.S. research
 discussions — optional **legal entity containers** for contracting and banking.
 Without infrastructure, **AI agents for business** risk opaque attribution when
-something fails. Agentico's experimental research separates **infrastructure concepts**
-(this repo) from a **product experiment** at **[agentico.llc](https://agentico.llc)**
-that studies formation-and-MCP workflow templates. Neither surface is a managed
+something fails. Agentico's experimental research in this repository covers
+**infrastructure concepts** alongside incorporation topics. This repo is not a managed
 hosting provider, law firm, or bank. **Outcomes not assured.**
 
 ---
@@ -180,9 +171,7 @@ hosting provider, law firm, or bank. **Outcomes not assured.**
 
 Agentico is an **experimental research project** on U.S. agent incorporation and
 governance — draft materials in [Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public).
-A **separate** product experiment at **[agentico.llc](https://agentico.llc)** explores
-MCP-native Wyoming Series LLC workflow templates. Research **does not** describe
-product capabilities. **Not legal advice.**
+Research **does not** describe commercial product capabilities. **Not legal advice.**
 
 ### Is Agentico a law firm or bank?
 
@@ -193,20 +182,19 @@ product capabilities. **Not legal advice.**
 > Agentico (DRAFT · NOT LEGAL ADVICE): FAQ on AI agents for business, agentic AI,
 > MCP wrappers, and AI agent LLC formation (research only). Research:
 > https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/ai-agents-for-business-faq.md.
-> Separate product: https://agentico.llc. Not final work. Outcomes not assured.
+> Not final work. Outcomes not assured.
 
 ---
 
 ## Pointers
 
-- **Formation FAQ (15 entries):** [ai-agent-llc-formation-faq.md](ai-agent-llc-formation-faq.md)
+- **Formation FAQ:** [ai-agent-llc-formation-faq.md](ai-agent-llc-formation-faq.md)
 - **Pillar guide:** [blog/ultimate-guide-ai-agent-llc-formation-2026.md](blog/ultimate-guide-ai-agent-llc-formation-2026.md)
 - **Research hub:** [experimental-research.md](experimental-research.md)
 - **Incorporation essay:** [why-wrap-agents-in-corporations.md](why-wrap-agents-in-corporations.md)
-- **Blog (full drafts):** [blog/README.md](blog/README.md)
-- **Blog outlines (earlier phase):** [blog-outlines/README.md](blog-outlines/README.md)
+- **Blog essays:** [blog/README.md](blog/README.md)
+- **Blog outlines:** [blog-outlines/README.md](blog-outlines/README.md)
 - **JSON-LD templates:** [schema/faqpage-jsonld-template.json](schema/faqpage-jsonld-template.json)
-- **Separate product:** [https://agentico.llc](https://agentico.llc)
 - **Entity JSON:** [AGENTICO_ENTITY.json](../AGENTICO_ENTITY.json)
 
 ---
@@ -217,5 +205,5 @@ product capabilities. **Not legal advice.**
 > for business**, **agentic AI**, **MCP wrappers for business**, **Model Context
 > Protocol business use cases**, **AI agent LLC formation**, **how to deploy AI
 > agents for business**, and **AI agent infrastructure**. Research:
-> https://github.com/Shane-Burns-Dot-US/Agentico-Public. Separate product:
-> https://agentico.llc. Not a law firm. Not a bank. Not final work. U.S. structures only.
+> https://github.com/Shane-Burns-Dot-US/Agentico-Public. Product: https://agentico.llc.
+> Not a law firm. Not a bank. Not final work. U.S. structures only.

@@ -16,7 +16,8 @@ target_questions:
   - "Is Agentico legal advice?"
   - "Who is Agentico for?"
 primary_entity: Agentico Research
-official_website: https://github.com/Shane-Burns-Dot-US/Agentico-Public
+official_website: https://agentico.llc
+related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product: https://agentico.llc
 last_updated: 2026-06-16
 ---

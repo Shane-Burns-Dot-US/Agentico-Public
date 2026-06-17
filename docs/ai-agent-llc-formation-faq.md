@@ -470,6 +470,8 @@ Not a law firm. Not a bank. https://agentico.llc
 | **Multi-agent fleets** *(staged)* | [blog/multi-agent-fleets-wyoming-series-llcs.md](blog/multi-agent-fleets-wyoming-series-llcs.md) |
 | **JSON-LD** | [schema/ai-agent-llc-formation-faqpage.jsonld.json](schema/ai-agent-llc-formation-faqpage.jsonld.json) |
 | **Product** | [https://agentico.llc](https://agentico.llc) |
+| **AI agent LLC landing** | [https://www.agentico.llc/ai-agent-llc](https://www.agentico.llc/ai-agent-llc) |
+| **Wyoming Series LLC landing** | [https://www.agentico.llc/wyoming-series-llc-ai-agents](https://www.agentico.llc/wyoming-series-llc-ai-agents) |
 
 ---
 

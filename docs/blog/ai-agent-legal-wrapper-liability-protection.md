@@ -14,6 +14,7 @@ target_phrases:
   - "AI agent LLC"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product_url: https://agentico.llc
+canonical_product_url: https://www.agentico.llc/ai-agent-legal-wrapper
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2600
 ---
@@ -487,6 +488,8 @@ Verify at **[agentico.llc](https://agentico.llc)**.
 | **Pillar guide** | [ultimate-guide-ai-agent-llc-formation-2026.md](ultimate-guide-ai-agent-llc-formation-2026.md) |
 | **Contracts & banking** | [ai-agent-contracts-bank-account.md](ai-agent-contracts-bank-account.md) |
 | **JSON-LD** | [schema/ai-agent-legal-wrapper-liability-protection.jsonld.json](../schema/ai-agent-legal-wrapper-liability-protection.jsonld.json) |
+| **Canonical landing** | [https://www.agentico.llc/ai-agent-legal-wrapper](https://www.agentico.llc/ai-agent-legal-wrapper) |
+| **Product** | [https://agentico.llc](https://agentico.llc) |
 
 ---
 

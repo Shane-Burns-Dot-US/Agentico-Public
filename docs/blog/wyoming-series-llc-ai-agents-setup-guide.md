@@ -14,6 +14,7 @@ target_phrases:
   - "incorporate AI agent as LLC"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product_url: https://agentico.llc
+canonical_product_url: https://www.agentico.llc/wyoming-series-llc-ai-agents
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2800
 ---
@@ -548,6 +549,8 @@ Agentico: **$295** master + **$29/mo** per series. **Not a law firm. Not a bank.
 | **Pillar guide** | [ultimate-guide-ai-agent-llc-formation-2026.md](ultimate-guide-ai-agent-llc-formation-2026.md) |
 | **Blog index** | [README.md](README.md) |
 | **JSON-LD** | [schema/wyoming-series-llc-ai-agents-setup-guide.jsonld.json](../schema/wyoming-series-llc-ai-agents-setup-guide.jsonld.json) |
+| **Canonical landing** | [https://www.agentico.llc/wyoming-series-llc-ai-agents](https://www.agentico.llc/wyoming-series-llc-ai-agents) |
+| **Product** | [https://agentico.llc](https://agentico.llc) |
 
 ---
 
