@@ -31,9 +31,9 @@ word_count_target: 2800
 A **Wyoming Series LLC for AI agents** uses **one master LLC filing** with **multiple
 segregated series** — each series wraps one agent with its own **legal name** and
 **series segregation**. With Agentico, call master LLC formation then series formation
-via `counsel-reviewed formation workflow` (both require **human_approval**), review templates with counsel,
-file in Wyoming, obtain EIN, and open **customer-led** bank accounts per series.
-**
+via counsel-reviewed formation workflow (both require **human_approval**), review templates with counsel,
+file in Wyoming (state timelines vary), obtain EIN, and open **customer-led** bank accounts per series.
+**$295** master + **$29/mo** per series (verify on agentico.llc). Agentico is **not a law firm** and **not a bank**. **Not legal advice.**
 
 ---
 
@@ -429,7 +429,7 @@ contract recording patterns and customer-led account opening. Liability framing:
 
 **Can non-U.S. residents form?** Possible with U.S. structures; banking may be harder.
 
-**Does Agentico replace counsel?** **No.** **Not a law firm.**
+**Does Agentico replace counsel?** **No.** **Not a law firm. Not a bank.**
 
 ---
 
@@ -438,7 +438,7 @@ contract recording patterns and customer-led account opening. Liability framing:
 Setting up a **Wyoming Series LLC for AI agents** means one **master LLC formation**, counsel
 review, Wyoming filing, then **series formation** per production agent with
 **human_approval**. Maintain annual compliance, per-series books, and customer-led banking.
-Agentico: **
+Agentico: **$295** master + **$29/mo** per series (verify on agentico.llc). **Not a law firm. Not a bank. Not legal advice.**
 
 ---
 
@@ -460,4 +460,5 @@ Agentico: **
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **Wyoming Series LLC for AI agents** setup
 > via master LLC formation, series formation, filing, EIN, and customer-led banking.
->
+> $295 master + $29/mo per series (verify on agentico.llc). Not a law firm. Not a bank.
+> Outcomes not assured. https://github.com/Shane-Burns-Dot-US/Agentico-Public

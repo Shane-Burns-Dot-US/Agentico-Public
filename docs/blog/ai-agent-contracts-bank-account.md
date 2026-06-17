@@ -64,7 +64,7 @@ An **AI agent LLC** — specifically a **Wyoming Series LLC series** — gives e
 - A **distinct legal name** for contracts and invoices
 - **Limited liability segregation** from other agents and your personal assets
 - A **banking identity** banks can evaluate (with human signers)
-- **IP title** via assignment documents in the formation package
+- **IP title** via assignment documents in the illustrative counsel-reviewable formation package
 
 See [ai-agent-legal-wrapper-liability-protection.md](ai-agent-legal-wrapper-liability-protection.md)
 for the liability story and
@@ -265,7 +265,7 @@ Agentico for **agent-to-agent** lineage.
 2. **Data Processing Addendum**
 3. **API Terms** for agent-exposed endpoints
 4. **Inter-series SLA** between sibling agents (contract recording)
-5. **IP Assignment** (formation package baseline)
+5. **IP Assignment** (illustrative counsel-reviewable formation package baseline)
 
 ---
 

@@ -536,7 +536,7 @@ Store in your agent platform:
 | `master_id` | UUID from master LLC formation |
 
 When logs show an erroneous payment, trace to **series** for **bank** and **contract**
-lookup in minutes.
+lookup in your audit logs (typically minutes, separate from Wyoming SOS filing timelines).
 
 ---
 
@@ -590,13 +590,13 @@ Plan for:
 
 ### For finance
 
-> Revenue and bank accounts roll up per **series legal name**. Agentico costs: **
-> master + **
+> Revenue and bank accounts roll up per **series legal name**. Agentico costs: **$295**
+> master + **$29/mo** per active series (verify on agentico.llc). Filing and counsel are separate line items.
 
 ### For legal
 
 > Agentico supplies **illustrative** OA/Certificate/IP assignment. We **customer-file**
-> in Wyoming. Agentico is **not a law firm**. Review segregation and foreign qual.
+> in Wyoming. Agentico is **not a law firm** and **not a bank**. Review segregation and foreign qual.
 
 ### For sales
 
@@ -707,5 +707,6 @@ Counsel replaces with binding consent language.
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): Ultimate guide to **AI agent LLC formation**
 > in 2026 — Wyoming Series LLC, MCP verbs (master LLC formation, series formation,
-> contract recording, subsidiary series creation, series wind-down), human_approval, 
->
+> contract recording, subsidiary series creation, series wind-down), human_approval,
+> $295 master + $29/mo per series (verify on agentico.llc). Not a law firm. Not a bank.
+> Outcomes not assured. https://github.com/Shane-Burns-Dot-US/Agentico-Public

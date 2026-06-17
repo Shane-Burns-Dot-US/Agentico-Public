@@ -105,7 +105,7 @@ not replace compliance programs.
 ### Intellectual property
 
 Training data, outputs, and third-party licenses create **infringement** and **ownership**
-disputes. **IP assignment** in the formation package is a baseline; counsel tailors for
+disputes. **IP assignment** in the illustrative counsel-reviewable formation package is a baseline; counsel tailors for
 your stack.
 
 ### Regulatory overlays
@@ -164,7 +164,7 @@ Honest expectations beat marketing fluff.
 
 ## Governance layer: human_approval and kill switches
 
-Legal wrappers work best paired with **technical governance**:
+Legal wrappers are commonly discussed together with **technical governance**:
 
 1. **human_approval** on master LLC formation, series formation, contract recording,
    subsidiary series creation, series wind-down
@@ -410,4 +410,5 @@ Counsel may require **certificate cancellations**, **claim tail** provisions, an
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **AI agent legal wrapper** via Wyoming
 > Series LLC series; **agentic AI liability** mitigation through entity segregation,
-> governance, and human_approval. Not a law firm. https://github.com/Shane-Burns-Dot-US/Agentico-Public
+> governance, and human_approval. Not a law firm. Not a bank. Outcomes not assured.
+> https://github.com/Shane-Burns-Dot-US/Agentico-Public

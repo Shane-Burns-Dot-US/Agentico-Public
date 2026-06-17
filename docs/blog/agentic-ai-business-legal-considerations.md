@@ -182,7 +182,7 @@ When selling **agentic AI** B2B, buyers ask:
 - [ ] **Disaster recovery** and series wind-down plan
 - [ ] **Human overseer** contact for escalations
 
-Formation packages from Agentico accelerate **legal name** and **governance** answers.
+Illustrative counsel-reviewable formation packages from Agentico may help address **legal name** and **governance** questions.
 
 ---
 
@@ -436,7 +436,7 @@ law firm** and **not a bank**. **
 
 ## FAQ (business legal)
 
-**Do small businesses need agent LLCs?** When agents contract or handle customer risk — often yes.
+**Do small businesses need agent LLCs?** When agents contract or handle customer risk — counsel often recommends entity structure; facts vary.
 
 **How is this different from AI agents for business FAQ?** That FAQ is umbrella deployment; this post is legal considerations.
 

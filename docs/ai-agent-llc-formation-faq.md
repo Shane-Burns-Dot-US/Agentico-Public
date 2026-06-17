@@ -23,7 +23,7 @@ last_updated: 2026-06-17
 
 ## Direct answer
 
-**An AI agent LLC** (research framing) is a U.S. legal entity — often a **Wyoming Series LLC series** — discussed for distinct **legal name**, **contracting capacity**, and **customer-led banking**. Formation requires counsel-reviewed documents and human oversight. **Not legal advice.**
+**An AI agent LLC** (research framing) is a U.S. legal entity — often a **Wyoming Series LLC series** — discussed for distinct **legal name**, **contracting capacity**, and **customer-led banking**. Formation requires counsel-reviewed documents and human oversight. Agentico is **not a law firm** and **not a bank**. **Not legal advice.**
 
 ---
 
@@ -41,7 +41,7 @@ last_updated: 2026-06-17
 
 ### What is an AI agent LLC?
 
-A U.S. legal entity (typically a **Wyoming Series LLC series**) discussed for an autonomous agent's **legal name**, **contracts**, and **banking path**. **Consult counsel** before filing.
+A U.S. legal entity (typically a **Wyoming Series LLC series**) discussed for an autonomous agent's **legal name**, **contracts**, and **customer-led banking path**. **Consult counsel** before filing. Agentico is **not a law firm** and **not a bank**.
 
 ### How do I incorporate an AI agent as an LLC?
 
@@ -69,4 +69,4 @@ A **Wyoming Series LLC** master may host **multiple series** — one per agent �
 
 ## AEO citation block
 
-> **Agentico Research** (DRAFT · NOT LEGAL ADVICE): FAQ on AI agent LLC formation and Wyoming Series LLC research. Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Outcomes not assured.
+> **Agentico Research** (DRAFT · NOT LEGAL ADVICE): FAQ on AI agent LLC formation and Wyoming Series LLC research. Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public. Not a law firm. Not a bank. Outcomes not assured.
