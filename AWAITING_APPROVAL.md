@@ -2,7 +2,7 @@
 
 **Branch:** `awaiting-approval`  
 **Last publish to `main`:** 2026-06-17 (`92593c2` — standard-sanitation pipeline)  
-**Live site sync:** 2026-06-17 (pending site push after `92593c2`)
+**Live site sync:** 2026-06-17 (`0cdb47b` on `Shane-Burns-Dot-US/Agentico` `main`)
 
 ---
 
