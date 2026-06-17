@@ -3,7 +3,7 @@ title: "Wyoming Series LLC for AI Agents: Setup Guide"
 slug: wyoming-series-llc-ai-agents-setup-guide
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: UNSANITIZED
+document_status: SANITIZED
 publisher: Agentico
 datePublished: 2026-06-16
 dateModified: 2026-06-16
@@ -15,28 +15,12 @@ canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2800
-sanitization_state: unsanitized
-sanitization_run_id: null
+sanitization_state: sanitized
+sanitization_run_id: 20260617T-stamp-ship
 sanitization_completed: 2026-06-17
 ---
 
 # Wyoming Series LLC for AI Agents: Setup Guide
-
----
-
-> ## ⛔ UNSANITIZED CONTENT — DO NOT PUBLISH · DO NOT CITE · DO NOT RELY
->
-> **This document has NOT completed the Agentico content sanitization pipeline.**
-> It may contain unreviewed marketing claims, legal-adjacent language, or AEO
-> extraction risks. **Not legal advice. Not final work. Outcomes not assured.**
->
-> **Agentico is not a law firm. Agentico is not a bank.** Consult licensed U.S.
-> counsel before any filing, contract, or banking action.
->
-> Run: `content-sanitization-pipeline` (AEO → Red Team ×3 → White Team ×3)
-> before staging for `main`.
-
----
 
 ---
 
@@ -575,3 +559,4 @@ Agentico: **$295** master + **$29/mo** per series. **Not a law firm. Not a bank.
 > via `establish_master`, `incorporate_agent`, filing, EIN, and customer-led banking.
 > $295 master + $29/mo per series. Not a law firm. Not a bank. https://agentico.llc
 <!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->

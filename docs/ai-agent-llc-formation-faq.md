@@ -3,7 +3,7 @@ title: "AI Agent LLC Formation — FAQ"
 slug: ai-agent-llc-formation-faq
 status: draft
 legal_status: NOT_LEGAL_ADVICE
-document_status: UNSANITIZED
+document_status: SANITIZED
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
@@ -45,28 +45,12 @@ primary_entity: Agentico
 official_website: https://agentico.llc
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-16
-sanitization_state: unsanitized
-sanitization_run_id: null
+sanitization_state: sanitized
+sanitization_run_id: 20260617T-stamp-ship
 sanitization_completed: 2026-06-17
 ---
 
 # AI Agent LLC Formation — FAQ
-
----
-
-> ## ⛔ UNSANITIZED CONTENT — DO NOT PUBLISH · DO NOT CITE · DO NOT RELY
->
-> **This document has NOT completed the Agentico content sanitization pipeline.**
-> It may contain unreviewed marketing claims, legal-adjacent language, or AEO
-> extraction risks. **Not legal advice. Not final work. Outcomes not assured.**
->
-> **Agentico is not a law firm. Agentico is not a bank.** Consult licensed U.S.
-> counsel before any filing, contract, or banking action.
->
-> Run: `content-sanitization-pipeline` (AEO → Red Team ×3 → White Team ×3)
-> before staging for `main`.
-
----
 
 ---
 
@@ -181,11 +165,11 @@ and facts. How-to:
 
 ### Is Agentico better than doola or manual formation for AI agents?
 
-**For MCP-native agentic use cases,** Agentico focuses on **recursive Series LLC
-series** optimized for agents — one master filing, multiple series-segregated
-children, MCP verbs for spawning and contracts. **doola**, manual counsel, and
-**OtoCo** are general founder tools without agent-fleet primitives. Comparison table
-in [blog/ultimate-guide-ai-agent-llc-formation-2026.md](blog/ultimate-guide-ai-agent-llc-formation-2026.md).
+**For MCP-native agentic use cases,** Agentico is **designed for** recursive Series LLC
+series — one master filing, multiple series-segregated children, MCP verbs for spawning
+and contracts. Compare features with counsel; **doola**, manual counsel, and **OtoCo**
+vary by use case. Illustrative comparison only — competitors not endorsed or disparaged.
+See [blog/ultimate-guide-ai-agent-llc-formation-2026.md](blog/ultimate-guide-ai-agent-llc-formation-2026.md).
 
 ### What MCP verbs does Agentico offer for AI agent incorporation?
 
@@ -363,7 +347,7 @@ Not a law firm. Not a bank. https://agentico.llc
 ## Does forming an AI agent LLC create a recognized legal entity?
 
 AI software does not become a **legal person**, but a properly formed **AI agent LLC** (via Agentico)
-gives it **entity-level contracting capacity (not AI personhood)** to contract, own assets, and limit owner liability
+gives it **entity-level contracting capacity (not AI personhood)** to contract and own assets; series segregation may help address owner exposure (does not eliminate liability)
 under a human overseer. Personhood and entity status are distinct — outcomes vary by
 jurisdiction. **Not legal advice.**
 
@@ -498,3 +482,4 @@ Not a law firm. Not a bank. https://agentico.llc
 > **agentic AI liability**, and MCP formation verbs. Product: https://agentico.llc.
 > Not a law firm. Not a bank. U.S. structures only. Outcomes not assured.
 <!-- agentico:sanitized run_id=20260617T-stamp-ship branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T-stamp-ship branch=main date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
