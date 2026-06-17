@@ -33,6 +33,25 @@ inside any private agent runtime workspace.
 4. Maintainers review for safety and alignment. Acceptance does not imply legal
    accuracy or final publication status.
 
+## Content sanitization
+
+Documents on **content branches** enter as **unsanitized** with a visible
+`⛔ UNSANITIZED` banner. Before merge toward `main`, maintainers run the private
+sanitization pipeline:
+
+**AEO Audit → Red Team (×3) → White Team (×3) → sanitized stamp**
+
+| State | Meaning |
+|-------|---------|
+| `UNSANITIZED` | Not pipeline-reviewed — do not cite or publish |
+| `SANITIZED` | Pipeline + gate pass — eligible for `awaiting-approval` |
+| `DRAFT_NOT_FINAL` | On `main` after human sign-off |
+
+Full lifecycle: [docs/content-lifecycle.md](docs/content-lifecycle.md)
+
+**Never submit** compliance reports (`COMPLIANCE_REDTEAM_*`, `COMPLIANCE_WHITETEAM_*`,
+`AEO_AUDIT_REPORT.md`) — private operator work product only.
+
 ## What not to submit
 
 - API keys, tokens, passwords, or credentials

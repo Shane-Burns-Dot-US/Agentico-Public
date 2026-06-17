@@ -136,12 +136,18 @@
     "LITIGATOR_REGULATOR_LONGTAIL.md",
     "LITIGATOR_FINDINGS.md",
     "RED_TEAM_FINDINGS.md",
-    "COURT_OPINION.md"
+    "COURT_OPINION.md",
+    "COMPLIANCE_REDTEAM_REPORT.md",
+    "COMPLIANCE_WHITETEAM_REPORT.md",
+    "AEO_AUDIT_REPORT.md"
   ],
   "blocked_publish_filename_globs": [
     "LITIGATOR_*",
     "*_RED_TEAM_*",
-    "OPINION_OF_THE_COURT*"
+    "OPINION_OF_THE_COURT*",
+    "COMPLIANCE_*_SCAN.json",
+    "COMPLIANCE_REDTEAM_*",
+    "COMPLIANCE_WHITETEAM_*"
   ],
   "publish_pieces_catalog": ".public-gate/publish-pieces.json",
   "publish_process_paths": [

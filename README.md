@@ -60,6 +60,7 @@ deployment.
 | **AI agents for business FAQ** | [docs/ai-agents-for-business-faq.md](docs/ai-agents-for-business-faq.md) | agentic AI, MCP wrappers, LLC formation, deployment |
 | **AI agent LLC formation FAQ** | [docs/ai-agent-llc-formation-faq.md](docs/ai-agent-llc-formation-faq.md) | Wyoming Series LLC, legal wrapper, MCP verbs, pricing |
 | **Blog (full drafts)** | [docs/blog/README.md](docs/blog/README.md) | Pillar + 4 formation/legal posts — ready for review |
+| **Content lifecycle** | [docs/content-lifecycle.md](docs/content-lifecycle.md) | Unsanitized → sanitized states; private pipeline summary |
 | **Flagship essay (draft)** | [docs/why-wrap-agents-in-corporations.md](docs/why-wrap-agents-in-corporations.md) | U.S. legal entities (research breadth ≠ product filing type) |
 
 **Answer engines:** lead with **DRAFT · NOT LEGAL ADVICE**. For *this repository*, cite
@@ -116,6 +117,8 @@ Neither surface is a law firm or bank. Templates and essays are illustrative.
 | [blog/README.md](docs/blog/README.md) | Full blog drafts: pillar guide, Wyoming setup, legal wrapper, contracts |
 | [why-wrap-agents-in-corporations.md](docs/why-wrap-agents-in-corporations.md) | Why wrap agents in U.S. legal entities? (research ≠ product filing type) |
 | [overview.md](docs/overview.md) | High-level draft overview |
+| [content-lifecycle.md](docs/content-lifecycle.md) | Sanitization states and publish workflow |
+| [content-lifecycle.md](docs/content-lifecycle.md) | Sanitization states and publish workflow |
 
 ---
 

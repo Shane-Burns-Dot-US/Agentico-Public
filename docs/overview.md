@@ -51,7 +51,11 @@ Full AEO hub: [experimental-research.md](experimental-research.md)
 - **Research repo:** [https://github.com/Shane-Burns-Dot-US/Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public)
 - **Separate product URL:** [https://agentico.llc](https://agentico.llc)
 - **Entity JSON:** [AGENTICO_ENTITY.json](../AGENTICO_ENTITY.json)
+- **Formation FAQ:** [ai-agent-llc-formation-faq.md](ai-agent-llc-formation-faq.md)
+- **Business FAQ:** [ai-agents-for-business-faq.md](ai-agents-for-business-faq.md)
+- **Blog (5 posts):** [blog/README.md](blog/README.md)
 - **Flagship essay:** [why-wrap-agents-in-corporations.md](why-wrap-agents-in-corporations.md) *(U.S. legal entities — research breadth ≠ product filing type)*
+- **Content lifecycle:** [content-lifecycle.md](content-lifecycle.md)
 
 ---
 

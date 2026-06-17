@@ -2,7 +2,7 @@
 
 **Branch:** `awaiting-approval`  
 **Target:** merge into `main` after explicit human sign-off  
-**Not live on GitHub `main` until approved and merged.**
+**Published to `main` 2026-06-17 — see links below.**
 
 ---
 
@@ -10,9 +10,13 @@
 
 This branch holds **all content and gate updates** that are staging-complete but **not yet approved** for the public mainstream (`main` / `origin/main`).
 
+- **Sanitization pipeline** (private) → AEO Audit → Red Team ×3 → White Team ×3  
 - **Red team** → adversarial review (`COMPLIANCE_REDTEAM_REPORT` in private export)  
 - **White team** → remediations applied; **CHECK-13 gate passes**  
+- **Sanitized stamp** → `document_status: SANITIZED` + hidden `agentico:sanitized` tag  
 - **Human approval** → you read pieces, run `approve-publish.sh`, then merge here → `main`
+
+Lifecycle reference: [docs/content-lifecycle.md](docs/content-lifecycle.md)
 
 ---
 
