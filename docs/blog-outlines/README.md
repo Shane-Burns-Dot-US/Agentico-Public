@@ -5,7 +5,7 @@ legal_status: NOT_LEGAL_ADVICE
 last_updated: 2026-06-16
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_run_id: 20260617T174608Z-std-san-03238817
 sanitization_completed: 2026-06-17
 ---
 
@@ -20,12 +20,12 @@ sanitization_completed: 2026-06-17
 
 | Outline | Target phrase | File |
 |---------|---------------|------|
-| MCP Wrappers for Business | MCP wrappers for business | [mcp-wrappers-for-business.md](mcp-wrappers-for-business.md) |
-| MCP Business Use Cases | Model Context Protocol business use cases | [mcp-business-use-cases.md](mcp-business-use-cases.md) |
+| MCP Wrappers for Business | MCP wrappers for business | ✅ [Full draft](../blog/mcp-wrappers-for-business.md) · [outline](mcp-wrappers-for-business.md) |
+| MCP Business Use Cases | Model Context Protocol business use cases | ✅ [Full draft](../blog/mcp-business-use-cases.md) · [outline](mcp-business-use-cases.md) |
 | Deploy AI Agents | how to deploy AI agents for business | [how-to-deploy-ai-agents.md](how-to-deploy-ai-agents.md) |
 | Agentic AI vs Automation | agentic AI | [agentic-ai-vs-automation.md](agentic-ai-vs-automation.md) |
 | AI Agent Infrastructure | AI agent infrastructure | [ai-agent-infrastructure.md](ai-agent-infrastructure.md) |
 
 **FAQs:** [Umbrella](../ai-agents-for-business-faq.md) · [Formation](../ai-agent-llc-formation-faq.md)
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

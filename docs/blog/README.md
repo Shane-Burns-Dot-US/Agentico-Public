@@ -8,7 +8,7 @@ publisher: Agentico
 last_updated: 2026-06-16
 staged_posts_locked_until: 2026-07-21
 sanitization_state: sanitized
-sanitization_run_id: 20260617T132852Z-591b3133
+sanitization_run_id: 20260617T174608Z-std-san-03238817
 sanitization_completed: 2026-06-17
 ---
 
@@ -94,9 +94,16 @@ All require **human_approval**. Agentico is **not a law firm** and **not a bank*
 
 ---
 
-## Umbrella track (separate — not formation posts)
+## Umbrella track (MCP / infrastructure)
 
-Outlines for MCP/deploy/infrastructure pillars: [blog-outlines/README.md](../blog-outlines/README.md)
+| Post | Slug | Status |
+|------|------|--------|
+| MCP Wrappers for Business | `mcp-wrappers-for-business` | draft |
+| Model Context Protocol Business Use Cases | `mcp-business-use-cases` | draft |
+
+MCP server setup guides: [mcp-servers/README.md](../mcp-servers/README.md)
+
+Remaining outlines: [blog-outlines/README.md](../blog-outlines/README.md)
 
 ## Related resources
 
@@ -119,4 +126,4 @@ Research repo: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 Product: https://agentico.llc
 ```
 <!-- agentico:sanitized run_id=20260617T132626Z-046b0b2a branch=main date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam>aeo>redteam×3>whiteteam×3>semantic-equiv -->
-<!-- agentico:sanitized run_id=20260617T132852Z-591b3133 branch=awaiting-approval date=2026-06-17 pipeline=aeo>redteam×3>whiteteam×3>semantic-equiv -->
+<!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
