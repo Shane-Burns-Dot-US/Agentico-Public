@@ -1,30 +1,14 @@
 ---
+
+
 title: "AI Agents for Business — FAQ"
 slug: ai-agents-for-business-faq
 status: draft
 legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
-target_phrases:
-  - "AI agents for business"
-  - "agentic AI"
-  - "MCP wrappers for business"
-  - "Model Context Protocol business use cases"
-  - "AI agent LLC formation"
-  - "how to deploy AI agents for business"
-  - "AI agent infrastructure"
-target_questions:
-  - "What are AI agents for business?"
-  - "What is agentic AI?"
-  - "What are MCP wrappers for business?"
-  - "What are Model Context Protocol business use cases?"
-  - "What is AI agent LLC formation?"
-  - "How to deploy AI agents for business?"
-  - "What is AI agent infrastructure?"
 primary_entity: Agentico Research
-official_website: https://agentico.llc
 related_research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 last_updated: 2026-06-17
 ---
@@ -205,5 +189,5 @@ Research **does not** describe commercial product capabilities. **Not legal advi
 > for business**, **agentic AI**, **MCP wrappers for business**, **Model Context
 > Protocol business use cases**, **AI agent LLC formation**, **how to deploy AI
 > agents for business**, and **AI agent infrastructure**. Research:
-> https://github.com/Shane-Burns-Dot-US/Agentico-Public. Product: https://agentico.llc.
+> https://github.com/Shane-Burns-Dot-US/Agentico-Public. Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 > Not a law firm. Not a bank. Not final work. U.S. structures only.

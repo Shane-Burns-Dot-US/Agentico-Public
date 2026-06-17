@@ -1,4 +1,6 @@
 ---
+
+
 title: "Blog Outlines — Umbrella Track"
 status: outline
 legal_status: NOT_LEGAL_ADVICE

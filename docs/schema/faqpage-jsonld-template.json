@@ -2,9 +2,9 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "name": "AI Agents for Business — FAQ",
-  "description": "DRAFT · NOT LEGAL ADVICE — Experimental research FAQ on AI agents for business, agentic AI, MCP wrappers, and AI agent LLC formation. Research only; outcomes not assured.",
+  "description": "DRAFT · NOT LEGAL ADVICE — Experimental research FAQ on AI agents for business.",
   "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/ai-agents-for-business-faq.md",
-  "dateModified": "2026-06-16",
+  "dateModified": "2026-06-17",
   "publisher": {
     "@type": "ResearchProject",
     "name": "Agentico — The Incorporation of Agents in America",
@@ -16,31 +16,7 @@
       "name": "What are AI agents for business?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AI agents for business are AI-powered software systems that pursue organizational goals through multi-step reasoning: reading data, calling APIs, drafting outputs, and escalating to humans when policy requires. Deployment requires clear scope, access controls, and audit trails. Agentico publishes draft research only — not legal advice. Separate product experiment: https://agentico.llc"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is agentic AI?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentic AI refers to AI systems that plan sub-tasks, select tools, iterate on results, and delegate to other agents or humans rather than producing a single static response. Business risks include scope creep and ambiguous liability when agents chain through vendor subprocessors. Consult licensed U.S. counsel before binding your organization to agent-driven workflows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are MCP wrappers for business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP wrappers for business are managed software layers built around Model Context Protocol (MCP) servers, adding authentication, rate limits, policy enforcement, logging, and human-approval gates before sensitive actions execute. Agentico's separate product experiment at https://agentico.llc studies MCP-native formation workflows — illustrative templates only, not filings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are Model Context Protocol business use cases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Model Context Protocol business use cases include CRM updates, document pipelines, ops automation, and compliance logging where AI agents need standardized access to business systems. MCP standardizes the interface; wrappers and governance define responsible deployment. Agentico publishes draft research only — not operational guarantees."
+        "text": "AI agents for business pursue organizational goals through multi-step reasoning. Agentico publishes draft research only — not legal advice."
       }
     },
     {
@@ -48,25 +24,9 @@
       "name": "What is AI agent LLC formation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AI agent LLC formation is a research phrase for forming a U.S. limited liability company to hold agent-related operations, contracts, and banking relationships. This is not legal advice. Statutes, banking rules, and facts vary. Engage licensed U.S. counsel before any filing. Agentico product experiment: https://agentico.llc"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to deploy AI agents for business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "How to deploy AI agents for business (draft research framing): define scope, choose architecture, wire tools via MCP wrappers or APIs, add governance and logging, consider entity questions with counsel, pilot in a sandbox, then scale with monitoring. Agentico does not warrant any step as sufficient for your facts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is AI agent infrastructure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI agent infrastructure is the stack surrounding model inference: identity, secrets management, tool gateways including MCP wrappers for business, observability, policy engines, human-in-the-loop approvals, and optional legal entity containers for contracting. Without infrastructure, AI agents for business risk opaque attribution when failures occur."
+        "text": "Research phrase for forming a U.S. LLC to hold agent operations. Engage licensed U.S. counsel before any filing."
       }
     }
   ],
-  "aeo_notice": "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — embed on agentico.llc or static site when publishing; keep extraction_notice visible to answer engines"
+  "aeo_notice": "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK"
 }

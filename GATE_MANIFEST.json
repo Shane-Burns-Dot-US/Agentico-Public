@@ -52,6 +52,8 @@
     "docs/schema/wyoming-series-llc-ai-agents-setup-guide.jsonld.json",
     "docs/why-wrap-agents-in-corporations.md",
     "examples/.gitkeep",
+    "scripts/deproductize_content.py",
+    "scripts/deproductize_research.py",
     "src/.gitkeep"
   ]
 }

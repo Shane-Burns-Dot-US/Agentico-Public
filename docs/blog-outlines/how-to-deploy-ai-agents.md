@@ -1,4 +1,6 @@
 ---
+
+
 title: "How to Deploy AI Agents for Business (Outline)"
 slug: how-to-deploy-ai-agents
 status: outline
@@ -30,7 +32,7 @@ Seven-step numbered summary in opening block (scope → scale).
 7. **Step 6: Legal and entity questions** — AI agent LLC formation as counsel topic; link essay.
 8. **Step 7: Pilot, measure, scale** — metrics; drift monitoring.
 9. **Common failures** — scope creep, missing audit trail, unclear attribution.
-10. **Agentico pointers** — research repo vs. agentico.llc product experiment.
+10. **Agentico pointers** — research repo vs.  product experiment.
 
 ## Internal links
 

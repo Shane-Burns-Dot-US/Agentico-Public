@@ -1,4 +1,6 @@
 ---
+
+
 title: "Agentic AI vs Traditional Automation (Outline)"
 slug: agentic-ai-vs-automation
 status: outline

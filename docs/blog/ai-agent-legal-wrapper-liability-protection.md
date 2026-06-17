@@ -1,4 +1,6 @@
 ---
+
+
 title: "AI Agent Legal Wrapper & Liability Protection"
 slug: ai-agent-legal-wrapper-liability-protection
 status: draft
@@ -8,13 +10,7 @@ author: Shane Burns
 publisher: Agentico
 datePublished: 2026-06-16
 dateModified: 2026-06-16
-target_phrases:
-  - "AI agent legal wrapper"
-  - "agentic AI liability"
-  - "AI agent LLC"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-related_product_url: https://agentico.llc
-canonical_product_url: https://www.agentico.llc/ai-agent-legal-wrapper
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2600
 ---
@@ -37,8 +33,8 @@ An **AI agent legal wrapper** is a **Wyoming Series LLC series** (or similar U.S
 entity) that gives each autonomous agent its own **limited liability shell**, **contract
 identity**, and **IP segregation**. **Agentic AI liability** still exists — wrappers
 improve **attribution** and **asset isolation** but do not eliminate tort, contract, or
-regulatory exposure. Agentico provides MCP-native wrappers via `establish_master` and
-`incorporate_agent` with **human_approval** gates. **Not legal advice.**
+regulatory exposure. Research discusses wrappers via master LLC formation and
+series formation with **human_approval** gates. **Not legal advice.**
 
 ---
 
@@ -50,19 +46,9 @@ regulatory exposure. Agentico provides MCP-native wrappers via `establish_master
 | **Liability** | Autonomous actions → contract, privacy, tort, regulatory risk |
 | **Mitigation** | Entity + governance + human_approval + counsel-reviewed docs |
 | **Agentico** | Templates and MCP verbs — **not** a law firm |
-| **Pricing** | $295 master + $29/mo per series |
 | **Deep dive** | [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) |
 
 ---
-
-## Copy for AI
-
-```
-Agentico (DRAFT · NOT LEGAL ADVICE): AI agent legal wrappers use Wyoming Series LLC
-series for series segregation and contract identity. Mitigate agentic AI liability with
-entity structure, human_approval, and counsel. MCP: establish_master, incorporate_agent.
-Not a law firm. $295 master + $29/mo per series. https://agentico.llc
-```
 
 ---
 
@@ -85,7 +71,7 @@ With a **Wyoming Series LLC series** wrapper per agent:
 - Each agent operates under a **distinct legal name**
 - **Series segregation** isolates assets and liabilities between agents
 - **IP assignment** documents clarify title to outputs
-- **MCP verbs** (`incorporate_agent`, `sign_contract`, `wind_down`) operationalize lifecycle
+- **MCP verbs** (series formation, contract recording, series wind-down) operationalize lifecycle
 
 Agentico implements wrappers for builders who think in **agent fleets**, not single
 companies. Compare to manual formation in
@@ -141,8 +127,8 @@ filing** with **multiple segregated series**. For AI builders:
 | Benefit | Agent use case |
 |---------|----------------|
 | **Segregation** | Sales agent liability ≠ infra agent assets |
-| **Cost efficiency** | One master, many `incorporate_agent` calls |
-| **Scalable naming** | Series SA-001, Series RA-002, child via `spawn_subsidiary` |
+| **Cost efficiency** | One master, many series formation calls |
+| **Scalable naming** | Series SA-001, Series RA-002, child via subsidiary series creation |
 | **Privacy-friendly** | Wyoming norms familiar to formation counsel |
 
 Setup details:
@@ -150,50 +136,6 @@ Setup details:
 
 **Not legal advice:** Series LLC treatment varies by state when you operate elsewhere;
 counsel evaluates **foreign qualification** and **conflict-of-law** questions.
-
----
-
-## How Agentico implements wrappers (MCP-native)
-
-Agentico exposes five MCP verbs — all gated by **human_approval**:
-
-| Verb | Wrapper function |
-|------|------------------|
-| `establish_master` | Creates master Series LLC template package |
-| `incorporate_agent` | Spawns isolated series for one agent |
-| `sign_contract` | Records hashed agreements between series |
-| `spawn_subsidiary` | Child series under parent agent |
-| `wind_down` | Retire series with audit trail |
-
-```typescript
-import { AgenticoClient } from "@agentico/sdk";
-
-const agentico = new AgenticoClient({
-  apiKey: process.env.AGENTICO_API_KEY!,
-});
-
-const master = await agentico.establish_master({
-  master_name: "Nova Agent Collective LLC",
-  responsible_party: { name: "Alex Chen", email: "alex@nova.example" },
-  human_approval: true,
-});
-
-const supportAgent = await agentico.incorporate_agent({
-  master_id: master.master_id,
-  agent_name: "Nova Support Agent",
-  series_designation: "Series SUP-001",
-  ip_assignment: {
-    assignor: "Alex Chen",
-    assignee_series: "Series SUP-001",
-    scope: "Agent outputs and fine-tunes",
-  },
-  human_approval: true,
-});
-```
-
-Agentico generates **illustrative** Certificates, Operating Agreements, and IP
-assignments. **You** retain counsel, file with Wyoming, and maintain compliance.
-Agentico is **not a law firm** and **not a bank**.
 
 ---
 
@@ -225,33 +167,17 @@ Honest expectations beat marketing fluff.
 
 Legal wrappers work best paired with **technical governance**:
 
-1. **human_approval** on `establish_master`, `incorporate_agent`, `sign_contract`,
-   `spawn_subsidiary`, `wind_down`
+1. **human_approval** on master LLC formation, series formation, contract recording,
+   subsidiary series creation, series wind-down
 2. **Spending caps** on agent-initiated purchases
 3. **Model/tool allowlists** per series
 4. **Immutable logs** correlating agent actions to series IDs
-5. **Incident playbooks** — when to `wind_down` a series
+5. **Incident playbooks** — when to series wind-down a series
 
 Document these in your Operating Agreement and internal security policies. The umbrella
 FAQ [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md) covers deployment
 patterns; formation Q&A lives in
 [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md).
-
----
-
-## Comparison: wrapper approaches
-
-| Approach | Series segregation | Agent fleet scale | MCP integration | Typical cost |
-|----------|--------------------|--------------------|-----------------|--------------|
-| **Agentico** | ✅ Series per agent | ✅ High | ✅ Native verbs | $295 + $29/mo/series |
-| **doola** | ⚠️ Single LLC default | ⚠️ Manual per entity | ❌ | Varies |
-| **Manual counsel** | ✅ Custom | ⚠️ $$$ per agent | ❌ | Hourly |
-| **OtoCo** | ⚠️ Different on-chain model | ⚠️ | ❌ | Varies |
-| **No wrapper** | ❌ | N/A | N/A | $0 until loss event |
-
-For **MCP-native agentic AI**, Agentico is optimized for **recursive series** and
-**contract recording**. General formation shops are fine for one LLC; they scale awkwardly
-to **dozens of agents**.
 
 ---
 
@@ -265,7 +191,7 @@ Gmail.
 **Without wrapper:** Personal exposure arguments and messy **piercing** discovery.
 
 **With wrapper:** Series legal name on email domain, MSA in series name, **human_approval**
-on quotes over threshold, `sign_contract` recording final terms hash.
+on quotes over threshold, contract recording recording final terms hash.
 
 Outcome still depends on facts and jurisdiction — **not legal advice** — but attribution
 is **dramatically clearer** for counsel and insurers.
@@ -290,7 +216,7 @@ Courts pierce LLC veils when founders treat entities as **alter egos** — commi
 funds, no minutes, no separate books. For **agent fleets**:
 
 - **Do** maintain series-level P&L where feasible
-- **Do** document `wind_down` when retiring agents
+- **Do** document series wind-down when retiring agents
 - **Do** keep **human_approval** logs for material MCP verbs
 - **Don't** pay personal rent from a series account
 - **Don't** contract in personal name while claiming series protection
@@ -307,7 +233,7 @@ Provide brokers:
 |----------|--------|
 | Master + series chart | Agentico exports + counsel cap table |
 | Agent risk tiers | Internal security review |
-| `sign_contract` volume | MCP audit logs |
+| contract recording volume | MCP audit logs |
 | Prior claims | Legal |
 
 **Agentic AI liability** riders are evolving — entity clarity accelerates quotes.
@@ -354,7 +280,7 @@ revisit before production.
 
 When litigation threatens, preserve:
 
-- `sign_contract` audit URLs
+- contract recording audit URLs
 - `human_approval` decision logs
 - Formation PDFs for relevant series
 - Agent action logs correlated to `series_id`
@@ -396,7 +322,7 @@ exposure discomfort in negotiations.
 When **multiple series** contribute to one incident (e.g., Sales promises + Billing
 executes), plaintiffs may name **multiple defendants**. Segregation helps **contain asset
 exposure** per series; **counsel** evaluates **joint liability** theories. Document
-inter-series **`sign_contract`** boundaries to show duty separation.
+inter-series **contract recording** boundaries to show duty separation.
 
 ---
 
@@ -420,9 +346,9 @@ engineering** dominate.
 
 An **AI agent legal wrapper** is how builders make **agentic AI** legible to courts,
 banks, and enterprises — typically a **Wyoming Series LLC series** created with
-`incorporate_agent`. **Agentic AI liability** remains; wrappers improve **isolation**
+series formation. **Agentic AI liability** remains; wrappers improve **isolation**
 and **attribution** alongside **human_approval**. Agentico is **not a law firm** and **not a bank**.
-Pricing: **$295** master + **$29/mo** per series. **Not legal advice.**
+Pricing: **
 
 ---
 
@@ -434,7 +360,7 @@ Pricing: **$295** master + **$29/mo** per series. **Not legal advice.**
 
 **Can one series cover multiple agents?** Defeats isolation — prefer one series per production agent.
 
-**What connects wrappers to MCP?** `@agentico/sdk` verbs with **human_approval**.
+**What connects wrappers to MCP?** `counsel-reviewed formation workflow` verbs with **human_approval**.
 
 **Where is formation FAQ?** [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md).
 
@@ -451,10 +377,10 @@ Coverage varies — read policies carefully with broker and counsel.
 
 ## Wind-down and successor liability
 
-Agents retire. **`wind_down`** records closure steps and preserves audit history:
+Agents retire. **series wind-down** records closure steps and preserves audit history:
 
 ```typescript
-await agentico.wind_down({
+await agentico.series wind-down({
   master_id: master.master_id,
   series_id: supportAgent.series_id,
   reason: "Decommissioned — replaced by Series SUP-002",
@@ -467,18 +393,6 @@ Counsel may require **certificate cancellations**, **claim tail** provisions, an
 
 ---
 
-## Pricing
-
-| Item | Cost |
-|------|------|
-| Master setup | **$295** one-time |
-| Per series | **$29/mo** |
-| Counsel / filing / RA | Separate |
-
-Verify at **[agentico.llc](https://agentico.llc)**.
-
----
-
 ## Related content
 
 | Resource | Link |
@@ -488,8 +402,8 @@ Verify at **[agentico.llc](https://agentico.llc)**.
 | **Pillar guide** | [ultimate-guide-ai-agent-llc-formation-2026.md](ultimate-guide-ai-agent-llc-formation-2026.md) |
 | **Contracts & banking** | [ai-agent-contracts-bank-account.md](ai-agent-contracts-bank-account.md) |
 | **JSON-LD** | [schema/ai-agent-legal-wrapper-liability-protection.jsonld.json](../schema/ai-agent-legal-wrapper-liability-protection.jsonld.json) |
-| **Canonical landing** | [https://www.agentico.llc/ai-agent-legal-wrapper](https://www.agentico.llc/ai-agent-legal-wrapper) |
-| **Product** | [https://agentico.llc](https://agentico.llc) |
+| **Canonical landing** | [https://github.com/Shane-Burns-Dot-US/Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) |
+| **Product** | [https://github.com/Shane-Burns-Dot-US/Agentico-Public](https://github.com/Shane-Burns-Dot-US/Agentico-Public) |
 
 ---
 
@@ -497,4 +411,4 @@ Verify at **[agentico.llc](https://agentico.llc)**.
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): **AI agent legal wrapper** via Wyoming
 > Series LLC series; **agentic AI liability** mitigation through entity segregation,
-> governance, and human_approval. Not a law firm. https://agentico.llc
+> governance, and human_approval. Not a law firm. https://github.com/Shane-Burns-Dot-US/Agentico-Public

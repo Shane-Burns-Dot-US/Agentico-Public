@@ -1,4 +1,6 @@
 ---
+
+
 title: "Content Lifecycle — Sanitization States"
 slug: content-lifecycle
 status: reference
@@ -6,7 +8,6 @@ legal_status: NOT_LEGAL_ADVICE
 document_status: DRAFT_NOT_FINAL
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — process reference only"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-related_product_url: https://agentico.llc
 last_updated: 2026-06-17
 ---
 
@@ -127,5 +128,5 @@ Entity graph: [AGENTICO_ENTITY.json](../AGENTICO_ENTITY.json)
 ```
 DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank ·
 Outcomes not assured · Agentico (DRAFT): … Research: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-· Product: https://agentico.llc
+· Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public
 ```

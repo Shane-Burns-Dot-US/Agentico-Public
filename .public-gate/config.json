@@ -8,7 +8,9 @@
   "gate_dir": ".public-gate",
   "public_staging_marker": ".PUBLIC_STAGING_ONLY",
   "min_gate_checks_required": 10,
-  "local_only_dirs": ["private-drafts"],
+  "local_only_dirs": [
+    "private-drafts"
+  ],
   "blocked_filenames": [
     ".env",
     ".env.local",
@@ -76,23 +78,24 @@
   ],
   "allowed_top_level_in_staging": [
     ".PUBLIC_STAGING_ONLY",
-    ".public-gate",
     ".gitignore",
-    "README.md",
-    "LICENSE",
+    ".public-gate",
+    "AGENTICO_ENTITY.json",
+    "AWAITING_APPROVAL.md",
+    "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "DISCLAIMER.md",
-    "LEGAL_NOTICE.md",
-    "CODE_OF_CONDUCT.md",
-    "docs",
-    "src",
-    "assets",
-    "examples",
-    "AGENTICO_ENTITY.json",
     "GATE_MANIFEST.json",
     "GITHUB_REPO.json",
-    "AWAITING_APPROVAL.md",
-    "private-drafts"
+    "LEGAL_NOTICE.md",
+    "LICENSE",
+    "README.md",
+    "assets",
+    "docs",
+    "examples",
+    "private-drafts",
+    "scripts",
+    "src"
   ],
   "marketing_scan_globs": [
     "README.md",

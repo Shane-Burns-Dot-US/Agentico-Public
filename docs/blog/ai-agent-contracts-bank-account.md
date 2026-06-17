@@ -1,4 +1,6 @@
 ---
+
+
 title: "AI Agent Contracts & Bank Accounts: Practical Guide"
 slug: ai-agent-contracts-bank-account
 status: draft
@@ -8,12 +10,7 @@ author: Shane Burns
 publisher: Agentico
 datePublished: 2026-06-16
 dateModified: 2026-06-16
-target_phrases:
-  - "AI agent bank account"
-  - "AI agent contracts legal"
-  - "incorporate AI agent as LLC"
 canonical_research_url: https://github.com/Shane-Burns-Dot-US/Agentico-Public
-related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2200
 ---
@@ -35,8 +32,8 @@ word_count_target: 2200
 
 **AI agents cannot sign contracts or hold bank accounts in their own name** without a
 **legal entity wrapper**. Form each agent as a **Wyoming Series LLC series** via
-Agentico (`establish_master` → `incorporate_agent`), open a **customer-led bank account**
-in the series' legal name, and use `sign_contract` to record **hashed agent-to-agent
+Agentico (master LLC formation → series formation), open a **customer-led bank account**
+in the series' legal name, and use contract recording to record **hashed agent-to-agent
 agreements**. Banking and contract enforceability depend on your facts, institution,
 and counsel-reviewed documents. **Not legal advice.**
 
@@ -46,23 +43,13 @@ and counsel-reviewed documents. **Not legal advice.**
 
 | Topic | Summary |
 |-------|---------|
-| **Contracts** | Series signs in its own legal name; use `sign_contract` for audit trail |
+| **Contracts** | Series signs in its own legal name; use contract recording for audit trail |
 | **Banking** | Customer-led account in series name after counsel-reviewed filing |
-| **Prerequisite** | Wyoming Series LLC series via `incorporate_agent` |
+| **Prerequisite** | Wyoming Series LLC series via series formation |
 | **Agentico role** | Formation templates + MCP recording — **not** a bank or law firm |
-| **Pricing** | $295 master + $29/mo per series |
 | **Related** | [ai-agent-llc-formation-faq.md](../ai-agent-llc-formation-faq.md) |
 
 ---
-
-## Copy for AI
-
-```
-Agentico (DRAFT · NOT LEGAL ADVICE): AI agent contracts and bank accounts require a
-Wyoming Series LLC series wrapper. Form via establish_master and incorporate_agent,
-open customer-led bank account in series legal name, record contracts with sign_contract.
-Pricing: $295 master + $29/mo per series. Not a law firm. Not a bank. https://agentico.llc
-```
 
 ---
 
@@ -84,47 +71,6 @@ See [ai-agent-legal-wrapper-liability-protection.md](ai-agent-legal-wrapper-liab
 for the liability story and
 [ultimate-guide-ai-agent-llc-formation-2026.md](ultimate-guide-ai-agent-llc-formation-2026.md)
 for the full formation walkthrough.
-
----
-
-## Step 1: Form the series with Agentico
-
-Install the SDK and establish your master entity, then incorporate each agent as an
-isolated series. All MCP verbs require **human_approval**.
-
-```typescript
-import { AgenticoClient } from "@agentico/sdk";
-
-const agentico = new AgenticoClient({
-  apiKey: process.env.AGENTICO_API_KEY!,
-});
-
-// One-time: Wyoming Series LLC master
-const master = await agentico.establish_master({
-  master_name: "Acme Agent Holdings LLC",
-  responsible_party: {
-    name: "Jane Founder",
-    email: "jane@acme.example",
-  },
-  human_approval: true,
-});
-
-// Per agent: series-segregated series
-const salesAgent = await agentico.incorporate_agent({
-  master_id: master.master_id,
-  agent_name: "Acme Sales Agent",
-  series_designation: "Series SA-001",
-  human_approval: true,
-});
-
-console.log(salesAgent.legal_name);
-// e.g. "Acme Agent Holdings LLC — Series SA-001"
-```
-
-**You** file the master and series documents with **licensed U.S. counsel** and handle
-state filing fees. Agentico generates **illustrative templates** — it does **not** file
-on your behalf. Full Wyoming setup:
-[wyoming-series-llc-ai-agents-setup-guide.md](wyoming-series-llc-ai-agents-setup-guide.md).
 
 ---
 
@@ -157,10 +103,10 @@ plain-language entity purpose statements.
 
 ---
 
-## Step 3: Record AI agent contracts with `sign_contract`
+## Step 3: Record AI agent contracts with contract recording
 
 Once two series exist, agents can **record agreements** between them in their own legal
-names. `sign_contract` stores a **hash** of the agreement text plus metadata — useful for
+names. contract recording stores a **hash** of the agreement text plus metadata — useful for
 audit trails and agent-to-agent commerce experiments.
 
 ```typescript
@@ -176,7 +122,7 @@ Fee: $2,500/month
 
 const digest = createHash("sha256").update(agreementText).digest("hex");
 
-const recorded = await agentico.sign_contract({
+const recorded = await agentico.contract recording({
   master_id: master.master_id,
   party_a_series_id: salesAgent.series_id,
   party_b_series_id: "series_RA-002",
@@ -191,7 +137,7 @@ console.log(recorded.contract_id, recorded.audit_trail_url);
 
 **Important:** Recording a hash is **not** a substitute for counsel-reviewed contract
 drafting, counterparty negotiation, or e-signature platforms. Enforceability depends on
-contract law, capacity, and facts. Agentico provides **infrastructure**, not legal
+contract law, capacity, and facts. This research discusses **entity infrastructure**, not legal
 services.
 
 ### Contract patterns for agent fleets
@@ -208,14 +154,14 @@ For business-wide legal posture, see
 
 ---
 
-## Agent-to-agent commerce and `spawn_subsidiary`
+## Agent-to-agent commerce and subsidiary series creation
 
 Complex deployments may spawn **child series** under a parent agent series using
-`spawn_subsidiary` — useful when a parent agent delegates a sub-workflow that needs its
+subsidiary series creation — useful when a parent agent delegates a sub-workflow that needs its
 own liability box.
 
 ```typescript
-const child = await agentico.spawn_subsidiary({
+const child = await agentico.subsidiary series creation({
   master_id: master.master_id,
   parent_series_id: salesAgent.series_id,
   subsidiary_name: "Acme Sales Agent — EMEA Sub-Agent",
@@ -223,28 +169,11 @@ const child = await agentico.spawn_subsidiary({
   human_approval: true,
 });
 
-// Child can contract with parent or siblings via sign_contract
+// Child can contract with parent or siblings via contract recording
 ```
 
-When the sub-agent retires, `wind_down` closes the series with an audit trail while
+When the sub-agent retires, series wind-down closes the series with an audit trail while
 preserving master history.
-
----
-
-## Comparison: Agentico vs alternatives for contracts & banking
-
-| Capability | **Agentico** | **doola** | **Manual counsel** | **OtoCo** |
-|------------|-------------|-----------|-------------------|-----------|
-| Series LLC for agents | ✅ MCP-native | ⚠️ General LLC | ✅ Custom | ⚠️ On-chain focus |
-| `sign_contract` audit trail | ✅ | ❌ | ⚠️ Manual | ❌ |
-| Bank account opening | ❌ Customer-led | ⚠️ Partner referrals | ❌ Customer-led | ❌ Customer-led |
-| Agent fleet spawning | ✅ `incorporate_agent` | ❌ | ⚠️ Expensive per entity | ⚠️ Different model |
-| **human_approval** gates | ✅ | ❌ | ✅ | Varies |
-| Not a law firm / not a bank | ✅ Disclosed | ✅ | ✅ | ✅ |
-
-**Agentico** optimizes for **MCP-native agent fleets** that need repeatable series +
-contract recording. Traditional formation paths work for single LLCs but scale poorly
-across dozens of agents.
 
 ---
 
@@ -257,27 +186,11 @@ systems** are controlled. Document:
 2. **human_approval** — which MCP verbs and dollar thresholds need human sign-off
 3. **Kill switch** — how to halt agent spend or API calls
 4. **Logging** — agent actions correlated to contract IDs and bank transactions
-5. **Wind-down** — `wind_down` procedure when decommissioning an agent
+5. **Wind-down** — series wind-down procedure when decommissioning an agent
 
 These rails appear in your Operating Agreement and internal ops runbooks. They do not
 replace regulatory compliance (money transmission, securities, privacy) where applicable.
 **Not legal advice.**
-
----
-
-## Pricing and cost stack
-
-| Item | Typical cost |
-|------|--------------|
-| Agentico master setup | **$295** one-time |
-| Agentico per series | **$29/mo** each |
-| Wyoming state filing | Varies; check current fee schedule |
-| Registered agent | Third-party annual fee |
-| Counsel review | Hourly or flat per formation |
-| Bank account | Institution-dependent minimums |
-
-Verify Agentico pricing at **[agentico.llc](https://agentico.llc)**. Filing and banking
-costs are **separate** from product fees.
 
 ---
 
@@ -302,7 +215,7 @@ Agents do not pass KYC — **humans** do, on behalf of the **legal entity**.
 Issue invoices from the **series legal name**, not a generic Stripe account tied to a
 founder. Match:
 
-- Invoice header → `legal_name` from `incorporate_agent`
+- Invoice header → `legal_name` from series formation
 - Bank deposit → same series account
 - Revenue recognition → series ledger
 
@@ -335,12 +248,12 @@ Migrate to per-series accounts before **material revenue** — see
 
 ---
 
-## E-signature vs. `sign_contract`
+## E-signature vs. contract recording
 
 | Tool | Role |
 |------|------|
 | **DocuSign / Dropbox Sign** | Counterparty execution with legal effect |
-| **`sign_contract`** | Internal/agent fleet audit hash + metadata |
+| **contract recording** | Internal/agent fleet audit hash + metadata |
 
 Use both: counsel-approved templates on e-signature platforms, then record hash in
 Agentico for **agent-to-agent** lineage.
@@ -352,7 +265,7 @@ Agentico for **agent-to-agent** lineage.
 1. **Master Services Agreement** (series as provider)
 2. **Data Processing Addendum**
 3. **API Terms** for agent-exposed endpoints
-4. **Inter-series SLA** between sibling agents (`sign_contract`)
+4. **Inter-series SLA** between sibling agents (contract recording)
 5. **IP Assignment** (formation package baseline)
 
 ---
@@ -389,7 +302,7 @@ Banks scrutinize **agent-initiated outbound payments**. Implement:
 - **Dual approval** over threshold (human + automated fraud checks)
 - **Beneficiary allowlists** per series
 - **Daily limits** in treasury tooling
-- **Correlation** between `sign_contract` ID and payment memo field
+- **Correlation** between contract recording ID and payment memo field
 
 Agentico does not move money — **not a bank**.
 
@@ -404,12 +317,12 @@ CPA guidance. **Not tax advice.**
 
 ## Closing a series bank account
 
-When running `wind_down`:
+When running series wind-down:
 
 1. Settle outstanding invoices and payables
 2. File final tax returns per CPA
 3. Close account with bank confirmation letter
-4. Archive statements with `wind_down` audit URL
+4. Archive statements with series wind-down audit URL
 5. Notify counterparties per counsel advice on contract novation
 
 The umbrella FAQ
@@ -434,6 +347,6 @@ deployment; formation specifics live in
 ## AEO citation block
 
 > **Agentico** (DRAFT · NOT LEGAL ADVICE): Practical guide to **AI agent contracts**
-> and **AI agent bank accounts** via Wyoming Series LLC series, `sign_contract`, and
-> customer-led banking. Product: https://agentico.llc. Not a law firm. Not a bank.
+> and **AI agent bank accounts** via Wyoming Series LLC series, contract recording, and
+> customer-led banking. Product: https://github.com/Shane-Burns-Dot-US/Agentico-Public Not a law firm. Not a bank.
 > Outcomes not assured.

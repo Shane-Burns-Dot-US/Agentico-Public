@@ -1,4 +1,6 @@
 ---
+
+
 title: "Model Context Protocol Business Use Cases (Outline)"
 slug: mcp-business-use-cases
 status: outline
@@ -26,7 +28,7 @@ List top 3 use cases in first 60 words: CRM, documents, ops automation.
 3. **Use case: Document and contract pipelines** — ingest, summarize, route for human sign-off.
 4. **Use case: Internal ops and IT** — ticket triage, runbooks, status posts.
 5. **Use case: Compliance and audit** — immutable tool-invocation logs.
-6. **Use case: Entity and governance workflows** — Agentico product experiment (agentico.llc); counsel required.
+6. **Use case: Entity and governance workflows** — Agentico product experiment (); counsel required.
 7. **Comparison table** — MCP vs. bespoke integrations vs. RPA.
 8. **Risks** — over-permissioned tools, subprocessors, data residency.
 9. **Getting started** — pilot scope; link to deploy outline.

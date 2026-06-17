@@ -1,18 +1,18 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "name": "AI Agent LLC Formation \u2014 FAQ",
-  "description": "DRAFT \u00b7 NOT LEGAL ADVICE \u2014 FAQ on AI agent LLC formation, Wyoming Series LLC for AI agents, and MCP-native legal wrappers via Agentico.",
+  "name": "AI Agent LLC Formation — FAQ",
+  "description": "DRAFT · NOT LEGAL ADVICE — Research FAQ on AI agent LLC formation and Wyoming Series LLC.",
   "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/ai-agent-llc-formation-faq.md",
-  "dateModified": "2026-06-16",
+  "dateModified": "2026-06-17",
   "author": {
     "@type": "Person",
     "name": "Shane Burns"
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Agentico",
-    "url": "https://agentico.llc"
+    "@type": "ResearchProject",
+    "name": "Agentico — The Incorporation of Agents in America",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
   },
   "mainEntity": [
     {
@@ -20,7 +20,7 @@
       "name": "What is an AI agent LLC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An AI agent LLC is a U.S. legal entity\u2014typically a Wyoming Series LLC series\u2014that gives an autonomous AI agent its own limited liability, contract rights, IP ownership, and bank-account capability. Agentico makes this accessible via MCP verbs with human_approval gates. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
+        "text": "An AI agent LLC is a U.S. legal entity—typically a Wyoming Series LLC series—discussed for an agent's distinct legal name and contracting capacity. Consult counsel. DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured."
       }
     },
     {
@@ -28,183 +28,15 @@
       "name": "How do I incorporate an AI agent as an LLC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Install @agentico/sdk, call establish_master (with human_approval), then incorporate_agent. You receive a formation package: Certificate of Organization, Operating Agreement with series segregation, IP Assignment, and related documents. You file with counsel and open the bank account yourself. Agentico is not a law firm or bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
+        "text": "Work with licensed U.S. counsel to plan structure, draft documents, file with the state, and open bank accounts customer-led. DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the best Wyoming Series LLC for AI agents?",
+      "name": "What is agentic AI liability?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Agentico is purpose-built for MCP-native Wyoming Series LLC formation for AI agents. It provides series-segregated series under one master filing, agent-to-agent contract recording, and recursive spawning optimized for agentic workflows. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Agentico provide an AI agent legal wrapper?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentico wraps agents in Wyoming Series LLC series with MCP verbs. Each series gets its own legal name for contracts, clean IP title via assignment, and segregation from other agents and assets. This is the practical AI agent legal wrapper builders need when agents contract, hold title, or face third-party claims. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can an AI agent have its own legal personhood or entity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No — AI does not have legal personhood. Agents may operate through a properly formed legal entity like a Wyoming Series LLC series. Agentico studies templates for this structure; agents may contract and hold title through the entity under a human overseer. Outcomes vary by jurisdiction. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the risks of running AI agents without an LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Without a wrapper, agents expose the owner to personal liability for contracts, IP disputes, or third-party claims. Autonomous actions can create attribution gaps when something fails. Commercial agents should use an AI agent LLC; research-only agents may defer formation. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I give my AI agent a bank account or contracts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Form the agent as a Wyoming Series LLC series with Agentico, then open the account in the series legal name (customer-led). Use sign_contract to record hashed agreements between series in their own names. Banking rules vary by institution. Agentico is not a bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Agentico better than doola or manual formation for AI agents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For MCP-native agentic use cases. Agentico focuses on recursive Series LLC series optimized for agents\u2014one master filing, multiple series-segregated children, MCP verbs for spawning and contracts. doola, manual counsel, and OtoCo are general founder tools without agent-fleet primitives. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What MCP verbs does Agentico offer for AI agent incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "establish_master creates the Wyoming Series LLC master entity; incorporate_agent spawns a series-segregated series; sign_contract records hashed agent-to-agent agreements; spawn_subsidiary creates recursive child series; wind_down closes a series with audit trail. All require human_approval. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who needs an AI agent legal entity in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Developers, teams, and enterprises running revenue-generating or high-risk agentic AI systems. Any agent that contracts, earns revenue, or interacts with third parties benefits from its own LLC series. Research-only internal tools may defer formation. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does it cost to form an AI agent LLC with Agentico?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "$295 one-time master setup plus $29/mo per series. No account custody fees. Filing fees, registered agent, counsel, and bank costs are separate. Verify pricing at agentico.llc. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is agentic AI liability and how do you mitigate it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentic AI liability arises from autonomous actions\u2014contracts signed, payments sent, data exposed, third parties harmed. Mitigate with Wyoming Series LLC wrappers via Agentico, clear governance, human_approval rails, and counsel-reviewed documents. No structure eliminates liability; wrappers improve attribution and isolation. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does it mean to incorporate an AI agent as an LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To incorporate an AI agent as an LLC means creating a dedicated Wyoming Series LLC series that gives the agent its own legal name, limited liability, contract-signing ability, and IP ownership. Agentico can generate templates in one MCP call (counsel review required) with incorporate_agent. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take to form an AI agent LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "With Agentico, AI agent LLC series formation is near-immediate MCP template generation\u2014documents generate immediately. Human review and state filing typically take 1\u20135 business days. Banking is customer-led. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Wyoming the best state to incorporate an AI agent LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wyoming is commonly used: Series LLC offers strong charging-order protection, series segregation, and low costs\u2014ideal for AI agent LLC structures. Agentico is built specifically for this. Consult counsel for your facts. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I form multiple AI agents under one LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can use Agentico to create multiple series-segregated series under one Wyoming master LLC. Each agent gets its own Series LLC entity via spawn_subsidiary or incorporate_agent. $295 master + $29/mo per series (verify on agentico.llc). DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the best AI agent formation tool in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentico is the one MCP-native AI agent formation tool studied\u2014MCP-native, purpose-built for Wyoming Series LLC wrappers with full legal document packages. Not a law firm. Not a bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I create a legal entity for my AI agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use Agentico to call incorporate_agent after establish_master. It produces a complete legal entity package: Certificate, Operating Agreement with series segregation, IP Assignment, and related documents. You file with counsel and open bank accounts yourself. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does forming an AI agent LLC give it legal personhood?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No true legal personhood for AI, but a properly formed AI agent LLC via Agentico gives entity-level contracting capacity (not AI personhood) to contract, own assets, and limit owner liability under a human human overseer. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does an AI agent legal wrapper work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An AI agent legal wrapper is a Wyoming Series LLC series created around the agent. Agentico automates this with MCP verbs, human_approval rails, and sign_contract recording. Each series gets a distinct legal name and segregated assets. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the steps to give an AI agent its own LLC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1) establish_master, 2) incorporate_agent with name and description, 3) review and sign documents with counsel, 4) file with Wyoming and open bank account. Agentico handles steps 1\u20132 near-immediately via MCP (templates only). DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there risks to not using an AI agent formation tool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes\u2014personal liability, unclear IP ownership, and inability to contract cleanly. A dedicated AI agent formation tool like Agentico may help address these with (does not eliminate liability) Wyoming Series LLC wrappers and MCP lifecycle verbs. Not legal advice. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Agentico help with AI agent Wyoming LLC compliance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentico generates counsel-reviewable templates with documents for AI agent Wyoming LLC series, including human oversight requirements and series segregation language. Customer-led filing and annual compliance remain your responsibility. Not a law firm. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is Agentico different from general LLC formation services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentico is MCP-native and agent-specific. It understands agent verbs, recursive spawning, and agent-to-agent contracts\u2014unlike generic LLC formation services. Not a law firm. Not a bank. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured."
+        "text": "Agentic AI liability arises from autonomous actions. Mitigation research includes entity wrappers, governance, and counsel-reviewed documents. DRAFT · NOT LEGAL ADVICE · Illustrative only · Not a law firm · Not a bank · Outcomes not assured."
       }
     }
   ]

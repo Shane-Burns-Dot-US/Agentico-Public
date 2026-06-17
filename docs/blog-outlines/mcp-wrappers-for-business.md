@@ -1,4 +1,6 @@
 ---
+
+
 title: "MCP Wrappers for Business: A Practical Guide (Outline)"
 slug: mcp-wrappers-for-business
 status: outline
@@ -27,7 +29,7 @@ Define MCP vs. wrapper in 40–60 words. State that wrappers add auth, policy, a
 4. **Architecture pattern** — diagram: Client → Wrapper → MCP Server → SaaS API.
 5. **Policy layers** — tool allowlists, spend caps, PII redaction hooks.
 6. **Human-in-the-loop** — approval gates before irreversible actions.
-7. **Agentico research angle** — separate product at agentico.llc studies formation + MCP; not legal advice.
+7. **Agentico research angle** — separate product at  studies formation + MCP; not legal advice.
 8. **Checklist before production** — 8–10 bullets (draft framing only).
 9. **FAQ pull-through** — link to [ai-agents-for-business-faq.md](../ai-agents-for-business-faq.md#what-are-mcp-wrappers-for-business).
 

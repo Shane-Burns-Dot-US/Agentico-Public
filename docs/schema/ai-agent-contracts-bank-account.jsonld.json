@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "AI Agent Contracts & Bank Accounts: Practical Guide",
-  "description": "DRAFT \u00b7 NOT LEGAL ADVICE \u2014 How to give AI agents contract capability and bank accounts via Wyoming Series LLC series, sign_contract, and customer-led banking with Agentico. DRAFT \u00b7 NOT LEGAL ADVICE \u00b7 Illustrative templates only \u00b7 Not a law firm \u00b7 Not a bank \u00b7 Outcomes not assured.",
+  "description": "DRAFT · NOT LEGAL ADVICE — How to give AI agents contract capability and bank accounts via Wyoming Series LLC series, contract recording, and customer-led banking with Agentico. DRAFT · NOT LEGAL ADVICE · Illustrative templates only · Not a law firm · Not a bank · Outcomes not assured.",
   "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ai-agent-contracts-bank-account.md",
   "datePublished": "2026-06-16",
   "dateModified": "2026-06-16",
@@ -11,15 +11,15 @@
     "name": "Shane Burns"
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Agentico",
-    "url": "https://agentico.llc"
+    "@type": "ResearchProject",
+    "name": "Agentico — The Incorporation of Agents in America",
+    "url": "https://github.com/Shane-Burns-Dot-US/Agentico-Public"
   },
   "keywords": [
     "AI agent bank account",
     "AI agent contracts legal",
     "Wyoming Series LLC",
-    "sign_contract",
+    "contract recording",
     "agentic AI"
   ],
   "about": {
