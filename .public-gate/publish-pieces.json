@@ -71,7 +71,7 @@
       "title": "AI agent LLC formation FAQ (AEO)",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/faq/ai-agent-llc-formation"
     },
     {
@@ -80,7 +80,7 @@
       "title": "Blog full drafts index",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/docs/blog-index"
     },
     {
@@ -89,7 +89,7 @@
       "title": "Pillar: Ultimate Guide to AI Agent LLC Formation 2026",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/blog/ultimate-guide-ai-agent-llc-formation-2026"
     },
     {
@@ -98,7 +98,7 @@
       "title": "Wyoming Series LLC for AI Agents setup guide",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/blog/wyoming-series-llc-ai-agents-setup-guide"
     },
     {
@@ -107,7 +107,7 @@
       "title": "AI agent legal wrapper liability guide",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/blog/ai-agent-legal-wrapper-liability-protection"
     },
     {
@@ -116,7 +116,7 @@
       "title": "Agentic AI for business legal considerations",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/blog/agentic-ai-business-legal-considerations"
     },
     {
@@ -125,7 +125,7 @@
       "title": "AI agent contracts and bank account how-to",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/blog/ai-agent-contracts-bank-account"
     },
     {
@@ -146,7 +146,7 @@
       "title": "AI agent LLC formation FAQPage JSON-LD",
       "status": "published",
       "published_at": "2026-06-17",
-      "sanitization_run_id": "20260617T122857Z-full-pipeline",
+      "sanitization_run_id": "20260617T132624Z-standard-sanitation",
       "live_url": "https://www.agentico.llc/faq/ai-agent-llc-formation"
     }
   ]
