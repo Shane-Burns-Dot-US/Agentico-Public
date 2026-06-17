@@ -2,7 +2,7 @@
 
 **Branch:** `awaiting-approval`  
 **Last publish to `main`:** 2026-06-17 (`73691cc` — full sanitization pipeline)  
-**Live site sync:** 2026-06-17 (pending site commit — expanded FAQ + white-team remediation)
+**Live site sync:** 2026-06-17 (`8ba7900` on `Shane-Burns-Dot-US/Agentico` `main`)
 
 ---
 
