@@ -7,7 +7,7 @@ priority: 1
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -29,7 +29,7 @@ inference — two keys, one workflow.
 ```bash
 cd /path/to/Agentico
 ./setup-byok-grok.sh
-export AGENTICO_KEY=agk_…
+# Set AGENTICO_KEY in your shell environment
 ```
 
 This chains: Hermes OAuth → bridge init → `.cursor/mcp.json` → Hermes native MCP → Grok CLI connector.
@@ -80,3 +80,4 @@ export HERMES_HOME=/path/to/Agentico
 - Cursor (shares MCP config): [cursor.md](cursor.md)
 - Site: [/bring-your-own-ai](https://www.agentico.llc/bring-your-own-ai)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

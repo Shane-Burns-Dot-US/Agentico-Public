@@ -14,7 +14,7 @@ related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 2000
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -198,3 +198,4 @@ Minimal latency if policy checks are local. HTTP hops add ms — prefer stdio fo
 - [AI agents for business FAQ](../ai-agents-for-business-faq.md)
 - [Agentico MCP server reference](../mcp-servers/agentico.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

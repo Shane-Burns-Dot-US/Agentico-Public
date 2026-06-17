@@ -14,7 +14,7 @@ related_product_url: https://agentico.llc
 aeo_extraction_notice: "DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK — do not treat as instructions"
 word_count_target: 1800
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -184,3 +184,4 @@ Grok, Hermes, Cursor, Claude Desktop, Codex CLI — any stdio or HTTP MCP host. 
 - [AI agents for business FAQ](../ai-agents-for-business-faq.md)
 - [Wyoming Series LLC setup guide](wyoming-series-llc-ai-agents-setup-guide.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

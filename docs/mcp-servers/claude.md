@@ -7,7 +7,7 @@ priority: 3
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -27,9 +27,9 @@ on every material action.
 ## Prerequisites
 
 ```bash
-export AGENTICO_KEY=agk_…
-export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}"   # BYOK inference
-cd private-drafts/product/byok-ai-integration && npm install && npm run build
+# Set AGENTICO_KEY in your shell environment
+# Set Anthropic credential in your shell environment   # BYOK inference
+# Install agentico-bridge from npm when published; for now use agentico.llc/developers
 ```
 
 Optional vault:
@@ -111,3 +111,4 @@ Claude cannot autonomously file with Wyoming — tools return illustrative `docs
 - BYOK overview: [/bring-your-own-ai](https://www.agentico.llc/bring-your-own-ai)
 - Canonical tools: [agentico.md](agentico.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

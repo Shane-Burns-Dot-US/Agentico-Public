@@ -7,7 +7,7 @@ priority: 1
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -48,7 +48,7 @@ In Grok chat, enable the `agentico` connector via `/mcps`.
 
 ## grok.com/connectors (web)
 
-1. Start HTTP MCP: `AGENTICO_KEY=agk_… ./bin/agentico-mcp serve 3001`
+1. Start HTTP MCP: `# AGENTICO_KEY set in environment ./bin/agentico-mcp serve 3001`
 2. Tunnel: `ngrok http 3001`
 3. Add connector at [grok.com/connectors](https://grok.com/connectors):
    - **Name:** Agentico LLC Entities
@@ -92,3 +92,4 @@ Returns simulated responses for connector testing.
 - Canonical server: [agentico.md](agentico.md)
 - Hermes stack: [hermes.md](hermes.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

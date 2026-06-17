@@ -135,6 +135,87 @@
       "live_url": "https://www.agentico.llc/blog/ai-agent-contracts-bank-account"
     },
     {
+      "id": "blog-mcp-wrappers",
+      "path": "docs/blog/mcp-wrappers-for-business.md",
+      "title": "MCP Wrappers for Business: A Practical Guide",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/blog/mcp-wrappers-for-business"
+    },
+    {
+      "id": "blog-mcp-use-cases",
+      "path": "docs/blog/mcp-business-use-cases.md",
+      "title": "Model Context Protocol Business Use Cases (2026)",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/blog/mcp-business-use-cases"
+    },
+    {
+      "id": "mcp-servers-index",
+      "path": "docs/mcp-servers/README.md",
+      "title": "Agentico MCP Servers — Integration Index",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers"
+    },
+    {
+      "id": "mcp-server-agentico",
+      "path": "docs/mcp-servers/agentico.md",
+      "title": "@agentico/mcp-server — Tool Reference",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/agentico"
+    },
+    {
+      "id": "mcp-server-grok",
+      "path": "docs/mcp-servers/grok.md",
+      "title": "Grok MCP Connector — Agentico",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/grok"
+    },
+    {
+      "id": "mcp-server-hermes",
+      "path": "docs/mcp-servers/hermes.md",
+      "title": "Hermes MCP — Agentico + Grok",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/hermes"
+    },
+    {
+      "id": "mcp-server-cursor",
+      "path": "docs/mcp-servers/cursor.md",
+      "title": "Cursor MCP — Agentico",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/cursor"
+    },
+    {
+      "id": "mcp-server-claude",
+      "path": "docs/mcp-servers/claude.md",
+      "title": "Claude MCP — Agentico",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/claude"
+    },
+    {
+      "id": "mcp-server-chatgpt",
+      "path": "docs/mcp-servers/chatgpt.md",
+      "title": "ChatGPT / OpenAI MCP — Agentico",
+      "status": "published",
+      "published_at": "2026-06-17",
+      "sanitization_run_id": "20260617T193709Z-std-san-mcp",
+      "live_url": "https://www.agentico.llc/docs/mcp-servers/chatgpt"
+    },
+    {
       "id": "blog-outlines",
       "path": "docs/blog-outlines/README.md",
       "title": "Blog post outlines index",

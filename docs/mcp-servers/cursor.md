@@ -7,7 +7,7 @@ priority: 2
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -26,8 +26,8 @@ account under policy gates.
 ## Prerequisites
 
 ```bash
-export AGENTICO_KEY=agk_…
-cd private-drafts/product/byok-ai-integration && npm install && npm run build
+# Set AGENTICO_KEY in your shell environment
+# Install agentico-bridge from npm when published; for now use agentico.llc/developers
 ```
 
 Recommended: run `./setup-byok-grok.sh` first for bridge + MCP config generation.
@@ -35,7 +35,7 @@ Recommended: run `./setup-byok-grok.sh` first for bridge + MCP config generation
 ## Generate config
 
 ```bash
-node private-drafts/product/byok-ai-integration/packages/bridge/dist/cli.js setup cursor
+agentico-bridge setup cursor
 ```
 
 Writes `.cursor/mcp.json`:
@@ -60,7 +60,7 @@ Writes `.cursor/mcp.json`:
 Add to shell profile or Cursor Settings → Environment:
 
 ```bash
-export AGENTICO_KEY=agk_…
+# Set AGENTICO_KEY in your shell environment
 export AGENTICO_ENV=sandbox
 export AGENTICO_HOME="$HOME/.agentico"
 ```
@@ -96,3 +96,4 @@ Material verbs require you to supply `human_approval` in the tool call — Curso
 - Hermes/Grok stack: [hermes.md](hermes.md)
 - Canonical tools: [agentico.md](agentico.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

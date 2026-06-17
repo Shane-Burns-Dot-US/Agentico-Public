@@ -7,7 +7,7 @@ software_version: "0.2-alpha"
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -37,7 +37,7 @@ npx -y @agentico/mcp-server stdio
 Environment:
 
 ```bash
-export AGENTICO_KEY=agk_…          # required — from agentico.llc/signup
+# Set AGENTICO_KEY in your shell environment          # required — from agentico.llc/signup
 export AGENTICO_ENV=sandbox        # or production
 export AGENTICO_MOCK=1             # optional — simulated responses for connector QA
 ```
@@ -45,7 +45,7 @@ export AGENTICO_MOCK=1             # optional — simulated responses for connec
 HTTP mode (for grok.com/connectors Custom URL):
 
 ```bash
-AGENTICO_KEY=agk_… ./bin/agentico-mcp serve 3001
+# AGENTICO_KEY set in environment ./bin/agentico-mcp serve 3001
 # Tunnel → https://<tunnel>/mcp
 ```
 
@@ -121,8 +121,8 @@ Aliases accepted: `overseer_name` + `attestation` for manual flows.
 ## Smoke test
 
 ```bash
-node private-drafts/product/byok-ai-integration/packages/mcp-server/scripts/mcp-smoke.mjs
-AGENTICO_MCP_CLI=./bin/agentico-mcp node private-drafts/product/byok-ai-integration/packages/mcp-server/scripts/mcp-smoke.mjs
+agentico-mcp doctor
+AGENTICO_MCP_CLI=./bin/agentico-mcp agentico-mcp doctor
 ```
 
 Expect handshake OK and **10 tools** in `tools/list`.
@@ -151,3 +151,4 @@ Expect handshake OK and **10 tools** in `tools/list`.
 
 Added read/configure tools and guided setup flows. Formation verb schemas unchanged from v0.1.
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->

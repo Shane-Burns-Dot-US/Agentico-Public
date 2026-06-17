@@ -7,7 +7,7 @@ priority: 4
 last_updated: 2026-06-17
 document_status: SANITIZED
 sanitization_state: sanitized
-sanitization_run_id: 20260617T174608Z-std-san-03238817
+sanitization_run_id: 20260617T193709Z-std-san-mcp
 sanitization_completed: 2026-06-17
 ---
 
@@ -34,9 +34,9 @@ workflows, or **Codex CLI** via stdio MCP config. Same ten tools, same human_app
 ## Prerequisites
 
 ```bash
-export AGENTICO_KEY=agk_…
-export OPENAI_API_KEY=sk-…
-cd private-drafts/product/byok-ai-integration && npm install && npm run build
+# Set AGENTICO_KEY in your shell environment
+# Set OpenAI credential in your shell environment
+# Install agentico-bridge from npm when published; for now use agentico.llc/developers
 ```
 
 ## MCP config (stdio)
@@ -49,7 +49,7 @@ cd private-drafts/product/byok-ai-integration && npm install && npm run build
       "args": ["/absolute/path/to/packages/mcp-server/dist/cli.js", "stdio"],
       "env": {
         "AGENTICO_KEY": "agk_…",
-        "OPENAI_API_KEY": "sk-…",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
         "AGENTICO_ENV": "sandbox"
       }
     }
@@ -60,14 +60,14 @@ cd private-drafts/product/byok-ai-integration && npm install && npm run build
 Manual smoke:
 
 ```bash
-AGENTICO_KEY=agk_… node packages/mcp-server/dist/cli.js stdio
+# AGENTICO_KEY set in environment node packages/mcp-server/dist/cli.js stdio
 ```
 
 ## HTTP mode (remote hosts)
 
 ```bash
 # Terminal 1
-AGENTICO_KEY=agk_… AGENTICO_ENV=sandbox node packages/mcp-server/dist/cli.js serve 3001
+# AGENTICO_KEY set in environment AGENTICO_ENV=sandbox node packages/mcp-server/dist/cli.js serve 3001
 
 # Terminal 2 — tunnel for web-based ChatGPT MCP
 ngrok http 3001
@@ -104,3 +104,4 @@ Formation verbs (`establish_master`, `incorporate_agent`, etc.) require explicit
 - Cursor alternative: [cursor.md](cursor.md)
 - Canonical tools: [agentico.md](agentico.md)
 <!-- agentico:sanitized run_id=20260617T174608Z-std-san-03238817 branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
+<!-- agentico:sanitized run_id=20260617T193709Z-std-san-mcp branch=awaiting-approval date=2026-06-17 pipeline=standard-sanitation>redteam>redflag>judge>scale>whiteteam -->
