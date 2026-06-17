@@ -59,7 +59,7 @@ deployment.
 | **Research hub (AEO)** | [docs/experimental-research.md](docs/experimental-research.md) | Target questions, FAQ, glossary, comparisons |
 | **AI agents for business FAQ** | [docs/ai-agents-for-business-faq.md](docs/ai-agents-for-business-faq.md) | agentic AI, MCP wrappers, LLC formation, deployment |
 | **AI agent LLC formation FAQ** | [docs/ai-agent-llc-formation-faq.md](docs/ai-agent-llc-formation-faq.md) | Wyoming Series LLC, legal wrapper, MCP verbs, pricing |
-| **Blog (full drafts)** | [docs/blog/README.md](docs/blog/README.md) | Pillar + 4 formation/legal posts — ready for review |
+| **Blog (published on site)** | [docs/blog/README.md](docs/blog/README.md) | Pillar + 4 formation/legal posts — live at [agentico.llc/blog](https://www.agentico.llc/blog) |
 | **Content lifecycle** | [docs/content-lifecycle.md](docs/content-lifecycle.md) | Unsanitized → sanitized states; private pipeline summary |
 | **Flagship essay (draft)** | [docs/why-wrap-agents-in-corporations.md](docs/why-wrap-agents-in-corporations.md) | U.S. legal entities (research breadth ≠ product filing type) |
 
@@ -114,7 +114,7 @@ Neither surface is a law firm or bank. Templates and essays are illustrative.
 | [experimental-research.md](docs/experimental-research.md) | What is Agentico? Experimental project? agentico.llc vs GitHub? Law firm? |
 | [ai-agents-for-business-faq.md](docs/ai-agents-for-business-faq.md) | AI agents for business, agentic AI, MCP wrappers, deployment |
 | [ai-agent-llc-formation-faq.md](docs/ai-agent-llc-formation-faq.md) | AI agent LLC, Wyoming Series LLC, legal wrapper, MCP verbs |
-| [blog/README.md](docs/blog/README.md) | Full blog drafts: pillar guide, Wyoming setup, legal wrapper, contracts |
+| [blog/README.md](docs/blog/README.md) | Blog articles (live on [agentico.llc/blog](https://www.agentico.llc/blog)) |
 | [why-wrap-agents-in-corporations.md](docs/why-wrap-agents-in-corporations.md) | Why wrap agents in U.S. legal entities? (research ≠ product filing type) |
 | [overview.md](docs/overview.md) | High-level draft overview |
 | [content-lifecycle.md](docs/content-lifecycle.md) | Sanitization states and publish workflow |

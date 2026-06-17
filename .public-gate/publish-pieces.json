@@ -69,43 +69,57 @@
       "id": "ai-agent-llc-formation-faq",
       "path": "docs/ai-agent-llc-formation-faq.md",
       "title": "AI agent LLC formation FAQ (AEO)",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/faq/ai-agent-llc-formation"
     },
     {
       "id": "blog-index",
       "path": "docs/blog/README.md",
       "title": "Blog full drafts index",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/docs/blog-index"
     },
     {
       "id": "blog-pillar-llc-formation",
       "path": "docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md",
       "title": "Pillar: Ultimate Guide to AI Agent LLC Formation 2026",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/blog/ultimate-guide-ai-agent-llc-formation-2026"
     },
     {
       "id": "blog-wyoming-series-llc",
       "path": "docs/blog/wyoming-series-llc-ai-agents-setup-guide.md",
       "title": "Wyoming Series LLC for AI Agents setup guide",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/blog/wyoming-series-llc-ai-agents-setup-guide"
     },
     {
       "id": "blog-legal-wrapper",
       "path": "docs/blog/ai-agent-legal-wrapper-liability-protection.md",
       "title": "AI agent legal wrapper liability guide",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/blog/ai-agent-legal-wrapper-liability-protection"
     },
     {
       "id": "blog-agentic-ai-business",
       "path": "docs/blog/agentic-ai-business-legal-considerations.md",
       "title": "Agentic AI for business legal considerations",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/blog/agentic-ai-business-legal-considerations"
     },
     {
       "id": "blog-contracts-bank",
       "path": "docs/blog/ai-agent-contracts-bank-account.md",
       "title": "AI agent contracts and bank account how-to",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/blog/ai-agent-contracts-bank-account"
     },
     {
       "id": "blog-outlines",
@@ -123,7 +137,9 @@
       "id": "schema-formation-faq-jsonld",
       "path": "docs/schema/ai-agent-llc-formation-faqpage.jsonld.json",
       "title": "AI agent LLC formation FAQPage JSON-LD",
-      "status": "draft"
+      "status": "published",
+      "published_at": "2026-06-17",
+      "live_url": "https://www.agentico.llc/faq/ai-agent-llc-formation"
     }
   ]
 }

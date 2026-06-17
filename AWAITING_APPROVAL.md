@@ -1,72 +1,59 @@
 # Awaiting Approval — Content Branch
 
 **Branch:** `awaiting-approval`  
-**Target:** merge into `main` after explicit human sign-off  
-**Published to `main` 2026-06-17 — see links below.**
+**Published to `main`:** 2026-06-17 (`2e63671` merge + white-team remediation)  
+**Live site sync:** 2026-06-17 (`51f9c45` on `Shane-Burns-Dot-US/Agentico` `main`)
 
 ---
 
 ## Purpose
 
-This branch holds **all content and gate updates** that are staging-complete but **not yet approved** for the public mainstream (`main` / `origin/main`).
-
-- **Sanitization pipeline** (private) → AEO Audit → Red Team ×3 → White Team ×3 → **Semantic equivalence**
-- **Red team** → adversarial review (`COMPLIANCE_REDTEAM_REPORT` in private export)  
-- **White team** → remediations applied; **CHECK-13 gate passes**  
-- **Semantic check** → original vs sanitized: does it still tell the same thing? (loops or flags human review)  
-- **Sanitized stamp** → `document_status: SANITIZED` + hidden `agentico:sanitized` tag (only after semantic PASS)
-- **Human approval** → you read pieces, run `approve-publish.sh`, then merge here → `main`
+`awaiting-approval` is the **pipeline staging branch** for content that completes sanitization before merge to `main`. Pieces listed below were **published** on 2026-06-17. New work lands here first; repeat approve → merge when ready.
 
 Lifecycle reference: [docs/content-lifecycle.md](docs/content-lifecycle.md)
 
 ---
 
-## Status (2026-06-16)
+## Published to `main` + agentico.llc (2026-06-17)
 
-| Check | Result |
-|-------|--------|
-| `python3 .public-gate/validate.py` | ✅ GATE PASSED |
-| Gate commit | `ba98106` (white-team sync) |
-| Remote | ✅ `origin/awaiting-approval` pushed — **do not merge to `main` without approval** |
+| ID | Source path | GitHub `main` | Live URL |
+|----|-------------|---------------|----------|
+| `ai-agent-llc-formation-faq` | `docs/ai-agent-llc-formation-faq.md` | [FAQ](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/ai-agent-llc-formation-faq.md) | https://www.agentico.llc/faq/ai-agent-llc-formation |
+| `schema-formation-faq-jsonld` | `docs/schema/ai-agent-llc-formation-faqpage.jsonld.json` | [JSON-LD](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/schema/ai-agent-llc-formation-faqpage.jsonld.json) | (embedded in FAQ page) |
+| `blog-index` | `docs/blog/README.md` | [Index](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/README.md) | https://www.agentico.llc/docs/blog-index |
+| `blog-pillar-llc-formation` | `docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md` | [Pillar](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md) | https://www.agentico.llc/blog/ultimate-guide-ai-agent-llc-formation-2026 |
+| `blog-wyoming-series-llc` | `docs/blog/wyoming-series-llc-ai-agents-setup-guide.md` | [Setup](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/wyoming-series-llc-ai-agents-setup-guide.md) | https://www.agentico.llc/blog/wyoming-series-llc-ai-agents-setup-guide |
+| `blog-legal-wrapper` | `docs/blog/ai-agent-legal-wrapper-liability-protection.md` | [Wrapper](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ai-agent-legal-wrapper-liability-protection.md) | https://www.agentico.llc/blog/ai-agent-legal-wrapper-liability-protection |
+| `blog-agentic-ai-business` | `docs/blog/agentic-ai-business-legal-considerations.md` | [Business](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/agentic-ai-business-legal-considerations.md) | https://www.agentico.llc/blog/agentic-ai-business-legal-considerations |
+| `blog-contracts-bank` | `docs/blog/ai-agent-contracts-bank-account.md` | [Contracts](https://github.com/Shane-Burns-Dot-US/Agentico-Public/blob/main/docs/blog/ai-agent-contracts-bank-account.md) | https://www.agentico.llc/blog/ai-agent-contracts-bank-account |
 
----
-
-## Pieces awaiting approval (`ready_once_read`)
-
-| ID | Path | Action |
-|----|------|--------|
-| `ai-agent-llc-formation-faq` | `docs/ai-agent-llc-formation-faq.md` | Read → approve |
-| `schema-formation-faq-jsonld` | `docs/schema/ai-agent-llc-formation-faqpage.jsonld.json` | Read → approve |
-| `blog-index` | `docs/blog/README.md` | Read → approve |
-| `blog-pillar-llc-formation` | `docs/blog/ultimate-guide-ai-agent-llc-formation-2026.md` | Read → approve |
-| `blog-wyoming-series-llc` | `docs/blog/wyoming-series-llc-ai-agents-setup-guide.md` | Read → approve |
-| `blog-legal-wrapper` | `docs/blog/ai-agent-legal-wrapper-liability-protection.md` | Read → approve |
-| `blog-agentic-ai-business` | `docs/blog/agentic-ai-business-legal-considerations.md` | Read → approve |
-| `blog-contracts-bank` | `docs/blog/ai-agent-contracts-bank-account.md` | Read → approve |
-
-**Not on this branch (staged private only):** blog posts #6–#10 — see private `STAGED_CONTENT_ALERT.md`.
+**Not published (staged private only):** blog posts #6–#10 — see private `STAGED_CONTENT_ALERT.md`.
 
 ---
 
-## Approve and merge to mainstream
+## Pieces awaiting approval
+
+*None — queue cleared 2026-06-17. Next batch adds rows here before merge.*
+
+---
+
+## Approve and merge (next batch)
 
 ```bash
 cd Agentico-Public
 git checkout awaiting-approval
 
-# 1. Staging gate
 python3 .public-gate/validate.py
-
-# 2. Select approved pieces (creates .public-gate/PUBLISH_APPROVED — local only)
 ./.public-gate/approve-publish.sh
-
-# 3. Publish gate
 python3 .public-gate/validate.py --for-publish
 
-# 4. Merge to main when satisfied
 git checkout main
 git merge awaiting-approval
 git push origin main
+
+# Site HTML from published markdown:
+python3 Agentico/private-drafts/site-ship/migrate-docs-to-site.py
+# commit + push Shane-Burns-Dot-US/Agentico main
 ```
 
 ---
@@ -75,19 +62,10 @@ git push origin main
 
 | Branch | Role |
 |--------|------|
-| `main` | Public mainstream (matches `origin/main` until merge) |
-| `awaiting-approval` | **This branch** — content + gate updates pending sign-off |
-| `content/aeo-faq-and-blog-drafts-2026-06-16` | Prior working branch (superseded by `awaiting-approval`) |
+| `main` | Public mainstream — **includes 2026-06-17 publish** |
+| `awaiting-approval` | Pipeline staging — synced with `main` after publish |
+| `content/aeo-faq-and-blog-drafts-2026-06-16` | Superseded |
 
 **Private canonical:** `Agentico/private-drafts/content-export/` (never pushed as-is).
-
----
-
-## Included updates (not just content)
-
-- `.public-gate/validate.py` — frontmatter skip, JSON-LD answer-only scan, negation expansions  
-- `.public-gate/publish-pieces.json` — piece catalog with `ready_once_read`  
-- `DISCLAIMER.md`, `LEGAL_NOTICE.md`, `GITHUB_REPO.json` — shell docs  
-- Gate scripts: `approve-publish.sh`, `publish.sh`, hooks, manifest tooling  
 
 **DRAFT · NOT LEGAL ADVICE · NOT FINAL WORK**
