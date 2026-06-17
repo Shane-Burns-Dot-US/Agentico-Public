@@ -22,7 +22,7 @@ This branch holds **all content and gate updates** that are staging-complete but
 |-------|--------|
 | `python3 .public-gate/validate.py` | ✅ GATE PASSED |
 | Gate commit | `ba98106` (white-team sync) |
-| Remote | Push `awaiting-approval` when ready; **do not merge to `main` without approval** |
+| Remote | ✅ `origin/awaiting-approval` pushed — **do not merge to `main` without approval** |
 
 ---
 
